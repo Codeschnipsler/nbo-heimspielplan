@@ -130,7 +130,7 @@ def fetch_team_events(team, identifier, mode):
             for side in ('homeTeam', 'guestTeam'):
                 team_data = match.get(side) or {}
                 name = team_data.get('teamname', '')
-                if 'new basket' in name.lower() or 'oberhausen' in name.lower():
+                if 'new basket' in name.lower():
                     candidates.append(team_data)
         if not candidates:
             raise RuntimeError(f'{team}: kein New-Basket-Team in Liga {identifier}')
