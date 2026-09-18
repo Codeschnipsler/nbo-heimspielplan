@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NBO — Heimspielplan</title>
+<title>NBO — Auswärtsspielplan</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -268,12 +268,12 @@
       </svg>
       <span class="word">NBO</span>
     </a>
-    <div class="sub">Heimspielplan<br>Saison 2026/27</div>
+    <div class="sub">Auswärtsspielplan<br>Saison 2026/27</div>
   </header>
 
   <nav class="page-nav">
-    <span class="current">Heimspiele</span>
-    <a href="./auswaerts.html">Auswärtsspiele &rarr;</a>
+    <a href="./index.html">&larr; Heimspiele</a>
+    <span class="current">Auswärtsspiele</span>
   </nav>
 
   <div id="hero"></div>
@@ -290,7 +290,7 @@
     <div id="list"></div>
 
     <details class="past" id="pastWrap">
-      <summary id="pastSummary">Vergangene Heimspiele anzeigen</summary>
+      <summary id="pastSummary">Vergangene Auswärtsspiele anzeigen</summary>
       <div id="pastList"></div>
     </details>
   </div>
@@ -337,21 +337,21 @@ function escapeHtml(s){
 function renderHero(nextGame, now){
   const hero = document.getElementById('hero');
   if(!nextGame){
-    hero.innerHTML = '<div class="empty-note">Für diese Auswahl steht aktuell kein weiteres Heimspiel im Plan.</div>';
+    hero.innerHTML = '<div class="empty-note">Für diese Auswahl steht aktuell kein weiteres Auswärtsspiel im Plan.</div>';
     return;
   }
   const d = new Date(nextGame.datetime);
   const rel = relativeDay(d, now);
   hero.innerHTML = `
     <div class="hero-band">
-      <p class="eyebrow">Nächstes Heimspiel</p>
+      <p class="eyebrow">Nächstes Auswärtsspiel</p>
       ${rel ? `<span class="relative-day">${rel}</span>` : ''}
       <p class="when">${fmtFull(d)}<br>${fmtTime(d)}</p>
-      <p class="matchup">New Basket Oberhausen<span class="vs">vs.</span>${escapeHtml(nextGame.gegner)}</p>
+      <p class="matchup">${escapeHtml(nextGame.gegner)}<span class="vs">vs.</span>New Basket Oberhausen</p>
       <dl>
         <dt>Mannschaft</dt><dd>${escapeHtml(nextGame.team)}</dd>
         <dt>Liga</dt><dd>${escapeHtml(nextGame.liga)}</dd>
-        <dt>Halle</dt><dd>${escapeHtml(nextGame.ort || 'wird noch bekanntgegeben')}</dd>
+        <dt>Ort</dt><dd>${escapeHtml(nextGame.ort || 'wird noch bekanntgegeben')}</dd>
       </dl>
     </div>`;
 }
@@ -403,18 +403,18 @@ function render(){
   });
 
   document.getElementById('countLabel').textContent =
-    upcoming.length + (upcoming.length===1 ? ' Heimspiel' : ' Heimspiele') + ' verbleibend';
+    upcoming.length + (upcoming.length===1 ? ' Auswärtsspiel' : ' Auswärtsspiele') + ' verbleibend';
 
   const pastList = document.getElementById('pastList');
   pastList.innerHTML = past.map(gameRow).join('');
   document.getElementById('pastSummary').textContent =
-    past.length ? `Vergangene Heimspiele anzeigen (${past.length})` : 'Keine vergangenen Heimspiele';
+    past.length ? `Vergangene Auswärtsspiele anzeigen (${past.length})` : 'Keine vergangenen Auswärtsspiele';
   document.getElementById('pastWrap').style.display = past.length ? '' : 'none';
 }
 
 document.getElementById('teamFilter').addEventListener('change', render);
 
-fetch('./heimspiele.json', {cache: 'no-store'})
+fetch('./auswaertsspiele.json', {cache: 'no-store'})
   .then(r => r.json())
   .then(data => {
     GAMES = data;
