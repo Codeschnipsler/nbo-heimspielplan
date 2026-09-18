@@ -243,6 +243,18 @@
     .hero-band .when{font-size:1.35rem;}
     .game-row{grid-template-columns:42px 1fr auto;}
   }
+
+  .page-nav{
+    display:flex;
+    gap:16px;
+    padding:10px 20px;
+    background:var(--grey);
+    border-bottom:1px solid var(--grey-line);
+    font-size:0.85rem;
+  }
+  .page-nav a{color:var(--nbo-blue); text-decoration:none; font-weight:600;}
+  .page-nav a:hover{text-decoration:underline;}
+  .page-nav .current{color:var(--ink); font-weight:700;}
 </style>
 </head>
 <body>
@@ -258,6 +270,11 @@
     </a>
     <div class="sub">Heimspielplan<br>Saison 2026/27</div>
   </header>
+
+  <nav class="page-nav">
+    <span class="current">Heimspiele</span>
+    <a href="./auswaerts.html">Auswärtsspiele &rarr;</a>
+  </nav>
 
   <div id="hero"></div>
 

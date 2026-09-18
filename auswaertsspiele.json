@@ -1,0 +1,716 @@
+[
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "BBV Köln-Nordwest",
+  "ort": "Everhardstraße 60, 50823, Köln - Ehrenfeld",
+  "datetime": "2026-09-19T10:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "BG Kamp-Lintfort",
+  "ort": "Moerser Straße 167, 47475, Kamp-Lintfort",
+  "datetime": "2026-09-19T13:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "VfL AstroStars Bochum",
+  "ort": "Lindener Strasse 126, 44879, Bochum - Linden",
+  "datetime": "2026-09-19T14:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "TSVE 1890 Bielefeld",
+  "ort": "Flachsstraße, 33607, Bielefeld",
+  "datetime": "2026-09-20T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Basket Duisburg",
+  "ort": "Realschulstraße 45 (E:Cecilienstr. 6), 47051, Duisburg",
+  "datetime": "2026-09-26T08:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "SV DJK G-W Nottuln ak",
+  "ort": "St.-Amand-Montrond-Straße 1, 48301, Nottuln",
+  "datetime": "2026-09-26T10:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "Osterather TV",
+  "ort": "Görresstraße 6, 40670, Meerbusch",
+  "datetime": "2026-09-26T14:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "Talents BonnRhöndorf",
+  "ort": "Elisabeth-Selbert-Allee 50, 53175, Bonn",
+  "datetime": "2026-09-26T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Osterather TV",
+  "ort": "Görresstraße 6, 40670, Meerbusch",
+  "datetime": "2026-09-26T16:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Bonner SV Roleber",
+  "ort": "Schlesienstraße 21-23, 53119, Bonn",
+  "datetime": "2026-09-27T10:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "VfL AstroStars Bochum",
+  "ort": "Lohackerstraße 9a, 44867, Bochum - Westenfeld",
+  "datetime": "2026-09-27T10:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "SV Eintracht Erle",
+  "ort": "Silvesterstraße 10, 46348, Raesfeld-Erle",
+  "datetime": "2026-09-27T16:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "SCA Ochtrup",
+  "ort": "Lortzingstraße 2, 48607, Ochtrup",
+  "datetime": "2026-10-03T14:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "Hürther BC",
+  "ort": "Bonnstraße 59, 50354, Hürth",
+  "datetime": "2026-10-03T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "Herner TC 2",
+  "ort": "Mont-Cenis-Straße 180, 44627, Herne-Sodingen",
+  "datetime": "2026-10-04T08:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "BG Kamp-Lintfort",
+  "ort": "Moerser Straße 167, 47475, Kamp-Lintfort",
+  "datetime": "2026-10-04T10:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "Willicher TV",
+  "ort": "Kantstraße/Ackerstraße, 47877, Willich",
+  "datetime": "2026-10-10T14:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Talents BonnRhöndorf 2",
+  "ort": "Gotenstraße 50, 53175, Bonn",
+  "datetime": "2026-10-10T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "Barmer TV",
+  "ort": "Heckinghauser Straße 24, 42289, Wuppertal - Barmen",
+  "datetime": "2026-10-11T10:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Osterather TV",
+  "ort": "Görresstraße 6, 40670, Meerbusch",
+  "datetime": "2026-10-11T14:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "BG 89 AVIDES Hurricanes",
+  "ort": "Gerberstraße, 27356, Rotenburg",
+  "datetime": "2026-10-24T16:30:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "TSV Hagen",
+  "ort": "Berghofstraße 5, 58097, Hagen - Altenhagen",
+  "datetime": "2026-11-07T15:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "BG Dorsten",
+  "ort": "Juliusstraße 12, 46284, Dorsten",
+  "datetime": "2026-11-07T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "Talents BonnRhöndorf",
+  "ort": "Gotenstraße 50, 53175, Bonn",
+  "datetime": "2026-11-07T17:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "SCALA Hamburg",
+  "ort": "Tangstedter Landstrasse 300, 22419, Hamburg",
+  "datetime": "2026-11-07T17:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "TV Gerthe",
+  "ort": "Elisabeth-Selbert-Allee 50, 53175, Bonn",
+  "datetime": "2026-11-14T10:45:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "Talents BonnRhöndorf",
+  "ort": "Menzenberg 13, 53604, Bad Honnef",
+  "datetime": "2026-11-14T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Talents BonnRhöndorf 2",
+  "ort": "Elisabeth-Selbert-Allee 50, 53175, Bonn",
+  "datetime": "2026-11-14T12:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "S.C. Union Lüdinghausen",
+  "ort": "Tüllinghofer Straße 27, 59348, Lüdinghausen",
+  "datetime": "2026-11-15T09:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "BC Soest",
+  "ort": "Pollhofstraße, 59494, Soest",
+  "datetime": "2026-11-15T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Gerthe",
+  "ort": "Haydnstraße 1, 44805, Bochum - Harpen",
+  "datetime": "2026-11-15T13:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "TG Neuss",
+  "ort": "Bergheimer Straße 223, 41464, Neuss",
+  "datetime": "2026-11-15T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "CroBaskets Essen",
+  "ort": "Varnhorststr.(Eingang über Hollestr. 7e), 45127, Essen",
+  "datetime": "2026-11-21T09:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "Hürther BC",
+  "ort": "Bonnstraße 59, 50354, Hürth",
+  "datetime": "2026-11-22T23:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Citybasket Recklinghausen",
+  "ort": "Buddestraße, 45665, Recklinghausen",
+  "datetime": "2026-11-28T09:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "ChemCats Chemnitz",
+  "ort": "Schloßstr. 13, 09111, Chemnitz",
+  "datetime": "2026-11-28T17:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "VfL AstroStars Bochum 2",
+  "ort": "Lohackerstraße 9a, 44867, Bochum - Westenfeld",
+  "datetime": "2026-11-28T17:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "RSV Borken",
+  "ort": "Josefstraße, 46325, Borken",
+  "datetime": "2026-11-28T19:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "SG Bergische Löwen",
+  "ort": "Kaule 3-15 (E: über Schlossfeldweg), 51429, Bergisch Gladbach",
+  "datetime": "2026-12-05T17:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "BTV Basketball Brühl",
+  "ort": "von Wied Straße 2, 50321, Brühl",
+  "datetime": "2026-12-06T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "ETB Miners Essen",
+  "ort": "Blücherstraße 1 (E: Altenessener Str. 86, 45141, Essen",
+  "datetime": "2026-12-06T11:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "BBV Köln-Nordwest",
+  "ort": "Everhardstraße 60, 50823, Köln - Ehrenfeld",
+  "datetime": "2026-12-12T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "New Basket Oberhausen",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-12-12T13:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "FC Schalke 04",
+  "ort": "Mühlbachstraße 3, 45891, Gelsenkirchen - Erle",
+  "datetime": "2026-12-12T15:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "DJK Frankenberg",
+  "ort": "Bergische Gasse, 52066, Aachen",
+  "datetime": "2026-12-13T13:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "TV Emsdetten",
+  "ort": "Stauffenbergstraße, 48282, Emsdetten",
+  "datetime": "2026-12-13T13:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "BBC Osnabrück",
+  "ort": "Schlosswall 10, 49080, Osnabrück",
+  "datetime": "2026-12-13T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "Capitol Bascats Düsseldorf",
+  "ort": "Schmiedestraße 25, 40227, Düsseldorf",
+  "datetime": "2026-12-13T17:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "WINGS Leverkusen 2",
+  "ort": "Werkstättenstraße 30-42, 51379, Leverkusen",
+  "datetime": "2026-12-19T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "Capitol Bascats Düsseldorf",
+  "ort": "Schmiedestraße 25, 40227, Düsseldorf",
+  "datetime": "2026-12-20T09:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "Barmer TV",
+  "ort": "Liegnitzer Straße, 42277, Wuppertal - Barmen",
+  "datetime": "2026-12-20T11:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "VfvB Ruhrort/Laar",
+  "ort": "Weststraße 40-42, 47139, Duisburg - Beeck",
+  "datetime": "2026-12-20T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Hürther BC",
+  "ort": "Bonnstraße 59, 50354, Hürth",
+  "datetime": "2026-12-20T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "VfL AstroStars Bochum 2",
+  "ort": "Lindener Strasse 126, 44879, Bochum - Linden",
+  "datetime": "2027-01-09T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "TG Neuss",
+  "ort": "Bergheimer Straße 223, 41464, Neuss",
+  "datetime": "2027-01-10T11:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "LippeBaskets Werne",
+  "ort": "Bahnhofstraße 1, 59368, Werne",
+  "datetime": "2027-01-10T11:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "BG 74 Veilchen Ladies Göttingen",
+  "ort": "Böttinger Straße, 37073, Göttingen",
+  "datetime": "2027-01-10T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "RheinStars Köln 2",
+  "ort": "Wilheim-Mauser-Straße 57, 50827, Köln - Bickendorf",
+  "datetime": "2027-01-16T13:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Sportclub Krefeld",
+  "ort": "Moerser Straße 38, 47798, Krefeld",
+  "datetime": "2027-01-16T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Gerthe 2",
+  "ort": "Heinrichstr. 2-4 / ZG:Lothringer Allee 2, 44805, Bochum - Gerthe",
+  "datetime": "2027-01-17T12:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "SG Bergische Löwen",
+  "ort": "Dietrich-von-Dorendorp-Straße, 51429, Bergisch Gladbach",
+  "datetime": "2027-01-17T13:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "UBC Münster",
+  "ort": "Wienburgstraße 52, 48147, Münster",
+  "datetime": "2027-01-23T18:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "TVE Dortmund Barop",
+  "ort": "Hallerey 49-51, 44149, Dortmund - Wischlingen",
+  "datetime": "2027-01-24T11:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "TV Jahn 1911 Königshardt e.V.",
+  "ort": "Kiefernstraße / Auf der Haardt, 46147, Oberhausen",
+  "datetime": "2027-01-24T13:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "TV Gerthe",
+  "ort": "Heinrichstr. 2-4 / ZG:Lothringer Allee 2, 44805, Bochum - Gerthe",
+  "datetime": "2027-01-24T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "CroBaskets Essen",
+  "ort": "Schonnebeckhöfe 58, 45309, Essen - Schonnebeck",
+  "datetime": "2027-01-30T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "TV Goch",
+  "ort": "Hubert-Houben-Straße 9, 47574, Goch",
+  "datetime": "2027-01-30T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "SG Bergische Löwen",
+  "ort": "Kaule 3-15 (E: über Schlossfeldweg), 51429, Bergisch Gladbach",
+  "datetime": "2027-01-30T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TVE Dortmund Barop",
+  "ort": "Hallerey 49-51, 44149, Dortmund - Wischlingen",
+  "datetime": "2027-01-31T13:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "WINGS Leverkusen",
+  "ort": "Werner-Heisenberg-Straße 1, 51381, Leverkusen",
+  "datetime": "2027-02-06T17:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "Citybasket Recklinghausen",
+  "ort": "Campus Blumenthal 5 -Zufahrt Buddestraße, 45665, Recklinghausen",
+  "datetime": "2027-02-13T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "BG Niederrhein",
+  "ort": "Römerstraße 522, 47443, Moers",
+  "datetime": "2027-02-14T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "ETB Miners Essen",
+  "ort": "Karolinenstr. 1-3, 45130, Essen",
+  "datetime": "2027-02-14T13:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "Citybasket Recklinghausen 3",
+  "ort": "Campus Blumenthal 5 -Zufahrt Buddestraße, 45665, Recklinghausen",
+  "datetime": "2027-02-14T15:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "TG Neuss 2",
+  "ort": "Bergheimer Straße 223, 41464, Neuss",
+  "datetime": "2027-02-20T10:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "TuS Lichterfelde",
+  "ort": "Weddigenweg 68, 12205, Berlin",
+  "datetime": "2027-02-20T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "Herner TC 2",
+  "ort": "Mont-Cenis-Straße 180, 44627, Herne-Sodingen",
+  "datetime": "2027-02-20T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "TG Neuss",
+  "ort": "Bergheimer Straße 223, 41464, Neuss",
+  "datetime": "2027-02-21T10:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Capitol Bascats Düsseldorf",
+  "ort": "Schmiedestraße 25, 40227, Düsseldorf",
+  "datetime": "2027-02-21T11:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "Talents BonnRhöndorf 2",
+  "ort": "Elisabeth-Selbert-Allee 50, 53175, Bonn",
+  "datetime": "2027-02-26T19:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "TV Gerthe 2",
+  "ort": "Heinrichstr. 2-4 / ZG:Lothringer Allee 2, 44805, Bochum - Gerthe",
+  "datetime": "2027-02-28T09:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "DJK Adler Frintrop",
+  "ort": "Ohmstr. (Eingang: Mercatorstr.), 45143, Essen - Altendorf",
+  "datetime": "2027-02-28T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "TSV Urdenbach",
+  "ort": "Theodor-Litt-Straße 2, 40593, Düsseldorf - Garath",
+  "datetime": "2027-02-28T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "RheinStars Köln",
+  "ort": "Wilheim-Mauser-Straße 57, 50827, Köln - Bickendorf",
+  "datetime": "2027-03-06T09:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Talents BonnRhöndorf 2",
+  "ort": "Gotenstraße 50, 53175, Bonn",
+  "datetime": "2027-03-06T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TuS Hilden",
+  "ort": "Grünstraße 4, 40723, Hilden",
+  "datetime": "2027-03-07T11:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Ruhrpott Baskets Herne",
+  "ort": "Hölkeskampring 2, 44625, Herne",
+  "datetime": "2027-03-07T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "Ruhrpott Baskets Herne",
+  "ort": "Hölkeskampring 2, 44625, Herne",
+  "datetime": "2027-03-13T13:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "DTV Basketball Köln",
+  "ort": "Reitweg, 50679, Köln - Deutz",
+  "datetime": "2027-03-13T17:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "New Basket Oberhausen 3",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2027-03-13T17:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "VfL VIACTIV-AstroLadies Bochum",
+  "ort": "Stadionring, 44791, Bochum",
+  "datetime": "2027-03-14T16:00:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
+  "gegner": "Eimsbütteler Turnverband",
+  "ort": "Hohe Weide 17, 20259, Hamburg",
+  "datetime": "2027-03-20T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Germania Kaiserau",
+  "ort": "Einsteinstraße / In der Kaiserau, 59174, Kamen",
+  "datetime": "2027-04-10T08:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "Sportclub Krefeld",
+  "ort": "Moerser Straße 38, 47798, Krefeld",
+  "datetime": "2027-04-10T12:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Ruhrpott Baskets Herne",
+  "ort": "Hölkeskampring 2, 44625, Herne",
+  "datetime": "2027-04-11T08:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "New Basket Oberhausen 2",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2027-04-18T10:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Capitol Bascats Düsseldorf",
+  "ort": "Schmiedestraße 25, 40227, Düsseldorf",
+  "datetime": "2027-04-18T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "ISD Sportverein",
+  "ort": "Niederrheinstraße 336, 40489, Düsseldorf - Kaiserswerth",
+  "datetime": "2027-04-18T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "DJK TUSA Düsseldorf 2",
+  "ort": "",
+  "datetime": "2027-04-18T22:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "WINGS Leverkusen",
+  "ort": "Werner-Heisenberg-Straße 1, 51381, Leverkusen",
+  "datetime": "2027-04-24T13:00:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "BC Langendreer",
+  "ort": "Dördelstraße, 44892, Bochum - Langendreer",
+  "datetime": "2027-04-24T15:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "CroBaskets Essen",
+  "ort": "Grieperstraße 33, 45143, Essen",
+  "datetime": "2027-04-25T12:00:00+00:00"
+ }
+]

@@ -59,6 +59,7 @@ TEAM_LABEL = {
 }
 
 OUT_PATH = Path(__file__).resolve().parent / 'heimspiele.json'
+OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
 
 
 def get(url):
@@ -146,6 +147,7 @@ def fetch_team_events(team, identifier, mode):
 
 def main():
     home_games = []
+    away_games = []
     errors = []
 
     for team, identifier, mode in ITEMS:
@@ -161,31 +163,44 @@ def main():
             if not teams_part:
                 continue
             home, away, role = split_home_away(teams_part, own_name)
-            if role != 'home':
+            if role is None:
                 continue
-            if not is_named_opponent(away):
+
+            opponent = away if role == 'home' else home
+            if not is_named_opponent(opponent):
                 continue
             try:
                 iso = dtstart_to_iso(event.get('DTSTART', ''))
             except ValueError:
                 continue
-            home_games.append({
+
+            entry = {
                 'liga': LIGA_SHORT.get(identifier, identifier),
                 'team': TEAM_LABEL[team],
-                'gegner': away.strip(),
+                'gegner': opponent.strip(),
                 'ort': event.get('LOCATION', ''),
                 'datetime': iso,
-            })
+            }
+            if role == 'home':
+                home_games.append(entry)
+            else:
+                away_games.append(entry)
 
     home_games.sort(key=lambda g: g['datetime'])
+    away_games.sort(key=lambda g: g['datetime'])
 
     OUT_PATH.write_text(
         json.dumps(home_games, ensure_ascii=False, indent=1),
         encoding='utf-8',
     )
+    OUT_PATH_AWAY.write_text(
+        json.dumps(away_games, ensure_ascii=False, indent=1),
+        encoding='utf-8',
+    )
 
     print(f'HEIMSPIELE={len(home_games)}')
-    print(f'DATEI={OUT_PATH}')
+    print(f'AUSWAERTSSPIELE={len(away_games)}')
+    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}')
     if errors:
         print('FEHLER:')
         for line in errors:
