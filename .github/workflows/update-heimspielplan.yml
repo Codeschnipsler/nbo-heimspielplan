@@ -2,8 +2,9 @@ name: Heimspielplan aktualisieren
 
 on:
   schedule:
-    - cron: '0 4 * * 1,5'
-  workflow_dispatch: {}
+    # Jeden Montag 05:00 Uhr Berlin-Zeit (UTC+1/+2 je nach Sommerzeit -> 04:00 UTC gewaehlt)
+    - cron: '0 4 * * 1'
+  workflow_dispatch: {}   # erlaubt manuelles Anstossen ueber die GitHub-Oberflaeche
 
 permissions:
   contents: write
@@ -25,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add heimspiele.json
+          git add heimspiele.json auswaertsspiele.json
           git diff --cached --quiet && echo "Keine Aenderungen" || git commit -m "Heimspielplan aktualisiert"
           git push
