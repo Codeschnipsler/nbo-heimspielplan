@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NBO — Auswärtsspielplan</title>
+<title>NBO — Ergebnisse</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,6 +17,10 @@
     --grey-line:#E1E1E1;
     --muted:#6B6B6B;
     --white:#FFFFFF;
+    --win:#2E7D46;
+    --win-bg:#E7F3EA;
+    --loss:#B23A3A;
+    --loss-bg:#F8EAEA;
   }
   *{box-sizing:border-box;}
   body{
@@ -27,15 +31,8 @@
     font-size:16px;
     line-height:1.55;
   }
-  .display{
-    font-family:'Anton', sans-serif;
-    text-transform:uppercase;
-    letter-spacing:0.01em;
-  }
   .wrap{max-width:680px; margin:0 auto;}
-  .pad{padding-left:20px; padding-right:20px;}
 
-  /* Header bar, mimicking newbaskets.de top bar */
   header.site-header{
     display:flex;
     align-items:center;
@@ -50,7 +47,6 @@
     text-decoration:none;
     color:var(--nbo-blue);
   }
-  .logo-mark svg{display:block;}
   .logo-mark .word{
     font-family:'Anton', sans-serif;
     font-size:1.3rem;
@@ -63,7 +59,18 @@
     text-align:right;
   }
 
-  /* Hero band */
+  .page-nav{
+    display:flex;
+    gap:16px;
+    padding:10px 20px;
+    background:var(--grey);
+    border-bottom:1px solid var(--grey-line);
+    font-size:0.85rem;
+  }
+  .page-nav a{color:var(--nbo-blue); text-decoration:none; font-weight:600;}
+  .page-nav a:hover{text-decoration:underline;}
+  .page-nav .current{color:var(--ink); font-weight:700;}
+
   .hero-band{
     background:var(--nbo-blue);
     color:var(--white);
@@ -75,32 +82,37 @@
     margin:0 0 8px;
     font-weight:600;
   }
-  .hero-band .relative-day{
+  .hero-band .result-tag{
     display:inline-block;
-    background:var(--white);
-    color:var(--nbo-blue-dark);
     font-size:0.75rem;
     font-weight:700;
     padding:2px 10px;
     border-radius:3px;
     margin-bottom:10px;
   }
+  .hero-band .result-tag.win{background:var(--win-bg); color:var(--win);}
+  .hero-band .result-tag.loss{background:var(--loss-bg); color:var(--loss);}
   .hero-band .when{
     font-family:'Anton', sans-serif;
     text-transform:uppercase;
-    font-size:1.65rem;
+    font-size:1.4rem;
     line-height:1.15;
     margin:0 0 12px;
   }
   .hero-band .matchup{
     font-size:1.2rem;
     font-weight:700;
-    margin:0 0 16px;
+    margin:0 0 6px;
   }
   .hero-band .matchup .vs{
     color:#9FBEE8;
     font-weight:400;
     margin:0 8px;
+  }
+  .hero-band .score{
+    font-family:'Anton', sans-serif;
+    font-size:2.4rem;
+    margin:6px 0 16px;
   }
   .hero-band dl{
     display:grid;
@@ -121,7 +133,6 @@
     color:var(--muted);
   }
 
-  /* Filter section */
   .filter-band{
     background:var(--grey);
     padding:16px 20px;
@@ -131,11 +142,7 @@
     flex-wrap:wrap;
     border-bottom:1px solid var(--grey-line);
   }
-  .filter-band label{
-    font-size:0.8rem;
-    color:var(--muted);
-    font-weight:600;
-  }
+  .filter-band label{font-size:0.8rem; color:var(--muted); font-weight:600;}
   select#teamFilter{
     font-family:'Inter', sans-serif;
     font-size:0.9rem;
@@ -146,13 +153,8 @@
     background:var(--white);
     color:var(--ink);
   }
-  .count{
-    font-size:0.8rem;
-    color:var(--muted);
-    margin-left:auto;
-  }
+  .count{font-size:0.8rem; color:var(--muted); margin-left:auto;}
 
-  /* List */
   .list-wrap{padding:0 20px;}
   .month-heading{
     font-family:'Anton', sans-serif;
@@ -172,10 +174,7 @@
     padding:13px 0;
     border-bottom:1px solid var(--grey-line);
   }
-  .game-row .date-badge{
-    text-align:center;
-    line-height:1.1;
-  }
+  .game-row .date-badge{text-align:center; line-height:1.1;}
   .game-row .date-badge .dow{
     display:block;
     font-size:0.66rem;
@@ -189,25 +188,27 @@
     font-size:1.3rem;
     color:var(--ink);
   }
-  .game-row .main .opponent{
-    font-weight:700;
-    margin:0 0 3px;
-  }
-  .game-row .main .meta{
-    font-size:0.82rem;
-    color:var(--muted);
-  }
-  .game-row .main .venue{
-    font-size:0.78rem;
-    color:var(--muted);
-    margin-top:2px;
-  }
-  .game-row .time{
-    font-variant-numeric:tabular-nums;
-    font-weight:600;
-    font-size:0.95rem;
+  .game-row .main .opponent{font-weight:700; margin:0 0 3px;}
+  .game-row .main .meta{font-size:0.82rem; color:var(--muted);}
+  .game-row .score-col{
+    text-align:right;
     white-space:nowrap;
   }
+  .game-row .score-col .score{
+    font-family:'Anton', sans-serif;
+    font-size:1.15rem;
+  }
+  .game-row .score-col .badge{
+    display:block;
+    font-size:0.68rem;
+    font-weight:700;
+    margin-top:2px;
+    padding:1px 6px;
+    border-radius:3px;
+  }
+  .badge.win{background:var(--win-bg); color:var(--win);}
+  .badge.loss{background:var(--loss-bg); color:var(--loss);}
+
   .team-tag{
     display:inline-block;
     font-size:0.72rem;
@@ -218,17 +219,13 @@
     padding:1px 8px;
     margin-right:6px;
   }
-
-  details.past{margin-top:36px;}
-  details.past summary{
-    cursor:pointer;
-    font-size:0.85rem;
+  .venue-tag{
+    display:inline-block;
+    font-size:0.72rem;
     font-weight:600;
     color:var(--muted);
-    padding:12px 0;
-    border-top:2px solid var(--grey-line);
+    margin-right:6px;
   }
-  details.past .game-row{opacity:0.55;}
 
   footer{
     margin-top:40px;
@@ -240,21 +237,10 @@
   }
 
   @media (max-width:420px){
-    .hero-band .when{font-size:1.35rem;}
+    .hero-band .when{font-size:1.15rem;}
+    .hero-band .score{font-size:2rem;}
     .game-row{grid-template-columns:42px 1fr auto;}
   }
-
-  .page-nav{
-    display:flex;
-    gap:16px;
-    padding:10px 20px;
-    background:var(--grey);
-    border-bottom:1px solid var(--grey-line);
-    font-size:0.85rem;
-  }
-  .page-nav a{color:var(--nbo-blue); text-decoration:none; font-weight:600;}
-  .page-nav a:hover{text-decoration:underline;}
-  .page-nav .current{color:var(--ink); font-weight:700;}
 </style>
 </head>
 <body>
@@ -268,13 +254,13 @@
       </svg>
       <span class="word">NBO</span>
     </a>
-    <div class="sub">Auswärtsspielplan<br>Saison 2026/27</div>
+    <div class="sub">Ergebnisse<br>Saison 2026/27</div>
   </header>
 
   <nav class="page-nav">
     <a href="./index.html">Heimspiele</a>
-    <span class="current">Auswärtsspiele</span>
-    <a href="./ergebnisse.html">Ergebnisse</a>
+    <a href="./auswaerts.html">Auswärtsspiele</a>
+    <span class="current">Ergebnisse</span>
   </nav>
 
   <div class="filter-band">
@@ -291,14 +277,9 @@
 
   <div class="list-wrap">
     <div id="list"></div>
-
-    <details class="past" id="pastWrap">
-      <summary id="pastSummary">Vergangene Auswärtsspiele anzeigen</summary>
-      <div id="pastList"></div>
-    </details>
   </div>
 
-  <footer>Quelle: basketball-bund.net · 11 Mannschaften · <a href="https://www.newbaskets.de" style="color:var(--nbo-blue);">newbaskets.de</a></footer>
+  <footer>Quelle: basketball-bund.net · Ergebnisse aktuell ohne 1. Damen · <a href="https://www.newbaskets.de" style="color:var(--nbo-blue);">newbaskets.de</a></footer>
 </div>
 
 <script>
@@ -310,18 +291,7 @@ function fmtWeekday(d){ return new Intl.DateTimeFormat('de-DE',{weekday:'short',
 function fmtDay(d){ return new Intl.DateTimeFormat('de-DE',{day:'2-digit', timeZone:'Europe/Berlin'}).format(d); }
 function fmtMonthShort(d){ return new Intl.DateTimeFormat('de-DE',{month:'short', timeZone:'Europe/Berlin'}).format(d); }
 function fmtMonthYear(d){ return new Intl.DateTimeFormat('de-DE',{month:'long', year:'numeric', timeZone:'Europe/Berlin'}).format(d); }
-function fmtTime(d){ return new Intl.DateTimeFormat('de-DE',{hour:'2-digit', minute:'2-digit', timeZone:'Europe/Berlin'}).format(d) + ' Uhr'; }
 function fmtFull(d){ return new Intl.DateTimeFormat('de-DE',{weekday:'long', day:'2-digit', month:'long', year:'numeric', timeZone:'Europe/Berlin'}).format(d); }
-function relativeDay(d, now){
-  const oneDay = 86400000;
-  const a = new Date(d); a.setHours(0,0,0,0);
-  const b = new Date(now); b.setHours(0,0,0,0);
-  const diff = Math.round((a-b)/oneDay);
-  if(diff===0) return 'Heute';
-  if(diff===1) return 'Morgen';
-  if(diff>1 && diff<7) return 'In ' + diff + ' Tagen';
-  return null;
-}
 
 function populateFilter(){
   const sel = document.getElementById('teamFilter');
@@ -337,30 +307,33 @@ function escapeHtml(s){
   return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-function renderHero(nextGame, now){
+function renderHero(latest){
   const hero = document.getElementById('hero');
-  if(!nextGame){
-    hero.innerHTML = '<div class="empty-note">Für diese Auswahl steht aktuell kein weiteres Auswärtsspiel im Plan.</div>';
+  if(!latest){
+    hero.innerHTML = '<div class="empty-note">Für diese Auswahl liegt noch kein Ergebnis vor.</div>';
     return;
   }
-  const d = new Date(nextGame.datetime);
-  const rel = relativeDay(d, now);
+  const d = new Date(latest.datetime);
+  const winClass = latest.sieg ? 'win' : 'loss';
   hero.innerHTML = `
     <div class="hero-band">
-      <p class="eyebrow">Nächstes Auswärtsspiel</p>
-      ${rel ? `<span class="relative-day">${rel}</span>` : ''}
-      <p class="when">${fmtFull(d)}<br>${fmtTime(d)}</p>
-      <p class="matchup">${escapeHtml(nextGame.gegner)}<span class="vs">vs.</span>New Basket Oberhausen</p>
+      <p class="eyebrow">Letztes Ergebnis</p>
+      <span class="result-tag ${winClass}">${latest.sieg ? 'Sieg' : 'Niederlage'}</span>
+      <p class="when">${fmtFull(d)}</p>
+      <p class="matchup">New Basket Oberhausen<span class="vs">${latest.heimAuswaerts==='Heim' ? 'vs.' : '@'}</span>${escapeHtml(latest.gegner)}</p>
+      <p class="score">${latest.heimAuswaerts==='Heim' ? latest.eigenePunkte+':'+latest.gegnerPunkte : latest.gegnerPunkte+':'+latest.eigenePunkte}</p>
       <dl>
-        <dt>Mannschaft</dt><dd>${escapeHtml(nextGame.team)}</dd>
-        <dt>Liga</dt><dd>${escapeHtml(nextGame.liga)}</dd>
-        <dt>Ort</dt><dd>${escapeHtml(nextGame.ort || 'wird noch bekanntgegeben')}</dd>
+        <dt>Mannschaft</dt><dd>${escapeHtml(latest.team)}</dd>
+        <dt>Liga</dt><dd>${escapeHtml(latest.liga)}</dd>
+        <dt>Spielort</dt><dd>${latest.heimAuswaerts}</dd>
       </dl>
     </div>`;
 }
 
 function gameRow(g){
   const d = new Date(g.datetime);
+  const cls = g.sieg ? 'win' : 'loss';
+  const scoreStr = g.heimAuswaerts==='Heim' ? `${g.eigenePunkte}:${g.gegnerPunkte}` : `${g.gegnerPunkte}:${g.eigenePunkte}`;
   return `
     <div class="game-row">
       <div class="date-badge">
@@ -370,25 +343,27 @@ function gameRow(g){
       </div>
       <div class="main">
         <p class="opponent">${escapeHtml(g.gegner)}</p>
-        <p class="meta"><span class="team-tag">${escapeHtml(g.team)}</span>${escapeHtml(g.liga)}</p>
-        <p class="venue">${escapeHtml(g.ort || '')}</p>
+        <p class="meta">
+          <span class="team-tag">${escapeHtml(g.team)}</span>
+          <span class="venue-tag">${g.heimAuswaerts}</span>
+          ${escapeHtml(g.liga)}
+        </p>
       </div>
-      <div class="time">${fmtTime(d)}</div>
+      <div class="score-col">
+        <span class="score">${scoreStr}</span>
+        <span class="badge ${cls}">${g.sieg ? 'Sieg' : 'Niederlage'}</span>
+      </div>
     </div>`;
 }
 
 function render(){
-  const now = new Date();
   const sel = document.getElementById('teamFilter').value;
   const data = sel==='all' ? GAMES : GAMES.filter(g=>g.team===sel);
 
-  const upcoming = data.filter(g => new Date(g.datetime) >= now);
-  const past = data.filter(g => new Date(g.datetime) < now).slice().reverse();
+  const latest = data[0] || null;
+  renderHero(latest);
 
-  const nextGame = upcoming[0] || null;
-  renderHero(nextGame, now);
-
-  const rest = upcoming.slice(1);
+  const rest = data.slice(1);
   const listEl = document.getElementById('list');
   listEl.innerHTML = '';
   let currentMonth = '';
@@ -406,18 +381,12 @@ function render(){
   });
 
   document.getElementById('countLabel').textContent =
-    upcoming.length + (upcoming.length===1 ? ' Auswärtsspiel' : ' Auswärtsspiele') + ' verbleibend';
-
-  const pastList = document.getElementById('pastList');
-  pastList.innerHTML = past.map(gameRow).join('');
-  document.getElementById('pastSummary').textContent =
-    past.length ? `Vergangene Auswärtsspiele anzeigen (${past.length})` : 'Keine vergangenen Auswärtsspiele';
-  document.getElementById('pastWrap').style.display = past.length ? '' : 'none';
+    data.length + (data.length===1 ? ' Ergebnis' : ' Ergebnisse');
 }
 
 document.getElementById('teamFilter').addEventListener('change', render);
 
-fetch('./auswaertsspiele.json', {cache: 'no-store'})
+fetch('./ergebnisse.json', {cache: 'no-store'})
   .then(r => r.json())
   .then(data => {
     GAMES = data;
@@ -426,7 +395,7 @@ fetch('./auswaertsspiele.json', {cache: 'no-store'})
   })
   .catch(() => {
     document.getElementById('hero').innerHTML =
-      '<div class="empty-note">Spielplan konnte nicht geladen werden. Bitte Seite neu laden.</div>';
+      '<div class="empty-note">Ergebnisse konnten nicht geladen werden. Bitte Seite neu laden.</div>';
   });
 </script>
 </body>

@@ -1,5 +1,12 @@
 [
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Gerthe 2",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-09-19T14:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "RheinStars Köln 2",
@@ -29,17 +36,10 @@
  },
  {
   "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "Herner TC 2",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-09-27T08:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
   "team": "U12 II",
-  "gegner": "Herner TC 2",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-09-27T10:00:00+00:00"
+  "gegner": "TVE Dortmund Barop",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-09-26T14:00:00+00:00"
  },
  {
   "liga": "Regionalliga",
@@ -49,11 +49,11 @@
   "datetime": "2026-09-27T12:00:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "Citybasket Recklinghausen 3",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-09-27T14:00:00+00:00"
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TVE Dortmund Barop",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-10-03T12:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",
@@ -95,7 +95,7 @@
   "team": "U12 I",
   "gegner": "BG Niederrhein",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-05T16:00:00+00:00"
+  "datetime": "2026-10-05T16:30:00+00:00"
  },
  {
   "liga": "Jugendoberliga 1",
@@ -112,13 +112,6 @@
   "datetime": "2026-10-10T10:30:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "DJK Adler Frintrop",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-10T12:00:00+00:00"
- },
- {
   "liga": "Regionalliga",
   "team": "2. Damen",
   "gegner": "Citybasket Recklinghausen",
@@ -126,11 +119,11 @@
   "datetime": "2026-10-10T14:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TV Germania Kaiserau",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-11T08:00:00+00:00"
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "Citybasket Recklinghausen 3",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-10-11T14:00:00+00:00"
  },
  {
   "liga": "2. Bundesliga Nord",
@@ -154,6 +147,20 @@
   "datetime": "2026-11-07T13:00:00+00:00"
  },
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "Herner TC 2",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-11-07T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "ETB Miners Essen",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-11-08T09:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U12 I",
   "gegner": "TG Neuss",
@@ -175,11 +182,11 @@
   "datetime": "2026-11-08T15:00:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "VfvB Ruhrort/Laar",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-11-14T13:00:00+00:00"
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "TV Gerthe 2",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-11-14T13:30:00+00:00"
  },
  {
   "liga": "Regionalliga",
@@ -189,18 +196,11 @@
   "datetime": "2026-11-14T15:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "VfL AstroStars Bochum",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-11-15T12:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U12 II",
-  "gegner": "CroBaskets Essen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-11-15T14:00:00+00:00"
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "DJK Adler Frintrop",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-11-15T13:00:00+00:00"
  },
  {
   "liga": "Jugendoberliga 2",
@@ -245,6 +245,13 @@
   "datetime": "2026-11-29T11:00:00+00:00"
  },
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TuS Hilden",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-11-29T11:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "Ruhrpott Baskets Herne",
@@ -252,11 +259,11 @@
   "datetime": "2026-11-29T13:00:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "FC Schalke 04",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-11-29T15:00:00+00:00"
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "Ruhrpott Baskets Herne",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-12-05T11:00:00+00:00"
  },
  {
   "liga": "Regionalliga",
@@ -273,20 +280,6 @@
   "datetime": "2026-12-05T18:30:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U12 II",
-  "gegner": "Barmer TV",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-12-06T09:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TV Gerthe",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-12-06T11:00:00+00:00"
- },
- {
   "liga": "Kreisliga Gr. B",
   "team": "U14 III",
   "gegner": "SV DJK G-W Nottuln ak",
@@ -294,17 +287,17 @@
   "datetime": "2026-12-06T13:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U12 II",
-  "gegner": "Ruhrbaskets Oberhausen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-12-12T13:00:00+00:00"
- },
- {
   "liga": "Landesliga 3",
   "team": "3. Damen",
-  "gegner": "CroBaskets Essen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "New Basket Oberhausen 3",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-12-06T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Germania Kaiserau",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2026-12-12T15:00:00+00:00"
  },
  {
@@ -357,25 +350,18 @@
   "datetime": "2026-12-20T13:00:00+00:00"
  },
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "New Basket Oberhausen 2",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2026-12-20T13:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U12 I",
   "gegner": "DJK TUSA Düsseldorf 2",
   "ort": "",
   "datetime": "2027-01-06T23:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TV Gerthe 2",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-09T13:00:00+00:00"
- },
- {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "SV Eintracht Erle",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-09T15:00:00+00:00"
  },
  {
   "liga": "Regionalliga",
@@ -385,18 +371,18 @@
   "datetime": "2027-01-09T17:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U12 II",
-  "gegner": "VfL AstroStars Bochum",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-10T11:00:00+00:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "WINGS Leverkusen",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2027-01-10T13:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "CroBaskets Essen",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-01-10T15:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",
@@ -429,23 +415,30 @@
  {
   "liga": "Jugendoberliga 3",
   "team": "U12 II",
-  "gegner": "TVE Dortmund Barop",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-17T11:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TVE Dortmund Barop",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-17T13:00:00+00:00"
+  "gegner": "VfL AstroStars Bochum",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-01-17T09:00:00+00:00"
  },
  {
   "liga": "Landesliga 3",
   "team": "3. Damen",
-  "gegner": "SCA Ochtrup",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "BG Kamp-Lintfort",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2027-01-17T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "VfL AstroStars Bochum",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-01-23T15:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "SV Eintracht Erle",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-01-23T18:30:00+00:00"
  },
  {
   "liga": "Jugendoberliga 2",
@@ -492,22 +485,15 @@
  {
   "liga": "Jugendoberliga 3",
   "team": "U12 II",
-  "gegner": "ETB Miners Essen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "Herner TC 2",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2027-01-31T11:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TuS Hilden",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-01-31T13:00:00+00:00"
  },
  {
   "liga": "Landesliga 3",
   "team": "3. Damen",
-  "gegner": "BG Dorsten",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "SCA Ochtrup",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2027-01-31T15:00:00+00:00"
  },
  {
@@ -532,6 +518,13 @@
   "datetime": "2027-02-14T09:00:00+00:00"
  },
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "Barmer TV",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-02-14T09:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "Talents BonnRhöndorf 2",
@@ -546,13 +539,6 @@
   "datetime": "2027-02-20T13:00:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "RSV Borken",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-02-20T15:00:00+00:00"
- },
- {
   "liga": "Regionalliga",
   "team": "2. Damen",
   "gegner": "TSV Hagen",
@@ -560,11 +546,11 @@
   "datetime": "2027-02-20T17:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U12 II",
-  "gegner": "TV Gerthe 2",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-02-21T09:00:00+00:00"
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "BG Dorsten",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-02-21T15:00:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
@@ -579,6 +565,13 @@
   "gegner": "BG 89 AVIDES Hurricanes",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2027-02-27T18:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Gerthe",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-02-28T09:00:00+00:00"
  },
  {
   "liga": "Jugendoberliga 2",
@@ -611,16 +604,16 @@
  {
   "liga": "Jugendoberliga 3",
   "team": "U12 II",
-  "gegner": "Ruhrpott Baskets Herne",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "CroBaskets Essen",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2027-03-07T09:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "Barmer TV",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-03-07T11:00:00+00:00"
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "RSV Borken",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-03-07T15:00:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
@@ -630,11 +623,11 @@
   "datetime": "2027-03-13T15:00:00+00:00"
  },
  {
-  "liga": "Landesliga 3",
-  "team": "3. Damen",
-  "gegner": "Ruhrbaskets Oberhausen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-03-13T17:00:00+00:00"
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "ETB Miners Essen",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-03-13T15:00:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
@@ -658,6 +651,13 @@
   "datetime": "2027-04-10T12:00:00+00:00"
  },
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "New Basket Oberhausen",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-04-10T12:00:00+00:00"
+ },
+ {
   "liga": "Regionalliga",
   "team": "2. Damen",
   "gegner": "DJK Frankenberg",
@@ -665,18 +665,18 @@
   "datetime": "2027-04-10T14:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "ETB Miners Essen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-04-11T08:00:00+00:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "BBV Köln-Nordwest",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2027-04-11T10:00:00+00:00"
+ },
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "FC Schalke 04",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-04-11T13:00:00+00:00"
  },
  {
   "liga": "Regionalliga",
@@ -694,10 +694,10 @@
  },
  {
   "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "Ruhrbaskets Oberhausen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2027-04-18T10:00:00+00:00"
+  "team": "U12 II",
+  "gegner": "Barmer TV",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
+  "datetime": "2027-04-18T08:00:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
@@ -709,8 +709,8 @@
  {
   "liga": "Landesliga 3",
   "team": "3. Damen",
-  "gegner": "BG Kamp-Lintfort",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "gegner": "VfvB Ruhrort/Laar",
+  "ort": "Richard-Wagner-Allee 40, 46117, Oberhausen",
   "datetime": "2027-04-18T14:00:00+00:00"
  },
  {
