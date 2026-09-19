@@ -1,5 +1,12 @@
 [
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Mülheimer TG 56er Bären",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-09-19T12:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "RheinStars Köln 2",
@@ -54,6 +61,13 @@
   "gegner": "Citybasket Recklinghausen 3",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-09-27T14:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Ruhrbaskets Oberhausen 2",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-10-03T10:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",
@@ -154,6 +168,13 @@
   "datetime": "2026-11-07T13:00:00+00:00"
  },
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "DJK Adler Frintrop 2",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-08T09:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U12 I",
   "gegner": "TG Neuss",
@@ -236,6 +257,13 @@
   "gegner": "RheinStars Köln",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-11-28T13:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "CroBaskets Essen",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-29T09:00:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
@@ -322,6 +350,13 @@
   "datetime": "2026-12-13T13:00:00+00:00"
  },
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "MTG Horst",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-12-13T15:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 1",
   "team": "U10",
   "gegner": "Capitol Bascats Düsseldorf",
@@ -385,6 +420,13 @@
   "datetime": "2027-01-09T17:00:00+00:00"
  },
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Sterkrade 69ers",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2027-01-10T09:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 3",
   "team": "U12 II",
   "gegner": "VfL AstroStars Bochum",
@@ -397,6 +439,13 @@
   "gegner": "WINGS Leverkusen",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2027-01-10T13:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "ETB Miners Essen 2",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2027-01-16T10:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",

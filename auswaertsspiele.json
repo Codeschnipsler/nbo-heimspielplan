@@ -49,6 +49,13 @@
   "datetime": "2026-09-26T10:30:00+00:00"
  },
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "TV Jahn Königshardt 3",
+  "ort": "Kiefernstraße / Auf der Haardt, 46147, Oberhausen",
+  "datetime": "2026-09-26T12:30:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U18",
   "gegner": "Osterather TV",
@@ -126,6 +133,13 @@
   "datetime": "2026-10-10T14:00:00+00:00"
  },
  {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "TV Jahn Königshardt 2",
+  "ort": "Kiefernstraße / Auf der Haardt, 46147, Oberhausen",
+  "datetime": "2026-10-10T14:30:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "Osterather TV",
@@ -194,6 +208,13 @@
   "gegner": "Talents BonnRhöndorf 2",
   "ort": "Elisabeth-Selbert-Allee 50, 53175, Bonn",
   "datetime": "2026-11-14T12:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "TSV Viktoria Mülheim 2",
+  "ort": "Frühlingstraße, 45478, Mülheim an der Ruhr",
+  "datetime": "2026-11-14T13:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",
@@ -271,6 +292,13 @@
   "gegner": "BTV Basketball Brühl",
   "ort": "von Wied Straße 2, 50321, Brühl",
   "datetime": "2026-12-06T11:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "TSV Viktoria Mülheim",
+  "ort": "Frühlingstraße, 45478, Mülheim an der Ruhr",
+  "datetime": "2026-12-06T13:00:00+00:00"
  },
  {
   "liga": "Landesliga 3",
@@ -446,6 +474,13 @@
   "gegner": "Citybasket Recklinghausen 3",
   "ort": "Campus Blumenthal 5 -Zufahrt Buddestraße, 45665, Recklinghausen",
   "datetime": "2027-01-24T15:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Turnerbund Oberhausen AK",
+  "ort": "Mülheimer Straße 173, 46045, Oberhausen",
+  "datetime": "2027-01-24T15:30:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
