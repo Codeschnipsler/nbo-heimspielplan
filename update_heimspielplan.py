@@ -16,6 +16,7 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlencode
 from pathlib import Path
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 import json
 import re
 
@@ -60,6 +61,7 @@ TEAM_LABEL = {
 
 OUT_PATH = Path(__file__).resolve().parent / 'heimspiele.json'
 OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
+OUT_PATH_RESULTS = Path(__file__).resolve().parent / 'ergebnisse.json'
 
 
 def get(url):
@@ -145,9 +147,72 @@ def fetch_team_events(team, identifier, mode):
     return events, own_name
 
 
+def kickoff_to_iso(date_str, time_str):
+    # kickoffDate/kickoffTime sind lokale Berliner Zeit, nicht UTC
+    naive = datetime.strptime(f'{date_str} {time_str}', '%Y-%m-%d %H:%M')
+    local = naive.replace(tzinfo=ZoneInfo('Europe/Berlin'))
+    return local.astimezone(timezone.utc).isoformat()
+
+
+def fetch_team_results(team, identifier, mode):
+    if mode != 'number':
+        # Fuer die 1. Damen liefert dieser REST-Endpunkt aktuell keine
+        # brauchbare Antwort (siehe Diagnose) - daher hier ausgelassen.
+        return []
+
+    response = json.loads(get(f'{BASE}rest/competition/number/{identifier}/actual?rangeDays=1000'))
+    if response.get('status') != '0':
+        raise RuntimeError(f'{team}: REST status {response.get("status")} (Ergebnisse)')
+    data = response.get('data') or {}
+    matches = data.get('matches') or []
+
+    results = []
+    for match in matches:
+        home = match.get('homeTeam') or {}
+        guest = match.get('guestTeam') or {}
+        home_name = home.get('teamname', '')
+        guest_name = guest.get('teamname', '')
+
+        if 'new basket' in home_name.lower():
+            role, own_name, opponent = 'home', home_name, guest_name
+        elif 'new basket' in guest_name.lower():
+            role, own_name, opponent = 'away', guest_name, home_name
+        else:
+            continue
+
+        if match.get('abgesagt'):
+            continue
+        result = match.get('result')
+        if not result or ':' not in result:
+            continue
+        try:
+            score_home, score_guest = (int(x) for x in result.split(':', 1))
+        except ValueError:
+            continue
+        own_score, opp_score = (score_home, score_guest) if role == 'home' else (score_guest, score_home)
+
+        try:
+            iso = kickoff_to_iso(match.get('kickoffDate', ''), match.get('kickoffTime', ''))
+        except ValueError:
+            continue
+
+        results.append({
+            'liga': LIGA_SHORT.get(identifier, identifier),
+            'team': TEAM_LABEL[team],
+            'gegner': opponent.strip(),
+            'heimAuswaerts': 'Heim' if role == 'home' else 'Auswärts',
+            'eigenePunkte': own_score,
+            'gegnerPunkte': opp_score,
+            'sieg': own_score > opp_score,
+            'datetime': iso,
+        })
+    return results
+
+
 def main():
     home_games = []
     away_games = []
+    results = []
     errors = []
 
     for team, identifier, mode in ITEMS:
@@ -156,6 +221,11 @@ def main():
         except Exception as exc:  # weiter mit den anderen Teams, Fehler sammeln
             errors.append(f'{team}: {exc}')
             continue
+
+        try:
+            results.extend(fetch_team_results(team, identifier, mode))
+        except Exception as exc:
+            errors.append(f'{team} (Ergebnisse): {exc}')
 
         for event in events:
             summary = event.get('SUMMARY', '')
@@ -188,6 +258,7 @@ def main():
 
     home_games.sort(key=lambda g: g['datetime'])
     away_games.sort(key=lambda g: g['datetime'])
+    results.sort(key=lambda g: g['datetime'], reverse=True)
 
     OUT_PATH.write_text(
         json.dumps(home_games, ensure_ascii=False, indent=1),
@@ -197,10 +268,15 @@ def main():
         json.dumps(away_games, ensure_ascii=False, indent=1),
         encoding='utf-8',
     )
+    OUT_PATH_RESULTS.write_text(
+        json.dumps(results, ensure_ascii=False, indent=1),
+        encoding='utf-8',
+    )
 
     print(f'HEIMSPIELE={len(home_games)}')
     print(f'AUSWAERTSSPIELE={len(away_games)}')
-    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}')
+    print(f'ERGEBNISSE={len(results)}')
+    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}, {OUT_PATH_RESULTS}')
     if errors:
         print('FEHLER:')
         for line in errors:
