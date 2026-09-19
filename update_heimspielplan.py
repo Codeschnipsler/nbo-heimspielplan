@@ -32,6 +32,7 @@ ITEMS = [
     ('U14.1', '5001273', 'number'),
     ('U14.2', '5001279', 'number'),
     ('U14.3', '520004', 'number'),
+    ('U14.o', '509314', 'number'),
     ('U12.1', '5001286', 'number'),
     ('U12.2', '5001287', 'number'),
     ('U10', '5001560', 'number'),
@@ -47,6 +48,7 @@ LIGA_SHORT = {
     '5001273': '2. Regionalliga',
     '5001279': 'Jugendoberliga 3',
     '520004': 'Kreisliga Gr. B',
+    '509314': 'Kreisliga Essen',
     '5001286': 'Jugendoberliga 2',
     '5001287': 'Jugendoberliga 3',
     '5001560': 'Jugendoberliga 1',
@@ -55,7 +57,7 @@ LIGA_SHORT = {
 TEAM_LABEL = {
     'D1': '1. Damen', 'D2': '2. Damen', 'D3': '3. Damen',
     'U18': 'U18', 'U16': 'U16',
-    'U14.1': 'U14 I', 'U14.2': 'U14 II', 'U14.3': 'U14 III',
+    'U14.1': 'U14 I', 'U14.2': 'U14 II', 'U14.3': 'U14 III', 'U14.o': 'U14 o',
     'U12.1': 'U12 I', 'U12.2': 'U12 II', 'U10': 'U10',
 }
 
