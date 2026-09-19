@@ -13,7 +13,7 @@ BASE = 'https://www.basketball-bund.net/'
 
 # 1. Damen laeuft ueber liga_id 55746 (bei uns intern gefuehrt) -
 # wir rufen trotzdem den regulaeren REST-Endpunkt ab, nur fuer die Diagnose.
-IDENTIFIER = '55746'
+IDENTIFIER = '500300'
 
 
 def get(url):
