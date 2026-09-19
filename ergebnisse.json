@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "SCA Ochtrup",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 27,
+  "gegnerPunkte": 70,
+  "sieg": false,
+  "datetime": "2026-09-19T14:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Mülheimer TG 56er Bären",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 32,
+  "gegnerPunkte": 81,
+  "sieg": false,
+  "datetime": "2026-09-19T12:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "BBV Köln-Nordwest",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 12,
+  "gegnerPunkte": 135,
+  "sieg": false,
+  "datetime": "2026-09-19T10:00:00+00:00"
+ }
+]
