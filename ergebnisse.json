@@ -1,5 +1,45 @@
 [
  {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "TSVE 1890 Bielefeld",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 66,
+  "gegnerPunkte": 76,
+  "sieg": false,
+  "datetime": "2026-09-20T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TVE Dortmund Barop",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 78,
+  "gegnerPunkte": 28,
+  "sieg": true,
+  "datetime": "2026-09-20T14:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "SG Bergische Löwen",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 47,
+  "gegnerPunkte": 86,
+  "sieg": false,
+  "datetime": "2026-09-20T12:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "TVE Dortmund Barop",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 130,
+  "gegnerPunkte": 13,
+  "sieg": true,
+  "datetime": "2026-09-20T12:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "Sportclub Krefeld",
