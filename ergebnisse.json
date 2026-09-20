@@ -1,5 +1,25 @@
 [
  {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Sportclub Krefeld",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 66,
+  "gegnerPunkte": 51,
+  "sieg": true,
+  "datetime": "2026-09-20T10:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "RheinStars Köln 2",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 97,
+  "gegnerPunkte": 31,
+  "sieg": true,
+  "datetime": "2026-09-20T08:00:00+00:00"
+ },
+ {
   "liga": "Landesliga 3",
   "team": "3. Damen",
   "gegner": "SCA Ochtrup",
