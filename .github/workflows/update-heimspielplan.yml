@@ -4,6 +4,7 @@ on:
   schedule:
     # Jeden Montag 05:00 Uhr Berlin-Zeit (UTC+1/+2 je nach Sommerzeit -> 04:00 UTC gewaehlt)
     - cron: '0 4 * * 1,5'
+    - cron: '0 8,11,14,17,20 * * 6,0'   # Samstag & Sonntag alle 3 Stunden
   workflow_dispatch: {}   # erlaubt manuelles Anstossen ueber die GitHub-Oberflaeche
 
 permissions:
