@@ -112,20 +112,6 @@
   "datetime": "2026-10-05T16:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 1",
-  "team": "U10",
-  "gegner": "ETB Miners Essen",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-10T08:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 1",
-  "team": "U10",
-  "gegner": "BG Dorsten",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-10T10:30:00+00:00"
- },
- {
   "liga": "Landesliga 3",
   "team": "3. Damen",
   "gegner": "DJK Adler Frintrop",
@@ -285,6 +271,20 @@
   "gegner": "FC Schalke 04",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-11-29T15:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "ETB Miners Essen",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-12-05T09:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "BG Dorsten",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-12-05T11:30:00+00:00"
  },
  {
   "liga": "Regionalliga",
