@@ -1,5 +1,15 @@
 [
  {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "Osterather TV",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 54,
+  "gegnerPunkte": 51,
+  "sieg": true,
+  "datetime": "2026-09-26T16:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U18",
   "gegner": "Osterather TV",
