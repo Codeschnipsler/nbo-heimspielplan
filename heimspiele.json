@@ -217,6 +217,13 @@
   "datetime": "2026-11-15T16:00:00+00:00"
  },
  {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Ruhrpott Baskets Herne",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-21T13:00:00+00:00"
+ },
+ {
   "liga": "Kreisliga Gr. B",
   "team": "U14 III",
   "gegner": "TV Jahn 1911 Königshardt e.V.",
@@ -341,13 +348,6 @@
   "gegner": "Sportclub Krefeld",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-12-13T11:00:00+00:00"
- },
- {
-  "liga": "2. Regionalliga",
-  "team": "U14 I",
-  "gegner": "Ruhrpott Baskets Herne",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-12-13T13:00:00+00:00"
  },
  {
   "liga": "Kreisliga Essen",

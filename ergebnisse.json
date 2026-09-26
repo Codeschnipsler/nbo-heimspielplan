@@ -1,5 +1,35 @@
 [
  {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "SV DJK G-W Nottuln ak",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 33,
+  "gegnerPunkte": 70,
+  "sieg": false,
+  "datetime": "2026-09-26T10:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Ruhrbaskets Oberhausen",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 24,
+  "gegnerPunkte": 52,
+  "sieg": false,
+  "datetime": "2026-09-26T09:15:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Basket Duisburg",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 27,
+  "gegnerPunkte": 43,
+  "sieg": false,
+  "datetime": "2026-09-26T08:00:00+00:00"
+ },
+ {
   "liga": "Regionalliga",
   "team": "2. Damen",
   "gegner": "TSVE 1890 Bielefeld",
