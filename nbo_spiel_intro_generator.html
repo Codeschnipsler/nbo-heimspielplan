@@ -117,6 +117,8 @@
   #playBtn:hover:not(:disabled){background:#1a2748;}
   #exportBtn{background:var(--accent2);color:#231a00;}
   #exportBtn:hover:not(:disabled){background:#ffc93d;}
+  #jpegBtn{background:var(--panel2);color:var(--text);border:1px solid var(--accent);}
+  #jpegBtn:hover:not(:disabled){background:#1a2748;}
   button:disabled{opacity:.4;cursor:not-allowed;}
   .status{
     min-height:1.2em;
@@ -195,6 +197,7 @@
       <div class="btn-row">
         <button id="playBtn" disabled>▶ Vorschau abspielen</button>
         <button id="exportBtn" disabled>⬇ Als Video exportieren (.webm)</button>
+        <button id="jpegBtn" disabled>🖼 Als JPEG herunterladen</button>
       </div>
       <p class="status" id="status"></p>
       <a class="download-link" id="downloadLink" download="nbo-intro.webm">Video herunterladen</a>
@@ -254,6 +257,7 @@
   };
   const playBtn = document.getElementById('playBtn');
   const exportBtn = document.getElementById('exportBtn');
+  const jpegBtn = document.getElementById('jpegBtn');
   const status = document.getElementById('status');
   const downloadLink = document.getElementById('downloadLink');
 
@@ -453,6 +457,7 @@
         processLogo();
         playBtn.disabled = false;
         exportBtn.disabled = false;
+        jpegBtn.disabled = false;
         uploadLabel.classList.add('has-file');
         uploadLabel.textContent = '✅ ' + file.name + ' (Logo ändern)';
         status.textContent = '';
@@ -488,10 +493,23 @@
     });
   });
 
+  jpegBtn.addEventListener('click', ()=>{
+    if(!logoImgProcessed) return;
+    renderStatic();
+    const dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+    const a = document.createElement('a');
+    a.href = dataUrl;
+    a.download = 'nbo-intro.jpg';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+
   exportBtn.addEventListener('click', ()=>{
     if(!logoImgProcessed) return;
     playBtn.disabled = true;
     exportBtn.disabled = true;
+    jpegBtn.disabled = true;
     downloadLink.style.display = 'none';
     status.textContent = 'Nehme Video auf …';
 
@@ -511,6 +529,7 @@
       status.textContent = 'Fertig!';
       playBtn.disabled = false;
       exportBtn.disabled = false;
+      jpegBtn.disabled = false;
     };
     recorder.start();
     playAnimation(()=>{
