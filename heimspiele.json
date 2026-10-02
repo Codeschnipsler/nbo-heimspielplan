@@ -70,13 +70,6 @@
   "datetime": "2026-10-03T10:00:00+00:00"
  },
  {
-  "liga": "Kreisliga Gr. B",
-  "team": "U14 III",
-  "gegner": "TV Emsdetten",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-03T12:00:00+00:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "SG Bergische Löwen",
@@ -96,13 +89,6 @@
   "gegner": "CroBaskets Essen",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-10-04T08:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 2",
-  "team": "U18",
-  "gegner": "TV Goch",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-04T10:00:00+00:00"
  },
  {
   "liga": "Jugendoberliga 2",
@@ -131,6 +117,13 @@
   "gegner": "TV Germania Kaiserau",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-10-11T08:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "TV Emsdetten",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-10-17T10:00:00+00:00"
  },
  {
   "liga": "2. Bundesliga Nord",
@@ -215,6 +208,13 @@
   "gegner": "TSV Urdenbach",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-11-15T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
+  "gegner": "TV Goch",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-19T17:30:00+00:00"
  },
  {
   "liga": "2. Regionalliga",
