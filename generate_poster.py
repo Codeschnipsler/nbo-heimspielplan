@@ -29,6 +29,7 @@ HEIMSPIELE_PATH = BASE_DIR / 'heimspiele.json'
 TEMPLATE_PATH = BASE_DIR / 'poster_template.html'
 RENDERED_HTML_PATH = BASE_DIR / '_poster_rendered.html'
 OUT_PNG_PATH = BASE_DIR / 'poster.png'
+SPECIAL_EVENT_PATH = BASE_DIR / 'special_event.txt'
 
 D1_TEAM = '1. Damen'
 
@@ -118,6 +119,29 @@ def build_row(team_label, game):
     """
 
 
+def load_special_event():
+    """Liest special_event.txt. Leer/nicht vorhanden -> kein Badge im Poster."""
+    if not SPECIAL_EVENT_PATH.exists():
+        return ''
+    return SPECIAL_EVENT_PATH.read_text(encoding='utf-8').strip()
+
+
+def build_event_badge(text):
+    if not text:
+        return ''
+    import html as html_mod
+    escaped = html_mod.escape(text)
+    return f"""
+      <div class="event-circle">
+        <img class="ball-bg" src="event-ball.png" alt="">
+        <div class="inner">
+          <div class="label">Special Event:</div>
+          <div class="text">{escaped}</div>
+        </div>
+      </div>
+    """
+
+
 def main():
     upcoming = load_games()
 
@@ -133,11 +157,13 @@ def main():
             rows_html += build_row(team_label, next_game)
 
     stand = datetime.now(BERLIN).strftime('Stand: %d.%m.%Y')
+    event_html = build_event_badge(load_special_event())
 
     html = TEMPLATE_PATH.read_text(encoding='utf-8')
     html = html.replace('<!--D1CARD1-->\n      <!--D1CARD2-->', cards_html)
     html = html.replace('<!--ROWS-->', rows_html)
     html = html.replace('<!--STAND-->', stand)
+    html = html.replace('<!--SPECIALEVENT-->', event_html)
 
     RENDERED_HTML_PATH.write_text(html, encoding='utf-8')
 
