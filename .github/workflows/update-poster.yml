@@ -26,13 +26,16 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
-      - name: Poster rendern
+      - name: Poster rendern (Instagram-Format)
         run: python generate_poster.py
+
+      - name: Poster rendern (A3-Druckformat)
+        run: python generate_poster_a3.py
 
       - name: Aenderungen committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add poster.png
+          git add poster.png poster_a3.png
           git diff --cached --quiet && echo "Keine Aenderungen" || git commit -m "Heimspiel-Poster aktualisiert"
           git push
