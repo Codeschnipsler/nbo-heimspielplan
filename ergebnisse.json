@@ -1,5 +1,25 @@
 [
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "ETB Miners Essen",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 155,
+  "gegnerPunkte": 8,
+  "sieg": true,
+  "datetime": "2026-10-03T11:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "Ruhrbaskets Oberhausen 2",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 39,
+  "gegnerPunkte": 36,
+  "sieg": true,
+  "datetime": "2026-10-03T10:00:00+00:00"
+ },
+ {
   "liga": "Landesliga 3",
   "team": "3. Damen",
   "gegner": "Citybasket Recklinghausen 3",
