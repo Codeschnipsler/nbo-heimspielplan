@@ -19,6 +19,8 @@ from generate_poster import (
     load_games,
     build_d1_card,
     build_row,
+    load_special_event,
+    build_event_badge,
 )
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -48,11 +50,13 @@ def main():
             rows_html += build_row(team_label, next_game)
 
     stand = datetime.now(BERLIN).strftime('Stand: %d.%m.%Y')
+    event_html = build_event_badge(load_special_event())
 
     html = TEMPLATE_PATH.read_text(encoding='utf-8')
     html = html.replace('<!--D1CARD1-->\n      <!--D1CARD2-->', cards_html)
     html = html.replace('<!--ROWS-->', rows_html)
     html = html.replace('<!--STAND-->', stand)
+    html = html.replace('<!--SPECIALEVENT-->', event_html)
 
     RENDERED_HTML_PATH.write_text(html, encoding='utf-8')
 
