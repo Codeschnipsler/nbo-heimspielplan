@@ -1,10 +1,8 @@
 name: Heimspiel-Poster aktualisieren
 
 on:
-  workflow_run:
-    workflows: ["Heimspielplan aktualisieren"]
-    types:
-      - completed
+  schedule:
+    - cron: '0 6 * * 1'  # Montags 08:00 Uhr MESZ (UTC+2) / 07:00 Uhr MEZ im Winter
   workflow_dispatch: {}
 
 permissions:
@@ -13,7 +11,6 @@ permissions:
 jobs:
   poster:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v4
 
