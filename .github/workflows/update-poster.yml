@@ -1,0 +1,38 @@
+name: Heimspiel-Poster aktualisieren
+
+on:
+  workflow_run:
+    workflows: ["Heimspielplan aktualisieren"]
+    types:
+      - completed
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  poster:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Playwright installieren
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Poster rendern
+        run: python generate_poster.py
+
+      - name: Aenderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add poster.png
+          git diff --cached --quiet && echo "Keine Aenderungen" || git commit -m "Heimspiel-Poster aktualisiert"
+          git push
