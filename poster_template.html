@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>NBO Heimspiel-Poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --nbo-blue:#1D4E93;
+    --nbo-blue-dark:#123564;
+    --nbo-blue-light:#EAF1FA;
+    --ink:#111111;
+    --grey:#F2F2F2;
+    --grey-line:#E1E1E1;
+    --muted:#6B6B6B;
+    --white:#FFFFFF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{width:1080px;height:1350px;overflow:hidden;}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    position:relative;
+    display:flex;
+    flex-direction:column;
+  }
+
+  /* ---------- Hintergrund: echtes Spielfeld-Foto ---------- */
+  /* nur hinter "Weitere Heimspiele", rechtsbuendig, nach links ausschimmernd */
+  .bg-stage{
+    position:absolute; inset:0; z-index:0;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+  }
+  .bg-photo{
+    height:100%;
+    width:auto;
+    max-width:none;
+    transform:none;
+    transform-origin:center right;
+    filter:saturate(118%) brightness(1.02) contrast(1.05);
+  }
+
+  /* ---------- Header ---------- */
+  .header{
+    flex:0 0 218px;
+    background:linear-gradient(135deg,var(--nbo-blue) 0%,var(--nbo-blue-dark) 100%);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 56px;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+  }
+  .header::after{
+    content:"";
+    position:absolute;
+    right:-80px;top:-80px;
+    width:260px;height:260px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.06);
+  }
+  .brandline{display:flex;flex-direction:column;align-items:center;gap:8px;flex:0 0 auto;}
+  .brand-sub{
+    font-size:14px;
+    font-weight:700;
+    color:rgba(255,255,255,0.88);
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+    white-space:nowrap;
+  }
+  .tagline{
+    flex:1 1 auto;
+    text-align:center;
+    font-family:'Anton',sans-serif;
+    font-size:38px;
+    line-height:1.08;
+    letter-spacing:1px;
+    color:var(--white);
+    text-transform:uppercase;
+    padding:0 24px;
+  }
+  .poster-tag{
+    flex:0 0 auto;
+    font-family:'Anton',sans-serif;
+    font-size:19px;
+    color:var(--white);
+    letter-spacing:2px;
+    background:rgba(255,255,255,0.14);
+    padding:9px 18px;
+    border-radius:8px;
+    border:2px solid rgba(255,255,255,0.35);
+    white-space:nowrap;
+  }
+
+  /* ---------- 3D Logo ---------- */
+  .logo3d{ height:100px; width:auto; display:block; filter:drop-shadow(0 8px 14px rgba(0,0,0,0.40)); }
+
+  /* ---------- Hero: naechste 1. Damen Spiele ---------- */
+  .hero{
+    flex:0 0 auto;
+    background:rgba(234,241,250,0.38);
+    padding:36px 56px 32px;
+    border-bottom:4px solid var(--nbo-blue);
+    position:relative;
+    z-index:1;
+  }
+  .hero-label{
+    font-family:'Anton',sans-serif;
+    font-size:26px;
+    letter-spacing:2px;
+    color:var(--nbo-blue-dark);
+    margin-bottom:22px;
+  }
+  .d1-cards{display:flex;gap:28px;}
+  .d1-card{
+    flex:1;
+    background:var(--white);
+    border-radius:18px;
+    padding:26px 26px;
+    box-shadow:0 10px 24px rgba(29,78,147,0.16);
+    border:3px solid var(--nbo-blue);
+    position:relative;
+  }
+  .d1-card .badge{
+    position:absolute;top:-16px;left:28px;
+    background:var(--nbo-blue);
+    color:var(--white);
+    font-family:'Anton',sans-serif;
+    font-size:15px;
+    letter-spacing:1.5px;
+    padding:6px 14px;
+    border-radius:20px;
+  }
+  .d1-card .vs{
+    font-family:'Anton',sans-serif;
+    font-size:33px;
+    line-height:1.1;
+    color:var(--ink);
+    text-transform:uppercase;
+    margin-top:8px;
+  }
+  .d1-card .vs .own{color:var(--nbo-blue);}
+  .d1-card .meta{
+    margin-top:14px;
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+  }
+  .d1-card .meta-row{
+    font-size:17px;
+    font-weight:600;
+    color:var(--ink);
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+  }
+  .d1-card .meta-row .date-big{
+    font-family:'Anton',sans-serif;
+    font-size:29px;
+    letter-spacing:0.5px;
+    color:var(--nbo-blue-dark);
+  }
+  .d1-card .meta-row .time-small{
+    font-size:16px;
+    font-weight:600;
+  }
+  .d1-card .meta-row.muted{font-size:15px;font-weight:500;color:var(--muted);}
+
+  /* ---------- Weitere Heimspiele ---------- */
+  .list-section{
+    flex:1 1 auto;
+    min-height:0;
+    padding:26px 56px 0;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    z-index:1;
+    background:var(--white);
+    overflow:hidden;
+  }
+  .list-panel{
+    position:absolute;
+    inset:0;
+    z-index:1;
+    background:linear-gradient(90deg,
+      rgba(255,255,255,0.88) 0%,
+      rgba(255,255,255,0.84) 42%,
+      rgba(255,255,255,0.55) 62%,
+      rgba(255,255,255,0.18) 80%,
+      rgba(255,255,255,0) 100%);
+  }
+  .list-title{
+    flex:0 0 auto;
+    position:relative;
+    z-index:2;
+    font-family:'Anton',sans-serif;
+    font-size:22px;
+    letter-spacing:1.5px;
+    color:var(--nbo-blue-dark);
+    margin-bottom:6px;
+  }
+  .rows{
+    flex:1 1 auto;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    z-index:2;
+  }
+  .row{
+    flex:1 1 0;
+    min-height:0;
+    display:grid;
+    grid-template-columns:148px 138px 1fr;
+    align-items:center;
+    padding:6px 0;
+    gap:16px;
+  }
+  .row .team{
+    font-family:'Anton',sans-serif;
+    font-size:18px;
+    color:var(--white);
+    background:var(--nbo-blue);
+    padding:7px 0;
+    text-align:center;
+    border-radius:7px;
+    letter-spacing:0.5px;
+  }
+  .row .gegner{
+    font-size:19px;
+    font-weight:700;
+    color:var(--ink);
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .row .when{
+    text-align:left;
+    line-height:1.08;
+  }
+  .row .when .datum-big{
+    font-family:'Anton',sans-serif;
+    font-size:23px;
+    letter-spacing:0.3px;
+    color:var(--nbo-blue-dark);
+    white-space:nowrap;
+  }
+  .row .when .zeit-small{
+    font-size:14px;
+    font-weight:600;
+    color:var(--muted);
+    margin-top:2px;
+  }
+
+  /* ---------- Footer ---------- */
+  .footer{
+    flex:0 0 70px;
+    background:var(--ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    position:relative;
+    z-index:1;
+  }
+  .footer span{
+    color:var(--white);
+    font-size:17px;
+    font-weight:600;
+    letter-spacing:1px;
+  }
+  .footer .dot{color:var(--nbo-blue);font-size:17px;}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="brandline">
+      <img class="logo3d" src="logo-nbo-3d.png" alt="NBO Logo">
+      <div class="brand-sub">New Basket '92 Oberhausen e.V.</div>
+    </div>
+    <div class="tagline">Spitzenbasketball<br>in Oberhausen</div>
+    <div class="poster-tag">HEIMSPIELE</div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-label">N&Auml;CHSTE SPIELE &middot; 1. DAMEN</div>
+    <div class="d1-cards">
+      <!--D1CARD1-->
+      <!--D1CARD2-->
+    </div>
+  </div>
+
+  <div class="list-section">
+    <div class="bg-stage">
+      <img class="bg-photo" src="court-photo.jpg" alt="">
+    </div>
+    <div class="list-panel"></div>
+    <div class="list-title">WEITERE HEIMSPIELE</div>
+    <div class="rows">
+      <!--ROWS-->
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>NEWBASKETS.DE</span>
+    <span class="dot">&bull;</span>
+    <span id="stand"><!--STAND--></span>
+  </div>
+
+</body>
+</html>
