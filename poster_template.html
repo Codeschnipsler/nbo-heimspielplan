@@ -172,6 +172,55 @@
   }
   .d1-card .meta-row.muted{font-size:15px;font-weight:500;color:var(--muted);}
 
+  /* ---------- Special-Event-Kreis (optional, aus special_event.txt) ---------- */
+  .event-circle{
+    position:absolute;
+    top:574px;
+    left:712px;
+    width:255px;
+    height:255px;
+    border-radius:50%;
+    box-shadow:0 14px 26px rgba(186,86,19,0.45);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    z-index:5;
+    overflow:hidden;
+  }
+  .event-circle .ball-bg{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .event-circle .inner{
+    position:absolute;
+    inset:0;
+    z-index:2;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    background:rgba(255,255,255,0.6);
+    padding:0 22px;
+    text-align:center;
+  }
+  .event-circle .label{
+    font-weight:800;
+    font-size:15px;
+    color:var(--nbo-blue-dark);
+  }
+  .event-circle .text{
+    font-weight:800;
+    font-size:18px;
+    line-height:1.22;
+    color:var(--ink);
+  }
+
   /* ---------- Weitere Heimspiele ---------- */
   .list-section{
     flex:1 1 auto;
@@ -296,6 +345,8 @@
       <!--D1CARD2-->
     </div>
   </div>
+
+  <!--SPECIALEVENT-->
 
   <div class="list-section">
     <div class="bg-stage">
