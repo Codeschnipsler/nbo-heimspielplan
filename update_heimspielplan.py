@@ -64,6 +64,7 @@ TEAM_LABEL = {
 OUT_PATH = Path(__file__).resolve().parent / 'heimspiele.json'
 OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
 OUT_PATH_RESULTS = Path(__file__).resolve().parent / 'ergebnisse.json'
+OUT_PATH_TABLES = Path(__file__).resolve().parent / 'tabellen.json'
 
 
 def get(url):
@@ -146,7 +147,46 @@ def fetch_team_events(team, identifier, mode):
         'typ': '2', 'liga_id': liga_id, 'ms_liga_id': ms_id, 'spt': '-1'
     })
     events = parse_ics(get(calendar_url))
-    return events, own_name
+    return events, own_name, liga_id
+
+
+def fetch_table(team, liga_id):
+    """Liest die aktuelle Tabelle einer Liga ueber die id-basierte REST-Route.
+
+    Diese Route liefert unter data['tabelle'] die komplette Tabelle (Rang,
+    Team, Spiele, Siege/Niederlagen, Koerbe, Korbdifferenz, Gewinn-/
+    Verlustpunkte) - unabhaengig davon, ob die Liga per 'internal' (1. Damen)
+    oder 'number' (alle anderen Mannschaften) referenziert wird.
+    """
+    response = json.loads(get(f'{BASE}rest/competition/actual/id/{liga_id}?rangeDays=1000'))
+    if response.get('status') != '0':
+        raise RuntimeError(f'{team}: REST status {response.get("status")} (Tabelle)')
+    data = response.get('data') or {}
+    liga_data = data.get('ligaData') or {}
+    rows = []
+    for entry in data.get('tabelle') or []:
+        team_info = entry.get('team') or {}
+        name = (team_info.get('teamname') or '').strip()
+        rows.append({
+            'rang': entry.get('rang'),
+            'team': name,
+            'spiele': entry.get('anzspiele'),
+            'siege': entry.get('s'),
+            'niederlagen': entry.get('n'),
+            'koerbe': entry.get('koerbe'),
+            'gegenKoerbe': entry.get('gegenKoerbe'),
+            'korbdiff': entry.get('korbdiff'),
+            'gewinnpunkte': entry.get('anzGewinnpunkte'),
+            'verlustpunkte': entry.get('anzVerlustpunkte'),
+            'eigenes': 'new basket' in name.lower(),
+        })
+    return {
+        'team': TEAM_LABEL[team],
+        'liga': liga_data.get('liganame') or LIGA_SHORT.get(str(liga_id), ''),
+        'ligaId': liga_data.get('ligaId') or liga_id,
+        'stand': liga_data.get('actualMatchDay', {}).get('bezeichnung', ''),
+        'tabelle': rows,
+    }
 
 
 def kickoff_to_iso(date_str, time_str):
@@ -215,11 +255,12 @@ def main():
     home_games = []
     away_games = []
     results = []
+    tabellen = []
     errors = []
 
     for team, identifier, mode in ITEMS:
         try:
-            events, own_name = fetch_team_events(team, identifier, mode)
+            events, own_name, liga_id = fetch_team_events(team, identifier, mode)
         except Exception as exc:  # weiter mit den anderen Teams, Fehler sammeln
             errors.append(f'{team}: {exc}')
             continue
@@ -228,6 +269,11 @@ def main():
             results.extend(fetch_team_results(team, identifier, mode))
         except Exception as exc:
             errors.append(f'{team} (Ergebnisse): {exc}')
+
+        try:
+            tabellen.append(fetch_table(team, liga_id))
+        except Exception as exc:
+            errors.append(f'{team} (Tabelle): {exc}')
 
         for event in events:
             summary = event.get('SUMMARY', '')
@@ -274,11 +320,23 @@ def main():
         json.dumps(results, ensure_ascii=False, indent=1),
         encoding='utf-8',
     )
+    OUT_PATH_TABLES.write_text(
+        json.dumps(
+            {
+                'erzeugt': datetime.now(BERLIN).isoformat(),
+                'ligen': tabellen,
+            },
+            ensure_ascii=False,
+            indent=1,
+        ),
+        encoding='utf-8',
+    )
 
     print(f'HEIMSPIELE={len(home_games)}')
     print(f'AUSWAERTSSPIELE={len(away_games)}')
     print(f'ERGEBNISSE={len(results)}')
-    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}, {OUT_PATH_RESULTS}')
+    print(f'TABELLEN={len(tabellen)}')
+    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}, {OUT_PATH_RESULTS}, {OUT_PATH_TABLES}')
     if errors:
         print('FEHLER:')
         for line in errors:
