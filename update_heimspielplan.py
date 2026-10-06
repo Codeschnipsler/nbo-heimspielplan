@@ -323,7 +323,7 @@ def main():
     OUT_PATH_TABLES.write_text(
         json.dumps(
             {
-                'erzeugt': datetime.now(BERLIN).isoformat(),
+                'erzeugt': datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),
                 'ligen': tabellen,
             },
             ensure_ascii=False,
