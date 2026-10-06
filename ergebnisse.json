@@ -2,6 +2,26 @@
  {
   "liga": "Jugendoberliga 2",
   "team": "U12 I",
+  "gegner": "BG Niederrhein",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 53,
+  "gegnerPunkte": 109,
+  "sieg": false,
+  "datetime": "2026-10-05T16:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TuS Hilden",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 57,
+  "gegnerPunkte": 40,
+  "sieg": true,
+  "datetime": "2026-10-04T12:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
   "gegner": "BG Kamp-Lintfort",
   "heimAuswaerts": "Auswärts",
   "eigenePunkte": 49,
@@ -64,8 +84,8 @@
   "team": "U14 o",
   "gegner": "Ruhrbaskets Oberhausen 2",
   "heimAuswaerts": "Heim",
-  "eigenePunkte": 39,
-  "gegnerPunkte": 36,
+  "eigenePunkte": 20,
+  "gegnerPunkte": 0,
   "sieg": true,
   "datetime": "2026-10-03T10:00:00+00:00"
  },
