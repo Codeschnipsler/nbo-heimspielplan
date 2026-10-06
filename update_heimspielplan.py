@@ -19,6 +19,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 import json
 import re
+import time
 
 BASE = 'https://www.basketball-bund.net/'
 
@@ -150,21 +151,95 @@ def fetch_team_events(team, identifier, mode):
     return events, own_name, liga_id
 
 
+def compute_table_from_matches(matches):
+    """Fallback: Tabelle selbst aus den Spielergebnissen berechnen.
+
+    Wird genutzt, wenn die API fuer eine Liga keine fertige Tabelle liefert
+    (z.B. Jugendligen mit tabelle=null). Sieg = 2 Punkte, Niederlage = 0
+    (2 Punkte pro Sieg, 0 pro Niederlage, wie in den API-Tabellen). Sortierung: Punkte, dann Korbdifferenz, dann Koerbe.
+    Bei Punktgleichheit kann die offizielle Reihenfolge (direkter Vergleich)
+    abweichen.
+    """
+    stats = {}
+
+    def entry(name):
+        return stats.setdefault(name, {
+            'team': name, 'spiele': 0, 'siege': 0, 'niederlagen': 0,
+            'koerbe': 0, 'gegenKoerbe': 0,
+        })
+
+    for match in matches or []:
+        home = ((match.get('homeTeam') or {}).get('teamname') or '').strip()
+        guest = ((match.get('guestTeam') or {}).get('teamname') or '').strip()
+        if not home or not guest:
+            continue
+        h, g = entry(home), entry(guest)
+        if match.get('abgesagt'):
+            continue
+        result = match.get('result')
+        if not result or ':' not in result:
+            continue
+        try:
+            sh, sg = (int(x) for x in result.split(':', 1))
+        except ValueError:
+            continue
+        h['spiele'] += 1
+        g['spiele'] += 1
+        h['koerbe'] += sh
+        h['gegenKoerbe'] += sg
+        g['koerbe'] += sg
+        g['gegenKoerbe'] += sh
+        if sh > sg:
+            h['siege'] += 1
+            g['niederlagen'] += 1
+        elif sg > sh:
+            g['siege'] += 1
+            h['niederlagen'] += 1
+
+    rows = []
+    for s in stats.values():
+        s['korbdiff'] = s['koerbe'] - s['gegenKoerbe']
+        s['gewinnpunkte'] = 2 * s['siege']
+        s['verlustpunkte'] = 2 * s['niederlagen']
+        s['eigenes'] = 'new basket' in s['team'].lower()
+        rows.append(s)
+    rows.sort(key=lambda r: (-r['gewinnpunkte'], -r['korbdiff'], -r['koerbe'], r['team']))
+    for i, r in enumerate(rows, start=1):
+        r['rang'] = i
+    return rows
+
+
+def get_with_retry(url, attempts=3):
+    last = None
+    for i in range(attempts):
+        try:
+            return get(url)
+        except Exception as exc:
+            last = exc
+            time.sleep(2 * (i + 1))
+    raise last
+
+
 def fetch_table(team, liga_id):
     """Liest die aktuelle Tabelle einer Liga ueber die id-basierte REST-Route.
 
-    Diese Route liefert unter data['tabelle'] die komplette Tabelle (Rang,
-    Team, Spiele, Siege/Niederlagen, Koerbe, Korbdifferenz, Gewinn-/
-    Verlustpunkte) - unabhaengig davon, ob die Liga per 'internal' (1. Damen)
-    oder 'number' (alle anderen Mannschaften) referenziert wird.
+    Liefert die API unter data['tabelle'] nichts (null/leer), wird die
+    Tabelle aus data['matches'] berechnet (Feld 'berechnet': True).
     """
-    response = json.loads(get(f'{BASE}rest/competition/actual/id/{liga_id}?rangeDays=1000'))
+    url = f'{BASE}rest/competition/actual/id/{liga_id}?rangeDays=1000'
+    response = json.loads(get_with_retry(url))
     if response.get('status') != '0':
-        raise RuntimeError(f'{team}: REST status {response.get("status")} (Tabelle)')
+        raise RuntimeError(f'REST status {response.get("status")} (Liga {liga_id})')
     data = response.get('data') or {}
     liga_data = data.get('ligaData') or {}
     rows = []
-    for entry in data.get('tabelle') or []:
+    raw_table = data.get('tabelle') or []
+    if isinstance(raw_table, dict):
+        # API liefert die Tabelle als Objekt: {"ligaData":..., "entries":[...], "bbl":...}
+        raw_table = raw_table.get('entries') or []
+    for entry in raw_table:
+        if not isinstance(entry, dict):
+            continue
         team_info = entry.get('team') or {}
         name = (team_info.get('teamname') or '').strip()
         rows.append({
@@ -180,11 +255,17 @@ def fetch_table(team, liga_id):
             'verlustpunkte': entry.get('anzVerlustpunkte'),
             'eigenes': 'new basket' in name.lower(),
         })
+    berechnet = False
+    if not rows:
+        rows = compute_table_from_matches(data.get('matches'))
+        berechnet = bool(rows)
+    match_day = liga_data.get('actualMatchDay') or {}
     return {
         'team': TEAM_LABEL[team],
         'liga': liga_data.get('liganame') or LIGA_SHORT.get(str(liga_id), ''),
         'ligaId': liga_data.get('ligaId') or liga_id,
-        'stand': liga_data.get('actualMatchDay', {}).get('bezeichnung', ''),
+        'stand': match_day.get('bezeichnung', ''),
+        'berechnet': berechnet,
         'tabelle': rows,
     }
 
@@ -271,7 +352,9 @@ def main():
             errors.append(f'{team} (Ergebnisse): {exc}')
 
         try:
-            tabellen.append(fetch_table(team, liga_id))
+            t = fetch_table(team, liga_id)
+            tabellen.append(t)
+            print(f"TABELLE {t['team']}: {len(t['tabelle'])} Zeilen{' (berechnet)' if t['berechnet'] else ''}")
         except Exception as exc:
             errors.append(f'{team} (Tabelle): {exc}')
 
