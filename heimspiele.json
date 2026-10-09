@@ -112,6 +112,13 @@
   "datetime": "2026-10-10T14:00:00+00:00"
  },
  {
+  "liga": "DBBL-Pokal",
+  "team": "1. Damen",
+  "gegner": "VfL Viactiv Astro Ladies Bochum",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-10-10T17:30:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 3",
   "team": "U14 II",
   "gegner": "TV Germania Kaiserau",
