@@ -67,6 +67,11 @@ OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
 OUT_PATH_RESULTS = Path(__file__).resolve().parent / 'ergebnisse.json'
 OUT_PATH_TABLES = Path(__file__).resolve().parent / 'tabellen.json'
 
+# Club-ID von New Basket 92 Oberhausen (fuer Pokal-/Zusatzspiele ausserhalb der Ligen)
+CLUB_ID = '5209'
+# teamPermanentId -> Team-Kuerzel (wird beim Abruf der Ligen gefuellt)
+PERM_ID_TO_TEAM = {'319593': 'D1'}
+
 
 def get(url):
     with urlopen(Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=45) as response:
@@ -143,12 +148,105 @@ def fetch_team_events(team, identifier, mode):
             raise RuntimeError(f'{team}: kein New-Basket-Team in Liga {identifier}')
         ms_id = str(candidates[0]['teamCompetitionId'])
         own_name = candidates[0]['teamname']
+        if candidates[0].get('teamPermanentId'):
+            PERM_ID_TO_TEAM[str(candidates[0]['teamPermanentId'])] = team
 
     calendar_url = BASE + 'servlet/KalenderDienst?' + urlencode({
         'typ': '2', 'liga_id': liga_id, 'ms_liga_id': ms_id, 'spt': '-1'
     })
     events = parse_ics(get(calendar_url))
     return events, own_name, liga_id
+
+
+def fetch_cup_games():
+    """Pokalspiele (und aehnliche Wettbewerbe) ueber die Vereins-Route holen.
+
+    Die Ligen-Abfragen kennen nur die Punktspielrunde. Pokalspiele laufen in
+    eigenen Wettbewerben (z.B. 'DBBL-Pokal Runde 2') und stehen nur in der
+    Spielliste des Vereins. Die Spielhalle kommt aus dem ICS-Kalender des
+    jeweiligen Wettbewerbs (Zuordnung ueber die Spiel-ID = UID).
+
+    Rueckgabe: (heim, auswaerts, ergebnisse) - Listen im selben Format wie die
+    Ligaspiele.
+    """
+    response = json.loads(get_with_retry(
+        f'{BASE}rest/club/id/{CLUB_ID}/actualmatches?justHome=false&rangeDays=1000'))
+    if response.get('status') != '0':
+        raise RuntimeError(f'REST status {response.get("status")} (Pokal)')
+    matches = (response.get('data') or {}).get('matches') or []
+
+    home_games, away_games, cup_results = [], [], []
+    locations = {}  # liga_id -> {uid: location}
+
+    for match in matches:
+        liga = match.get('ligaData') or {}
+        liga_name = liga.get('liganame') or ''
+        if 'pokal' not in liga_name.lower():
+            continue
+        # Kurzname wie bei den Ligen: jede Pokalrunde hat eine eigene Liga-ID
+        # ('DBBL-Pokal Runde 2' = 55744), daher den Wettbewerbsnamen ('skName')
+        # statt der Runden-ID verwenden -> immer 'DBBL-Pokal'.
+        liga_name = liga.get('skName') or liga_name
+        if match.get('abgesagt'):
+            continue
+
+        home = match.get('homeTeam') or {}
+        guest = match.get('guestTeam') or {}
+        if str(home.get('teamPermanentId')) in PERM_ID_TO_TEAM:
+            role, own, opp = 'home', home, guest
+        elif str(guest.get('teamPermanentId')) in PERM_ID_TO_TEAM:
+            role, own, opp = 'away', guest, home
+        else:
+            continue
+        team = PERM_ID_TO_TEAM[str(own['teamPermanentId'])]
+        opponent = (opp.get('teamname') or '').strip()
+        if not is_named_opponent(opponent):
+            continue
+        try:
+            iso = kickoff_to_iso(match.get('kickoffDate', ''), match.get('kickoffTime', ''))
+        except ValueError:
+            continue
+
+        liga_id = str(liga.get('ligaId'))
+        if liga_id not in locations:
+            locations[liga_id] = {}
+            try:
+                calendar_url = BASE + 'servlet/KalenderDienst?' + urlencode({
+                    'typ': '2', 'liga_id': liga_id,
+                    'ms_liga_id': str(own.get('teamCompetitionId')), 'spt': '-1'})
+                for event in parse_ics(get_with_retry(calendar_url)):
+                    locations[liga_id][event.get('UID', '')] = event.get('LOCATION', '')
+            except Exception:
+                pass  # ohne Ortsangabe weitermachen
+        ort = locations[liga_id].get(str(match.get('matchId')), '')
+
+        entry = {
+            'liga': liga_name,
+            'team': TEAM_LABEL[team],
+            'gegner': opponent,
+            'ort': ort,
+            'datetime': iso,
+        }
+        (home_games if role == 'home' else away_games).append(entry)
+
+        result = match.get('result')
+        if result and ':' in result:
+            try:
+                sh, sg = (int(x) for x in result.split(':', 1))
+            except ValueError:
+                continue
+            own_pts, opp_pts = (sh, sg) if role == 'home' else (sg, sh)
+            cup_results.append({
+                'liga': liga_name,
+                'team': TEAM_LABEL[team],
+                'gegner': opponent,
+                'heimAuswaerts': 'Heim' if role == 'home' else 'Auswärts',
+                'eigenePunkte': own_pts,
+                'gegnerPunkte': opp_pts,
+                'sieg': own_pts > opp_pts,
+                'datetime': iso,
+            })
+    return home_games, away_games, cup_results
 
 
 def compute_table_from_matches(matches):
@@ -386,6 +484,15 @@ def main():
                 home_games.append(entry)
             else:
                 away_games.append(entry)
+
+    try:
+        cup_home, cup_away, cup_results = fetch_cup_games()
+        home_games.extend(cup_home)
+        away_games.extend(cup_away)
+        results.extend(cup_results)
+        print(f'POKALSPIELE={len(cup_home) + len(cup_away)}')
+    except Exception as exc:
+        errors.append(f'Pokal: {exc}')
 
     home_games.sort(key=lambda g: g['datetime'])
     away_games.sort(key=lambda g: g['datetime'])
