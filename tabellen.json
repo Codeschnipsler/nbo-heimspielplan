@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-06T17:45:24.371832+02:00",
+ "erzeugt": "2026-10-09T05:33:08.064227+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -335,7 +335,7 @@
    "team": "3. Damen",
    "liga": "Landesliga 3 Damen (LL3D)",
    "ligaId": 54594,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -353,6 +353,19 @@
     },
     {
      "rang": 2,
+     "team": "BG Kamp-Lintfort",
+     "spiele": 4,
+     "siege": 3,
+     "niederlagen": 1,
+     "koerbe": 221,
+     "gegenKoerbe": 164,
+     "korbdiff": 57,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 3,
      "team": "Citybasket Recklinghausen 3",
      "spiele": 3,
      "siege": 2,
@@ -365,33 +378,7 @@
      "eigenes": false
     },
     {
-     "rang": 3,
-     "team": "CroBaskets Essen",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 115,
-     "gegenKoerbe": 87,
-     "korbdiff": 28,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
      "rang": 4,
-     "team": "SV Eintracht Erle",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 143,
-     "gegenKoerbe": 148,
-     "korbdiff": -5,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 5,
      "team": "RSV Borken",
      "spiele": 3,
      "siege": 2,
@@ -404,7 +391,7 @@
      "eigenes": false
     },
     {
-     "rang": 6,
+     "rang": 5,
      "team": "SCA Ochtrup",
      "spiele": 3,
      "siege": 2,
@@ -417,20 +404,20 @@
      "eigenes": false
     },
     {
-     "rang": 7,
-     "team": "BG Kamp-Lintfort",
+     "rang": 6,
+     "team": "CroBaskets Essen",
      "spiele": 3,
      "siege": 2,
      "niederlagen": 1,
-     "koerbe": 170,
-     "gegenKoerbe": 128,
-     "korbdiff": 42,
+     "koerbe": 115,
+     "gegenKoerbe": 87,
+     "korbdiff": 28,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
     },
     {
-     "rang": 8,
+     "rang": 7,
      "team": "DJK Adler Frintrop",
      "spiele": 3,
      "siege": 2,
@@ -438,6 +425,19 @@
      "koerbe": 179,
      "gegenKoerbe": 115,
      "korbdiff": 64,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 8,
+     "team": "SV Eintracht Erle",
+     "spiele": 4,
+     "siege": 2,
+     "niederlagen": 2,
+     "koerbe": 179,
+     "gegenKoerbe": 199,
+     "korbdiff": -20,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
@@ -652,7 +652,7 @@
    "team": "U16",
    "liga": "2. Regionalliga U16 weiblich (2JRLU16W)",
    "ligaId": 54893,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -817,7 +817,7 @@
    "team": "U14 I",
    "liga": "2.Regionalliga U14 weiblich (2JRLU14W) ",
    "ligaId": 54903,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -982,7 +982,7 @@
    "team": "U14 II",
    "liga": "Jugendoberliga 3 U14 weiblich (JOL3U14W)",
    "ligaId": 54906,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1399,7 +1399,7 @@
    "team": "U12 I",
    "liga": "Jugendoberliga 2 U12 weiblich (JOL2U12W)",
    "ligaId": 54924,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
