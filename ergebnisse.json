@@ -1,5 +1,15 @@
 [
  {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "DJK Adler Frintrop",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 69,
+  "gegnerPunkte": 56,
+  "sieg": true,
+  "datetime": "2026-10-10T12:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U12 I",
   "gegner": "BG Niederrhein",
