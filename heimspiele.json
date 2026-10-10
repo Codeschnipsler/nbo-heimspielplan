@@ -119,13 +119,6 @@
   "datetime": "2026-10-10T17:30:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TV Germania Kaiserau",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-10-11T08:00:00+00:00"
- },
- {
   "liga": "Kreisliga Gr. B",
   "team": "U14 III",
   "gegner": "TV Emsdetten",
@@ -145,6 +138,13 @@
   "gegner": "BG 74 Veilchen Ladies Göttingen",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2026-10-31T18:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Germania Kaiserau",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-03T17:00:00+00:00"
  },
  {
   "liga": "Kreisliga Gr. B",
