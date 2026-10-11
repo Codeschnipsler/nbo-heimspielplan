@@ -1,5 +1,15 @@
 [
  {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Osterather TV",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 69,
+  "gegnerPunkte": 50,
+  "sieg": true,
+  "datetime": "2026-10-11T14:00:00+00:00"
+ },
+ {
   "liga": "DBBL-Pokal",
   "team": "1. Damen",
   "gegner": "VfL Viactiv Astro Ladies Bochum",
