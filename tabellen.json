@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-11T16:47:12.027335+02:00",
+ "erzeugt": "2026-10-11T19:49:36.230174+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -353,6 +353,19 @@
     },
     {
      "rang": 2,
+     "team": "RSV Borken",
+     "spiele": 4,
+     "siege": 3,
+     "niederlagen": 1,
+     "koerbe": 227,
+     "gegenKoerbe": 148,
+     "korbdiff": 79,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 3,
      "team": "BG Kamp-Lintfort",
      "spiele": 4,
      "siege": 3,
@@ -365,7 +378,7 @@
      "eigenes": false
     },
     {
-     "rang": 3,
+     "rang": 4,
      "team": "SCA Ochtrup",
      "spiele": 4,
      "siege": 3,
@@ -378,33 +391,7 @@
      "eigenes": false
     },
     {
-     "rang": 4,
-     "team": "Citybasket Recklinghausen 3",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 161,
-     "gegenKoerbe": 146,
-     "korbdiff": 15,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
      "rang": 5,
-     "team": "RSV Borken",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 150,
-     "gegenKoerbe": 130,
-     "korbdiff": 20,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 6,
      "team": "SV Eintracht Erle",
      "spiele": 4,
      "siege": 2,
@@ -417,7 +404,7 @@
      "eigenes": false
     },
     {
-     "rang": 7,
+     "rang": 6,
      "team": "DJK Adler Frintrop",
      "spiele": 4,
      "siege": 2,
@@ -425,6 +412,19 @@
      "koerbe": 235,
      "gegenKoerbe": 184,
      "korbdiff": 51,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 7,
+     "team": "Citybasket Recklinghausen 3",
+     "spiele": 4,
+     "siege": 2,
+     "niederlagen": 2,
+     "koerbe": 196,
+     "gegenKoerbe": 227,
+     "korbdiff": -31,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
@@ -457,6 +457,19 @@
     },
     {
      "rang": 10,
+     "team": "Ruhrbaskets Oberhausen",
+     "spiele": 4,
+     "siege": 1,
+     "niederlagen": 3,
+     "koerbe": 223,
+     "gegenKoerbe": 190,
+     "korbdiff": 33,
+     "gewinnpunkte": 2,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 11,
      "team": "New Basket Oberhausen 3",
      "spiele": 4,
      "siege": 1,
@@ -469,27 +482,14 @@
      "eigenes": true
     },
     {
-     "rang": 11,
-     "team": "Ruhrbaskets Oberhausen",
-     "spiele": 3,
-     "siege": 0,
-     "niederlagen": 3,
-     "koerbe": 142,
-     "gegenKoerbe": 155,
-     "korbdiff": -13,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
      "rang": 12,
      "team": "VfvB Ruhrort/Laar",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "niederlagen": 3,
-     "koerbe": 42,
-     "gegenKoerbe": 164,
-     "korbdiff": -122,
+     "niederlagen": 4,
+     "koerbe": 60,
+     "gegenKoerbe": 241,
+     "korbdiff": -181,
      "gewinnpunkte": -1,
      "verlustpunkte": 0,
      "eigenes": false
@@ -671,13 +671,13 @@
     {
      "rang": 2,
      "team": "BC Soest",
-     "spiele": 3,
-     "siege": 3,
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 202,
-     "gegenKoerbe": 126,
-     "korbdiff": 76,
-     "gewinnpunkte": 6,
+     "koerbe": 266,
+     "gegenKoerbe": 187,
+     "korbdiff": 79,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -736,12 +736,12 @@
     {
      "rang": 7,
      "team": "Ruhrpott Baskets Herne",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 183,
-     "gegenKoerbe": 106,
-     "korbdiff": 77,
+     "niederlagen": 2,
+     "koerbe": 244,
+     "gegenKoerbe": 170,
+     "korbdiff": 74,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
@@ -823,13 +823,13 @@
     {
      "rang": 1,
      "team": "New Basket Oberhausen",
-     "spiele": 3,
-     "siege": 3,
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 286,
-     "gegenKoerbe": 99,
-     "korbdiff": 187,
-     "gewinnpunkte": 6,
+     "koerbe": 355,
+     "gegenKoerbe": 149,
+     "korbdiff": 206,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": true
     },
@@ -888,12 +888,12 @@
     {
      "rang": 6,
      "team": "Osterather TV",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 210,
-     "gegenKoerbe": 169,
-     "korbdiff": 41,
+     "niederlagen": 2,
+     "koerbe": 260,
+     "gegenKoerbe": 238,
+     "korbdiff": 22,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
@@ -914,13 +914,13 @@
     {
      "rang": 8,
      "team": "Ruhrpott Baskets Herne",
-     "spiele": 3,
-     "siege": 1,
+     "spiele": 4,
+     "siege": 2,
      "niederlagen": 2,
-     "koerbe": 156,
-     "gegenKoerbe": 183,
-     "korbdiff": -27,
-     "gewinnpunkte": 2,
+     "koerbe": 224,
+     "gegenKoerbe": 240,
+     "korbdiff": -16,
+     "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -939,19 +939,6 @@
     },
     {
      "rang": 10,
-     "team": "TG Neuss",
-     "spiele": 3,
-     "siege": 0,
-     "niederlagen": 3,
-     "koerbe": 154,
-     "gegenKoerbe": 248,
-     "korbdiff": -94,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 11,
      "team": "Hürther BC",
      "spiele": 3,
      "siege": 0,
@@ -959,6 +946,19 @@
      "koerbe": 150,
      "gegenKoerbe": 257,
      "korbdiff": -107,
+     "gewinnpunkte": 0,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 11,
+     "team": "TG Neuss",
+     "spiele": 4,
+     "siege": 0,
+     "niederlagen": 4,
+     "koerbe": 211,
+     "gegenKoerbe": 316,
+     "korbdiff": -105,
      "gewinnpunkte": 0,
      "verlustpunkte": 0,
      "eigenes": false
