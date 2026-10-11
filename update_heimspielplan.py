@@ -66,6 +66,7 @@ OUT_PATH = Path(__file__).resolve().parent / 'heimspiele.json'
 OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
 OUT_PATH_RESULTS = Path(__file__).resolve().parent / 'ergebnisse.json'
 OUT_PATH_TABLES = Path(__file__).resolve().parent / 'tabellen.json'
+OUT_PATH_OVERVIEW = Path(__file__).resolve().parent / 'NBO_overview.json'
 
 # Club-ID von New Basket 92 Oberhausen (fuer Pokal-/Zusatzspiele ausserhalb der Ligen)
 CLUB_ID = '5209'
@@ -176,6 +177,7 @@ def fetch_cup_games():
     matches = (response.get('data') or {}).get('matches') or []
 
     home_games, away_games, cup_results = [], [], []
+    cup_raw = []
     locations = {}  # liga_id -> {uid: location}
 
     for match in matches:
@@ -228,6 +230,11 @@ def fetch_cup_games():
             'datetime': iso,
         }
         (home_games if role == 'home' else away_games).append(entry)
+        cup_raw.append({
+            'team': TEAM_LABEL[team], 'liga': liga_name, 'ort': ort,
+            'heimAuswaerts': 'Heim' if role == 'home' else 'Auswärts',
+            'match': match,
+        })
 
         result = match.get('result')
         if result and ':' in result:
@@ -246,7 +253,7 @@ def fetch_cup_games():
                 'sieg': own_pts > opp_pts,
                 'datetime': iso,
             })
-    return home_games, away_games, cup_results
+    return home_games, away_games, cup_results, cup_raw
 
 
 def compute_table_from_matches(matches):
@@ -365,6 +372,7 @@ def fetch_table(team, liga_id):
         'stand': match_day.get('bezeichnung', ''),
         'berechnet': berechnet,
         'tabelle': rows,
+        '_matches': data.get('matches') or [],  # Rohdaten, nur fuer NBO_overview.json
     }
 
 
@@ -430,11 +438,63 @@ def fetch_team_results(team, identifier, mode):
     return results
 
 
+def build_overview_games(team, events, own_name, matches):
+    """Alle Spiele einer Mannschaft (Heim + Auswaerts, vergangen + kuenftig),
+    ungefiltert und aus ICS-Kalender und REST-Spielliste zusammengefuehrt
+    (Schluessel: Spiel-ID = ICS-UID = matchId)."""
+    games = {}
+
+    for event in events:
+        uid = str(event.get('UID', '')).strip() or f"ics-{len(games)}"
+        summary = event.get('SUMMARY', '')
+        teams_part = parse_teams(summary)
+        home = away = role = None
+        if teams_part:
+            home, away, role = split_home_away(teams_part, own_name)
+        try:
+            iso = dtstart_to_iso(event.get('DTSTART', ''))
+        except ValueError:
+            iso = None
+        games[uid] = {
+            'spielId': uid,
+            'datetime': iso,
+            'heimAuswaerts': {'home': 'Heim', 'away': 'Auswärts'}.get(role),
+            'heimteam': home.strip() if home else None,
+            'gastteam': away.strip() if away else None,
+            'ort': event.get('LOCATION', ''),
+            'kalenderText': summary,
+        }
+
+    for match in matches or []:
+        home = (match.get('homeTeam') or {}).get('teamname', '')
+        guest = (match.get('guestTeam') or {}).get('teamname', '')
+        if 'new basket' not in home.lower() and 'new basket' not in guest.lower():
+            continue
+        uid = str(match.get('matchId'))
+        g = games.setdefault(uid, {'spielId': uid, 'ort': ''})
+        try:
+            g['datetime'] = kickoff_to_iso(match.get('kickoffDate', ''), match.get('kickoffTime', ''))
+        except ValueError:
+            g.setdefault('datetime', None)
+        g['heimteam'] = home.strip() or g.get('heimteam')
+        g['gastteam'] = guest.strip() or g.get('gastteam')
+        g['heimAuswaerts'] = 'Heim' if 'new basket' in home.lower() else 'Auswärts'
+        g['spieltag'] = match.get('matchDay')
+        g['spielNr'] = match.get('matchNo')
+        g['ergebnis'] = match.get('result')
+        g['ergebnisBestaetigt'] = match.get('ergebnisbestaetigt')
+        g['abgesagt'] = match.get('abgesagt')
+        g['verzicht'] = match.get('verzicht')
+
+    return sorted(games.values(), key=lambda g: g.get('datetime') or '')
+
+
 def main():
     home_games = []
     away_games = []
     results = []
     tabellen = []
+    overview = []
     errors = []
 
     for team, identifier, mode in ITEMS:
@@ -449,12 +509,26 @@ def main():
         except Exception as exc:
             errors.append(f'{team} (Ergebnisse): {exc}')
 
+        liga_matches = []
         try:
             t = fetch_table(team, liga_id)
+            liga_matches = t.pop('_matches', [])
             tabellen.append(t)
             print(f"TABELLE {t['team']}: {len(t['tabelle'])} Zeilen{' (berechnet)' if t['berechnet'] else ''}")
         except Exception as exc:
             errors.append(f'{team} (Tabelle): {exc}')
+
+        overview.append({
+            'team': TEAM_LABEL[team],
+            'liga': LIGA_SHORT.get(identifier, identifier),
+            'ligaId': liga_id,
+            'eigenerName': own_name,
+            'spiele': build_overview_games(team, events, own_name, liga_matches),
+            'rohdaten': {
+                'kalender': events,        # ICS-Eintraege des NBO-Teams (alle Spiele)
+                'ligaSpiele': liga_matches,  # alle Spiele der gesamten Liga (REST, unveraendert)
+            },
+        })
 
         for event in events:
             summary = event.get('SUMMARY', '')
@@ -485,8 +559,10 @@ def main():
             else:
                 away_games.append(entry)
 
+    overview_cup = []
     try:
-        cup_home, cup_away, cup_results = fetch_cup_games()
+        cup_home, cup_away, cup_results, cup_raw = fetch_cup_games()
+        overview_cup = cup_raw
         home_games.extend(cup_home)
         away_games.extend(cup_away)
         results.extend(cup_results)
@@ -522,11 +598,26 @@ def main():
         encoding='utf-8',
     )
 
+    OUT_PATH_OVERVIEW.write_text(
+        json.dumps(
+            {
+                'erzeugt': datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),
+                'hinweis': 'Rohdaten aller NBO-Mannschaften von basketball-bund.net, ungefiltert '
+                           '(inkl. vergangener Spiele, Platzhalter-Gegner und abgesagter Spiele).',
+                'mannschaften': overview,
+                'pokal': overview_cup,
+            },
+            ensure_ascii=False,
+            indent=1,
+        ),
+        encoding='utf-8',
+    )
+
     print(f'HEIMSPIELE={len(home_games)}')
     print(f'AUSWAERTSSPIELE={len(away_games)}')
     print(f'ERGEBNISSE={len(results)}')
     print(f'TABELLEN={len(tabellen)}')
-    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}, {OUT_PATH_RESULTS}, {OUT_PATH_TABLES}')
+    print(f'DATEIEN={OUT_PATH}, {OUT_PATH_AWAY}, {OUT_PATH_RESULTS}, {OUT_PATH_TABLES}, {OUT_PATH_OVERVIEW}')
     if errors:
         print('FEHLER:')
         for line in errors:
