@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-11T19:49:36.230174+02:00",
+ "erzeugt": "2026-10-11T22:51:48.447089+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -544,26 +544,26 @@
     },
     {
      "rang": 4,
-     "team": "TG Neuss",
-     "spiele": 1,
-     "siege": 1,
-     "niederlagen": 0,
-     "koerbe": 64,
-     "gegenKoerbe": 44,
-     "korbdiff": 20,
-     "gewinnpunkte": 2,
+     "team": "Capitol Bascats Düsseldorf",
+     "spiele": 3,
+     "siege": 2,
+     "niederlagen": 1,
+     "koerbe": 184,
+     "gegenKoerbe": 139,
+     "korbdiff": 45,
+     "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false
     },
     {
      "rang": 5,
-     "team": "Capitol Bascats Düsseldorf",
+     "team": "TG Neuss",
      "spiele": 2,
      "siege": 1,
      "niederlagen": 1,
-     "koerbe": 122,
-     "gegenKoerbe": 95,
-     "korbdiff": 27,
+     "koerbe": 108,
+     "gegenKoerbe": 106,
+     "korbdiff": 2,
      "gewinnpunkte": 2,
      "verlustpunkte": 0,
      "eigenes": false
