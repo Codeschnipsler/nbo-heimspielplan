@@ -2,7 +2,7 @@ name: Heimspiel-Poster aktualisieren
 
 on:
   schedule:
-    - cron: '0 6 * * 1'  # Montags 08:00 Uhr MESZ (UTC+2) / 07:00 Uhr MEZ im Winter
+    - cron: '24 5 * * 1'  # Montags 6:24 Uhr MESZ (UTC+2) / 05:24 Uhr MEZ im Winter
   workflow_dispatch: {}
 
 permissions:
