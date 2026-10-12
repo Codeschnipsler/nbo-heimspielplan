@@ -357,7 +357,8 @@ def fetch_table(team, liga_id):
             'gegenKoerbe': entry.get('gegenKoerbe'),
             'korbdiff': entry.get('korbdiff'),
             'gewinnpunkte': entry.get('anzGewinnpunkte'),
-            'verlustpunkte': entry.get('anzVerlustpunkte'),
+            # API-Feld anzVerlustpunkte ist unzuverlaessig (meist 0): 2 Minuspunkte je Niederlage
+            'verlustpunkte': 2 * (entry.get('n') or 0),
             'eigenes': 'new basket' in name.lower(),
         })
     berechnet = False

@@ -237,7 +237,7 @@ function tableBlock(liga){
         <td class="num">${r.siege}-${r.niederlagen}</td>
         <td class="num">${r.koerbe}:${r.gegenKoerbe}</td>
         <td class="num diff ${diffCls}">${diffStr}</td>
-        <td class="num">${r.gewinnpunkte}:${r.verlustpunkte}</td>
+        <td class="num">${r.gewinnpunkte}:${2 * r.niederlagen}</td>
       </tr>`;
   }).join('');
 
