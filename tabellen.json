@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-12T23:20:12.131377+02:00",
+ "erzeugt": "2026-10-16T10:34:03.241947+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -170,7 +170,7 @@
    "team": "2. Damen",
    "liga": "Regionalliga Damen (RLD)",
    "ligaId": 54586,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -500,7 +500,7 @@
    "team": "U18",
    "liga": "Jugendoberliga 2 U18 weiblich (JOL2U18W)",
    "ligaId": 54888,
-   "stand": "2. Spieltag",
+   "stand": "3. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
