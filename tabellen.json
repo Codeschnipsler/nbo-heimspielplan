@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-17T18:56:20.159634+02:00",
+ "erzeugt": "2026-10-17T21:07:23.700379+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -23,25 +23,25 @@
     },
     {
      "rang": 2,
+     "team": "BG 74 Veilchen Ladies Göttingen",
+     "spiele": 3,
+     "siege": 3,
+     "niederlagen": 0,
+     "koerbe": 222,
+     "gegenKoerbe": 184,
+     "korbdiff": 38,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 3,
      "team": "VfL VIACTIV-AstroLadies Bochum",
      "spiele": 2,
      "siege": 2,
      "niederlagen": 0,
      "koerbe": 143,
      "gegenKoerbe": 115,
-     "korbdiff": 28,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 3,
-     "team": "BG 74 Veilchen Ladies Göttingen",
-     "spiele": 2,
-     "siege": 2,
-     "niederlagen": 0,
-     "koerbe": 150,
-     "gegenKoerbe": 122,
      "korbdiff": 28,
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
@@ -75,19 +75,6 @@
     },
     {
      "rang": 6,
-     "team": "Eimsbütteler Turnverband",
-     "spiele": 2,
-     "siege": 1,
-     "niederlagen": 1,
-     "koerbe": 158,
-     "gegenKoerbe": 134,
-     "korbdiff": 24,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 7,
      "team": "WINGS Leverkusen",
      "spiele": 2,
      "siege": 1,
@@ -100,7 +87,7 @@
      "eigenes": false
     },
     {
-     "rang": 8,
+     "rang": 7,
      "team": "TuS Lichterfelde",
      "spiele": 2,
      "siege": 1,
@@ -113,7 +100,7 @@
      "eigenes": false
     },
     {
-     "rang": 9,
+     "rang": 8,
      "team": "BG 89 AVIDES Hurricanes",
      "spiele": 3,
      "siege": 1,
@@ -121,6 +108,19 @@
      "koerbe": 216,
      "gegenKoerbe": 215,
      "korbdiff": 1,
+     "gewinnpunkte": 2,
+     "verlustpunkte": 4,
+     "eigenes": false
+    },
+    {
+     "rang": 9,
+     "team": "Eimsbütteler Turnverband",
+     "spiele": 3,
+     "siege": 1,
+     "niederlagen": 2,
+     "koerbe": 220,
+     "gegenKoerbe": 206,
+     "korbdiff": 14,
      "gewinnpunkte": 2,
      "verlustpunkte": 4,
      "eigenes": false
