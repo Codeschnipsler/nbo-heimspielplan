@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-16T10:34:03.241947+02:00",
+ "erzeugt": "2026-10-17T14:03:31.092512+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -1166,13 +1166,13 @@
     {
      "rang": 3,
      "team": "TV Emsdetten",
-     "spiele": 2,
-     "siege": 1,
+     "spiele": 3,
+     "siege": 2,
      "niederlagen": 1,
-     "koerbe": 92,
-     "gegenKoerbe": 98,
-     "korbdiff": -6,
-     "gewinnpunkte": 2,
+     "koerbe": 172,
+     "gegenKoerbe": 136,
+     "korbdiff": 36,
+     "gewinnpunkte": 4,
      "verlustpunkte": 2,
      "eigenes": false
     },
@@ -1192,14 +1192,14 @@
     {
      "rang": 5,
      "team": "New Basket 92 Oberhausen 3",
-     "spiele": 1,
+     "spiele": 2,
      "siege": 0,
-     "niederlagen": 1,
-     "koerbe": 33,
-     "gegenKoerbe": 70,
-     "korbdiff": -37,
+     "niederlagen": 2,
+     "koerbe": 71,
+     "gegenKoerbe": 150,
+     "korbdiff": -79,
      "gewinnpunkte": 0,
-     "verlustpunkte": 2,
+     "verlustpunkte": 4,
      "eigenes": true
     },
     {

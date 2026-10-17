@@ -1,5 +1,15 @@
 [
  {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "TV Emsdetten",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 38,
+  "gegnerPunkte": 80,
+  "sieg": false,
+  "datetime": "2026-10-17T10:00:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "Osterather TV",
