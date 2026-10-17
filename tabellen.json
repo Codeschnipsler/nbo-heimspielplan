@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-17T14:03:31.092512+02:00",
+ "erzeugt": "2026-10-17T18:56:20.159634+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -11,13 +11,13 @@
     {
      "rang": 1,
      "team": "Talents BonnRhöndorf",
-     "spiele": 2,
-     "siege": 2,
+     "spiele": 3,
+     "siege": 3,
      "niederlagen": 0,
-     "koerbe": 155,
-     "gegenKoerbe": 107,
-     "korbdiff": 48,
-     "gewinnpunkte": 4,
+     "koerbe": 232,
+     "gegenKoerbe": 170,
+     "korbdiff": 62,
+     "gewinnpunkte": 6,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -62,19 +62,6 @@
     },
     {
      "rang": 5,
-     "team": "BG 89 AVIDES Hurricanes",
-     "spiele": 2,
-     "siege": 1,
-     "niederlagen": 1,
-     "koerbe": 153,
-     "gegenKoerbe": 138,
-     "korbdiff": 15,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 6,
      "team": "BBC Osnabrück",
      "spiele": 2,
      "siege": 1,
@@ -82,6 +69,19 @@
      "koerbe": 133,
      "gegenKoerbe": 132,
      "korbdiff": 1,
+     "gewinnpunkte": 2,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 6,
+     "team": "Eimsbütteler Turnverband",
+     "spiele": 2,
+     "siege": 1,
+     "niederlagen": 1,
+     "koerbe": 158,
+     "gegenKoerbe": 134,
+     "korbdiff": 24,
      "gewinnpunkte": 2,
      "verlustpunkte": 2,
      "eigenes": false
@@ -101,19 +101,6 @@
     },
     {
      "rang": 8,
-     "team": "Eimsbütteler Turnverband",
-     "spiele": 2,
-     "siege": 1,
-     "niederlagen": 1,
-     "koerbe": 158,
-     "gegenKoerbe": 134,
-     "korbdiff": 24,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 9,
      "team": "TuS Lichterfelde",
      "spiele": 2,
      "siege": 1,
@@ -123,6 +110,19 @@
      "korbdiff": -6,
      "gewinnpunkte": 2,
      "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 9,
+     "team": "BG 89 AVIDES Hurricanes",
+     "spiele": 3,
+     "siege": 1,
+     "niederlagen": 2,
+     "koerbe": 216,
+     "gegenKoerbe": 215,
+     "korbdiff": 1,
+     "gewinnpunkte": 2,
+     "verlustpunkte": 4,
      "eigenes": false
     },
     {
