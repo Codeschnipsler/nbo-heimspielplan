@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-17T21:07:23.700379+02:00",
+ "erzeugt": "2026-10-18T00:03:49.588850+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -50,18 +50,31 @@
     {
      "rang": 4,
      "team": "New Basket 92 Oberhausen e.V.",
-     "spiele": 2,
-     "siege": 1,
+     "spiele": 3,
+     "siege": 2,
      "niederlagen": 1,
-     "koerbe": 145,
-     "gegenKoerbe": 126,
-     "korbdiff": 19,
-     "gewinnpunkte": 2,
+     "koerbe": 219,
+     "gegenKoerbe": 196,
+     "korbdiff": 23,
+     "gewinnpunkte": 4,
      "verlustpunkte": 2,
      "eigenes": true
     },
     {
      "rang": 5,
+     "team": "TuS Lichterfelde",
+     "spiele": 3,
+     "siege": 2,
+     "niederlagen": 1,
+     "koerbe": 152,
+     "gegenKoerbe": 138,
+     "korbdiff": 14,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 6,
      "team": "BBC Osnabrück",
      "spiele": 2,
      "siege": 1,
@@ -74,7 +87,7 @@
      "eigenes": false
     },
     {
-     "rang": 6,
+     "rang": 7,
      "team": "WINGS Leverkusen",
      "spiele": 2,
      "siege": 1,
@@ -82,19 +95,6 @@
      "koerbe": 155,
      "gegenKoerbe": 136,
      "korbdiff": 19,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 7,
-     "team": "TuS Lichterfelde",
-     "spiele": 2,
-     "siege": 1,
-     "niederlagen": 1,
-     "koerbe": 132,
-     "gegenKoerbe": 138,
-     "korbdiff": -6,
      "gewinnpunkte": 2,
      "verlustpunkte": 2,
      "eigenes": false
@@ -127,19 +127,6 @@
     },
     {
      "rang": 10,
-     "team": "UBC Münster",
-     "spiele": 2,
-     "siege": 0,
-     "niederlagen": 2,
-     "koerbe": 109,
-     "gegenKoerbe": 152,
-     "korbdiff": -43,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 4,
-     "eigenes": false
-    },
-    {
-     "rang": 11,
      "team": "ChemCats Chemnitz",
      "spiele": 2,
      "siege": 0,
@@ -152,16 +139,29 @@
      "eigenes": false
     },
     {
+     "rang": 11,
+     "team": "UBC Münster",
+     "spiele": 3,
+     "siege": 0,
+     "niederlagen": 3,
+     "koerbe": 179,
+     "gegenKoerbe": 226,
+     "korbdiff": -47,
+     "gewinnpunkte": 0,
+     "verlustpunkte": 6,
+     "eigenes": false
+    },
+    {
      "rang": 12,
      "team": "SCALA Hamburg",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 0,
-     "niederlagen": 2,
+     "niederlagen": 3,
      "koerbe": 87,
-     "gegenKoerbe": 172,
-     "korbdiff": -85,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 4,
+     "gegenKoerbe": 192,
+     "korbdiff": -105,
+     "gewinnpunkte": -1,
+     "verlustpunkte": 6,
      "eigenes": false
     }
    ]
