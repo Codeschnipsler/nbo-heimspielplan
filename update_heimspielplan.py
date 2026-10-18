@@ -386,16 +386,18 @@ def kickoff_to_iso(date_str, time_str):
 
 def fetch_team_results(team, identifier, mode):
     if mode != 'number':
-        # Fuer die 1. Damen liefert dieser REST-Endpunkt aktuell keine
-        # brauchbare Antwort (siehe Diagnose) - daher hier ausgelassen.
+        # 1. Damen ('internal'): Die Ergebnisse kommen aus der Spielliste der
+        # id-Route (siehe main(), results_from_matches), nicht von hier.
         return []
 
     response = json.loads(get(f'{BASE}rest/competition/number/{identifier}/actual?rangeDays=1000'))
     if response.get('status') != '0':
         raise RuntimeError(f'{team}: REST status {response.get("status")} (Ergebnisse)')
     data = response.get('data') or {}
-    matches = data.get('matches') or []
+    return results_from_matches(team, identifier, data.get('matches') or [])
 
+
+def results_from_matches(team, identifier, matches):
     results = []
     for match in matches:
         home = match.get('homeTeam') or {}
@@ -518,6 +520,10 @@ def main():
             print(f"TABELLE {t['team']}: {len(t['tabelle'])} Zeilen{' (berechnet)' if t['berechnet'] else ''}")
         except Exception as exc:
             errors.append(f'{team} (Tabelle): {exc}')
+
+        if mode != 'number':
+            # 1. Damen: Ergebnisse aus der Spielliste der Liga (id-Route)
+            results.extend(results_from_matches(team, identifier, liga_matches))
 
         overview.append({
             'team': TEAM_LABEL[team],
