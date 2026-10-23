@@ -1,11 +1,11 @@
 {
- "erzeugt": "2026-10-19T11:22:06.882117+02:00",
+ "erzeugt": "2026-10-23T10:53:55.053308+02:00",
  "ligen": [
   {
    "team": "1. Damen",
    "liga": "2. DBBL Nord",
    "ligaId": 55746,
-   "stand": "3. Spieltag",
+   "stand": "4. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -500,7 +500,7 @@
    "team": "U18",
    "liga": "Jugendoberliga 2 U18 weiblich (JOL2U18W)",
    "ligaId": 54888,
-   "stand": "3. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
