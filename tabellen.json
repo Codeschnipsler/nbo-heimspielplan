@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-24T14:31:38.199400+02:00",
+ "erzeugt": "2026-10-24T19:17:04.276915+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -11,13 +11,13 @@
     {
      "rang": 1,
      "team": "Talents BonnRhöndorf",
-     "spiele": 3,
-     "siege": 3,
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 232,
-     "gegenKoerbe": 170,
-     "korbdiff": 62,
-     "gewinnpunkte": 6,
+     "koerbe": 292,
+     "gegenKoerbe": 222,
+     "korbdiff": 70,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -49,6 +49,19 @@
     },
     {
      "rang": 4,
+     "team": "BBC Osnabrück",
+     "spiele": 4,
+     "siege": 3,
+     "niederlagen": 1,
+     "koerbe": 320,
+     "gegenKoerbe": 224,
+     "korbdiff": 96,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 5,
      "team": "New Basket 92 Oberhausen e.V.",
      "spiele": 3,
      "siege": 2,
@@ -59,19 +72,6 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 2,
      "eigenes": true
-    },
-    {
-     "rang": 5,
-     "team": "BBC Osnabrück",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 209,
-     "gegenKoerbe": 194,
-     "korbdiff": 15,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 2,
-     "eigenes": false
     },
     {
      "rang": 6,
@@ -127,19 +127,6 @@
     },
     {
      "rang": 10,
-     "team": "UBC Münster",
-     "spiele": 3,
-     "siege": 0,
-     "niederlagen": 3,
-     "koerbe": 179,
-     "gegenKoerbe": 226,
-     "korbdiff": -47,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 6,
-     "eigenes": false
-    },
-    {
-     "rang": 11,
      "team": "ChemCats Chemnitz",
      "spiele": 3,
      "siege": 0,
@@ -152,16 +139,29 @@
      "eigenes": false
     },
     {
+     "rang": 11,
+     "team": "UBC Münster",
+     "spiele": 4,
+     "siege": 0,
+     "niederlagen": 4,
+     "koerbe": 231,
+     "gegenKoerbe": 286,
+     "korbdiff": -55,
+     "gewinnpunkte": 0,
+     "verlustpunkte": 8,
+     "eigenes": false
+    },
+    {
      "rang": 12,
      "team": "SCALA Hamburg",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 0,
-     "niederlagen": 3,
-     "koerbe": 87,
-     "gegenKoerbe": 192,
-     "korbdiff": -105,
+     "niederlagen": 4,
+     "koerbe": 117,
+     "gegenKoerbe": 303,
+     "korbdiff": -186,
      "gewinnpunkte": -1,
-     "verlustpunkte": 6,
+     "verlustpunkte": 8,
      "eigenes": false
     }
    ]
@@ -170,7 +170,7 @@
    "team": "2. Damen",
    "liga": "Regionalliga Damen (RLD)",
    "ligaId": 54586,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -189,13 +189,13 @@
     {
      "rang": 2,
      "team": "DJK Frankenberg",
-     "spiele": 3,
-     "siege": 3,
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 236,
-     "gegenKoerbe": 165,
-     "korbdiff": 71,
-     "gewinnpunkte": 6,
+     "koerbe": 330,
+     "gegenKoerbe": 241,
+     "korbdiff": 89,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -214,19 +214,6 @@
     },
     {
      "rang": 4,
-     "team": "TSV Hagen",
-     "spiele": 3,
-     "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 243,
-     "gegenKoerbe": 213,
-     "korbdiff": 30,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 5,
      "team": "TSVE 1890 Bielefeld",
      "spiele": 3,
      "siege": 2,
@@ -239,7 +226,7 @@
      "eigenes": false
     },
     {
-     "rang": 6,
+     "rang": 5,
      "team": "TV Gerthe",
      "spiele": 3,
      "siege": 2,
@@ -249,6 +236,19 @@
      "korbdiff": -17,
      "gewinnpunkte": 4,
      "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 6,
+     "team": "TSV Hagen",
+     "spiele": 4,
+     "siege": 2,
+     "niederlagen": 2,
+     "koerbe": 319,
+     "gegenKoerbe": 307,
+     "korbdiff": 12,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 4,
      "eigenes": false
     },
     {
@@ -1538,7 +1538,7 @@
    "team": "U12 II",
    "liga": "Jugendoberliga 3 U12 weiblich (JOL3U12W)",
    "ligaId": 54925,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
