@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-23T10:53:55.053308+02:00",
+ "erzeugt": "2026-10-24T14:31:38.199400+02:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -36,7 +36,7 @@
     },
     {
      "rang": 3,
-     "team": "BG 74 Veilchen Ladies Göttingen",
+     "team": "BG 74 Veilchen Ladies",
      "spiele": 3,
      "siege": 3,
      "niederlagen": 0,
@@ -1134,7 +1134,7 @@
    "team": "U14 III",
    "liga": "Kreisliga U14 weiblich Gr. B",
    "ligaId": 53586,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1399,7 +1399,7 @@
    "team": "U12 I",
    "liga": "Jugendoberliga 2 U12 weiblich (JOL2U12W)",
    "ligaId": 54924,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
