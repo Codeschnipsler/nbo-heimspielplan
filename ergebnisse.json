@@ -2,6 +2,16 @@
  {
   "liga": "2. Bundesliga Nord",
   "team": "1. Damen",
+  "gegner": "BG 89 AVIDES Hurricanes",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 73,
+  "gegnerPunkte": 77,
+  "sieg": false,
+  "datetime": "2026-10-24T16:30:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
   "gegner": "UBC Münster",
   "heimAuswaerts": "Heim",
   "eigenePunkte": 74,
