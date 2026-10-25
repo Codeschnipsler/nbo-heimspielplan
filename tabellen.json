@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-25T00:19:22.828758+02:00",
+ "erzeugt": "2026-10-25T14:04:15.349280+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -817,7 +817,7 @@
    "team": "U14 I",
    "liga": "2.Regionalliga U14 weiblich (2JRLU14W) ",
    "ligaId": 54903,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -982,7 +982,7 @@
    "team": "U14 II",
    "liga": "Jugendoberliga 3 U14 weiblich (JOL3U14W)",
    "ligaId": 54906,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1221,7 +1221,7 @@
    "team": "U14 o",
    "liga": "U14o KL Essen",
    "ligaId": 55709,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
