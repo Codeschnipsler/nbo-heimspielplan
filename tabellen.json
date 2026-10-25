@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-25T14:04:15.349280+01:00",
+ "erzeugt": "2026-10-25T18:31:01.266929+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -23,32 +23,19 @@
     },
     {
      "rang": 2,
-     "team": "VfL VIACTIV-AstroLadies Bochum",
-     "spiele": 3,
-     "siege": 3,
+     "team": "BG 74 Veilchen Ladies",
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 225,
-     "gegenKoerbe": 180,
-     "korbdiff": 45,
-     "gewinnpunkte": 6,
+     "koerbe": 301,
+     "gegenKoerbe": 253,
+     "korbdiff": 48,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
     {
      "rang": 3,
-     "team": "BG 74 Veilchen Ladies",
-     "spiele": 3,
-     "siege": 3,
-     "niederlagen": 0,
-     "koerbe": 222,
-     "gegenKoerbe": 184,
-     "korbdiff": 38,
-     "gewinnpunkte": 6,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 4,
      "team": "BBC Osnabrück",
      "spiele": 4,
      "siege": 3,
@@ -56,6 +43,19 @@
      "koerbe": 320,
      "gegenKoerbe": 224,
      "korbdiff": 96,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 4,
+     "team": "VfL VIACTIV-AstroLadies Bochum",
+     "spiele": 4,
+     "siege": 3,
+     "niederlagen": 1,
+     "koerbe": 294,
+     "gegenKoerbe": 259,
+     "korbdiff": 35,
      "gewinnpunkte": 6,
      "verlustpunkte": 2,
      "eigenes": false
