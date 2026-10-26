@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-25T23:23:38.483979+01:00",
+ "erzeugt": "2026-10-26T10:26:12.828265+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -652,7 +652,7 @@
    "team": "U16",
    "liga": "2. Regionalliga U16 weiblich (2JRLU16W)",
    "ligaId": 54893,
-   "stand": "4. Spieltag",
+   "stand": "5. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1677,7 +1677,7 @@
    "team": "U10",
    "liga": "Jugendoberliga 1 U10 weiblich (JOL1U10W)",
    "ligaId": 54928,
-   "stand": "2. Spieltag",
+   "stand": "3. Spieltag",
    "berechnet": true,
    "tabelle": [
     {
