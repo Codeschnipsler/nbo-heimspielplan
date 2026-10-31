@@ -10,16 +10,6 @@
   "datetime": "2026-10-24T16:30:00+00:00"
  },
  {
-  "liga": "2. Bundesliga Nord",
-  "team": "1. Damen",
-  "gegner": "UBC Münster",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 74,
-  "gegnerPunkte": 70,
-  "sieg": true,
-  "datetime": "2026-10-17T17:30:00+00:00"
- },
- {
   "liga": "Kreisliga Gr. B",
   "team": "U14 III",
   "gegner": "TV Emsdetten",

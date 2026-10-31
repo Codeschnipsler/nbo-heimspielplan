@@ -196,6 +196,13 @@
   "datetime": "2026-11-14T15:00:00+00:00"
  },
  {
+  "liga": "DBBL-Pokal",
+  "team": "1. Damen",
+  "gegner": "WINGS Leverkusen",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-14T18:30:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 3",
   "team": "U14 II",
   "gegner": "VfL AstroStars Bochum",
