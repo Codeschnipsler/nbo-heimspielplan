@@ -2,6 +2,16 @@
  {
   "liga": "2. Bundesliga Nord",
   "team": "1. Damen",
+  "gegner": "BG 74 Veilchen Ladies",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 62,
+  "gegnerPunkte": 64,
+  "sieg": false,
+  "datetime": "2026-10-31T18:30:00+00:00"
+ },
+ {
+  "liga": "2. Bundesliga Nord",
+  "team": "1. Damen",
   "gegner": "BG 89 AVIDES Hurricanes",
   "heimAuswaerts": "Auswärts",
   "eigenePunkte": 73,
