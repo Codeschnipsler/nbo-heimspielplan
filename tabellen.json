@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-31T21:25:50.200538+01:00",
+ "erzeugt": "2026-11-01T15:52:01.850001+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -40,9 +40,9 @@
      "spiele": 5,
      "siege": 4,
      "niederlagen": 1,
-     "koerbe": 372,
-     "gegenKoerbe": 314,
-     "korbdiff": 58,
+     "koerbe": 310,
+     "gegenKoerbe": 249,
+     "korbdiff": 61,
      "gewinnpunkte": 8,
      "verlustpunkte": 2,
      "eigenes": false
@@ -62,19 +62,6 @@
     },
     {
      "rang": 5,
-     "team": "WINGS Leverkusen",
-     "spiele": 5,
-     "siege": 3,
-     "niederlagen": 2,
-     "koerbe": 365,
-     "gegenKoerbe": 325,
-     "korbdiff": 40,
-     "gewinnpunkte": 6,
-     "verlustpunkte": 4,
-     "eigenes": false
-    },
-    {
-     "rang": 6,
      "team": "TuS Lichterfelde",
      "spiele": 5,
      "siege": 3,
@@ -83,6 +70,19 @@
      "gegenKoerbe": 286,
      "korbdiff": 3,
      "gewinnpunkte": 6,
+     "verlustpunkte": 4,
+     "eigenes": false
+    },
+    {
+     "rang": 6,
+     "team": "WINGS Leverkusen",
+     "spiele": 5,
+     "siege": 3,
+     "niederlagen": 2,
+     "koerbe": 300,
+     "gegenKoerbe": 263,
+     "korbdiff": 37,
+     "gewinnpunkte": 5,
      "verlustpunkte": 4,
      "eigenes": false
     },
