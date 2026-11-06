@@ -1,11 +1,11 @@
 {
- "erzeugt": "2026-11-02T12:45:05.929097+01:00",
+ "erzeugt": "2026-11-06T12:39:57.054640+01:00",
  "ligen": [
   {
    "team": "1. Damen",
    "liga": "2. DBBL Nord",
    "ligaId": 55746,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1000,19 +1000,6 @@
     },
     {
      "rang": 2,
-     "team": "New Basket Oberhausen 2",
-     "spiele": 3,
-     "siege": 3,
-     "niederlagen": 0,
-     "koerbe": 234,
-     "gegenKoerbe": 100,
-     "korbdiff": 134,
-     "gewinnpunkte": 6,
-     "verlustpunkte": 0,
-     "eigenes": true
-    },
-    {
-     "rang": 3,
      "team": "TV Gerthe 2",
      "spiele": 3,
      "siege": 3,
@@ -1023,6 +1010,19 @@
      "gewinnpunkte": 6,
      "verlustpunkte": 0,
      "eigenes": false
+    },
+    {
+     "rang": 3,
+     "team": "New Basket Oberhausen 2",
+     "spiele": 4,
+     "siege": 3,
+     "niederlagen": 1,
+     "koerbe": 284,
+     "gegenKoerbe": 182,
+     "korbdiff": 102,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 2,
+     "eigenes": true
     },
     {
      "rang": 4,
@@ -1039,6 +1039,19 @@
     },
     {
      "rang": 5,
+     "team": "TV Germania Kaiserau",
+     "spiele": 3,
+     "siege": 2,
+     "niederlagen": 1,
+     "koerbe": 228,
+     "gegenKoerbe": 141,
+     "korbdiff": 87,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 6,
      "team": "Herner TC 2",
      "spiele": 4,
      "siege": 2,
@@ -1048,19 +1061,6 @@
      "korbdiff": -43,
      "gewinnpunkte": 4,
      "verlustpunkte": 4,
-     "eigenes": false
-    },
-    {
-     "rang": 6,
-     "team": "TV Germania Kaiserau",
-     "spiele": 2,
-     "siege": 1,
-     "niederlagen": 1,
-     "koerbe": 146,
-     "gegenKoerbe": 91,
-     "korbdiff": 55,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 2,
      "eigenes": false
     },
     {

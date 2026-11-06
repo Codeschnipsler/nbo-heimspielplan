@@ -1,5 +1,15 @@
 [
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "TV Germania Kaiserau",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 50,
+  "gegnerPunkte": 82,
+  "sieg": false,
+  "datetime": "2026-11-03T17:00:00+00:00"
+ },
+ {
   "liga": "2. Bundesliga Nord",
   "team": "1. Damen",
   "gegner": "BG 74 Veilchen Ladies",
@@ -100,16 +110,6 @@
   "datetime": "2026-10-10T12:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TuS Hilden",
-  "heimAuswaerts": "Auswärts",
-  "eigenePunkte": 57,
-  "gegnerPunkte": 40,
-  "sieg": true,
-  "datetime": "2026-10-04T12:00:00+00:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "CroBaskets Essen",
@@ -200,16 +200,6 @@
   "datetime": "2026-09-27T10:00:00+00:00"
  },
  {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "Herner TC 2",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 99,
-  "gegnerPunkte": 32,
-  "sieg": true,
-  "datetime": "2026-09-27T08:00:00+00:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "Osterather TV",
@@ -248,16 +238,6 @@
   "gegnerPunkte": 43,
   "sieg": false,
   "datetime": "2026-09-26T08:00:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 3",
-  "team": "U14 II",
-  "gegner": "TVE Dortmund Barop",
-  "heimAuswaerts": "Auswärts",
-  "eigenePunkte": 78,
-  "gegnerPunkte": 28,
-  "sieg": true,
-  "datetime": "2026-09-20T14:00:00+00:00"
  },
  {
   "liga": "Jugendoberliga 3",
