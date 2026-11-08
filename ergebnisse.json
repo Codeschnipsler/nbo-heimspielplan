@@ -1,5 +1,35 @@
 [
  {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Capitol Bascats Düsseldorf",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 85,
+  "gegnerPunkte": 74,
+  "sieg": true,
+  "datetime": "2026-11-08T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "TG Neuss",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 60,
+  "gegnerPunkte": 107,
+  "sieg": false,
+  "datetime": "2026-11-08T11:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "DJK Adler Frintrop 2",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 71,
+  "gegnerPunkte": 48,
+  "sieg": true,
+  "datetime": "2026-11-08T09:00:00+00:00"
+ },
+ {
   "liga": "Landesliga 3",
   "team": "3. Damen",
   "gegner": "RSV Borken",
