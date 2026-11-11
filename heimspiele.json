@@ -7,6 +7,13 @@
   "datetime": "2026-09-19T12:00:00+00:00"
  },
  {
+  "liga": "Testspiel",
+  "team": "1. Damen",
+  "gegner": "Nederland",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-11T20:30:00+01:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "RheinStars Köln 2",
