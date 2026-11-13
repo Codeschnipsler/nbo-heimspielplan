@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-09T13:15:03.329826+01:00",
+ "erzeugt": "2026-11-13T12:40:26.688973+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -170,7 +170,7 @@
    "team": "2. Damen",
    "liga": "Regionalliga Damen (RLD)",
    "ligaId": 54586,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -500,7 +500,7 @@
    "team": "U18",
    "liga": "Jugendoberliga 2 U18 weiblich (JOL2U18W)",
    "ligaId": 54888,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -652,7 +652,7 @@
    "team": "U16",
    "liga": "2. Regionalliga U16 weiblich (2JRLU16W)",
    "ligaId": 54893,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -817,7 +817,7 @@
    "team": "U14 I",
    "liga": "2.Regionalliga U14 weiblich (2JRLU14W) ",
    "ligaId": 54903,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -982,7 +982,7 @@
    "team": "U14 II",
    "liga": "Jugendoberliga 3 U14 weiblich (JOL3U14W)",
    "ligaId": 54906,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1001,13 +1001,13 @@
     {
      "rang": 2,
      "team": "Ruhrbaskets Oberhausen",
-     "spiele": 3,
-     "siege": 3,
+     "spiele": 4,
+     "siege": 4,
      "niederlagen": 0,
-     "koerbe": 184,
+     "koerbe": 204,
      "gegenKoerbe": 101,
-     "korbdiff": 83,
-     "gewinnpunkte": 6,
+     "korbdiff": 103,
+     "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -1052,7 +1052,7 @@
     },
     {
      "rang": 6,
-     "team": "TuS Hilden",
+     "team": "Hilden 96ers",
      "spiele": 5,
      "siege": 2,
      "niederlagen": 3,
@@ -1078,19 +1078,6 @@
     },
     {
      "rang": 8,
-     "team": "VfL AstroStars Bochum",
-     "spiele": 1,
-     "siege": 0,
-     "niederlagen": 1,
-     "koerbe": 37,
-     "gegenKoerbe": 106,
-     "korbdiff": -69,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 9,
      "team": "Barmer TV",
      "spiele": 2,
      "siege": 0,
@@ -1103,7 +1090,7 @@
      "eigenes": false
     },
     {
-     "rang": 10,
+     "rang": 9,
      "team": "ETB Miners Essen",
      "spiele": 3,
      "siege": 0,
@@ -1116,7 +1103,7 @@
      "eigenes": false
     },
     {
-     "rang": 11,
+     "rang": 10,
      "team": "TVE Dortmund Barop",
      "spiele": 5,
      "siege": 0,
@@ -1127,6 +1114,19 @@
      "gewinnpunkte": 0,
      "verlustpunkte": 10,
      "eigenes": false
+    },
+    {
+     "rang": 11,
+     "team": "VfL AstroStars Bochum",
+     "spiele": 2,
+     "siege": 0,
+     "niederlagen": 2,
+     "koerbe": 37,
+     "gegenKoerbe": 126,
+     "korbdiff": -89,
+     "gewinnpunkte": -1,
+     "verlustpunkte": 4,
+     "eigenes": false
     }
    ]
   },
@@ -1134,7 +1134,7 @@
    "team": "U14 III",
    "liga": "Kreisliga U14 weiblich Gr. B",
    "ligaId": 53586,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1221,7 +1221,7 @@
    "team": "U14 o",
    "liga": "U14o KL Essen",
    "ligaId": 55709,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1399,7 +1399,7 @@
    "team": "U12 I",
    "liga": "Jugendoberliga 2 U12 weiblich (JOL2U12W)",
    "ligaId": 54924,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1538,7 +1538,7 @@
    "team": "U12 II",
    "liga": "Jugendoberliga 3 U12 weiblich (JOL3U12W)",
    "ligaId": 54925,
-   "stand": "5. Spieltag",
+   "stand": "6. Spieltag",
    "berechnet": false,
    "tabelle": [
     {

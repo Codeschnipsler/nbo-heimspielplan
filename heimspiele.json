@@ -7,13 +7,6 @@
   "datetime": "2026-09-19T12:00:00+00:00"
  },
  {
-  "liga": "Testspiel",
-  "team": "1. Damen",
-  "gegner": "Nederland",
-  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-  "datetime": "2026-11-11T20:30:00+01:00"
- },
- {
   "liga": "2. Regionalliga",
   "team": "U14 I",
   "gegner": "RheinStars Köln 2",
@@ -569,7 +562,7 @@
  {
   "liga": "Jugendoberliga 3",
   "team": "U14 II",
-  "gegner": "TuS Hilden",
+  "gegner": "Hilden 96ers",
   "ort": "Hunsrückstraße 55, 46047, Oberhausen",
   "datetime": "2027-01-31T13:00:00+00:00"
  },
