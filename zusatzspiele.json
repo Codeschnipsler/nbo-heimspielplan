@@ -1,0 +1,16 @@
+[
+ {
+  "liga": "Testspiel",
+  "team": "1. Damen",
+  "gegner": "Netherlands U19",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-11T20:30:00+01:00"
+ },
+ {
+  "liga": "Testspiel",
+  "team": "1. Damen",
+  "gegner": "Entenhausen",
+  "ort": "Hunsrückstraße 55, 46047, Oberhausen",
+  "datetime": "2026-11-13T18:00:00+01:00"
+ }
+]
