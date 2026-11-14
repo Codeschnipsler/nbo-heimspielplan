@@ -1,5 +1,45 @@
 [
  {
+  "liga": "Landesliga 3",
+  "team": "3. Damen",
+  "gegner": "VfvB Ruhrort/Laar",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 70,
+  "gegnerPunkte": 43,
+  "sieg": true,
+  "datetime": "2026-11-14T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "Talents BonnRhöndorf 2",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 30,
+  "gegnerPunkte": 46,
+  "sieg": false,
+  "datetime": "2026-11-14T12:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U12 I",
+  "gegner": "Talents BonnRhöndorf",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 49,
+  "gegnerPunkte": 85,
+  "sieg": false,
+  "datetime": "2026-11-14T11:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 1",
+  "team": "U10",
+  "gegner": "TV Gerthe",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 29,
+  "gegnerPunkte": 79,
+  "sieg": false,
+  "datetime": "2026-11-14T10:45:00+00:00"
+ },
+ {
   "liga": "2. Regionalliga",
   "team": "U16",
   "gegner": "TG Neuss 2",
@@ -120,16 +160,6 @@
   "datetime": "2026-10-31T18:30:00+00:00"
  },
  {
-  "liga": "Kreisliga Gr. B",
-  "team": "U14 III",
-  "gegner": "TV Emsdetten",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 38,
-  "gegnerPunkte": 80,
-  "sieg": false,
-  "datetime": "2026-10-17T10:00:00+00:00"
- },
- {
   "liga": "DBBL-Pokal",
   "team": "1. Damen",
   "gegner": "VfL Viactiv Astro Ladies Bochum",
@@ -138,25 +168,5 @@
   "gegnerPunkte": 59,
   "sieg": true,
   "datetime": "2026-10-10T17:30:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 1",
-  "team": "U10",
-  "gegner": "Ruhrbaskets Oberhausen",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 24,
-  "gegnerPunkte": 52,
-  "sieg": false,
-  "datetime": "2026-09-26T09:15:00+00:00"
- },
- {
-  "liga": "Jugendoberliga 1",
-  "team": "U10",
-  "gegner": "Basket Duisburg",
-  "heimAuswaerts": "Auswärts",
-  "eigenePunkte": 27,
-  "gegnerPunkte": 43,
-  "sieg": false,
-  "datetime": "2026-09-26T08:00:00+00:00"
  }
 ]
