@@ -1,10 +1,40 @@
 [
  {
+  "liga": "DBBL-Pokal",
+  "team": "1. Damen",
+  "gegner": "WINGS Leverkusen",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 47,
+  "gegnerPunkte": 100,
+  "sieg": false,
+  "datetime": "2026-11-14T18:30:00+00:00"
+ },
+ {
+  "liga": "Regionalliga",
+  "team": "2. Damen",
+  "gegner": "Talents BonnRhöndorf 2",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 65,
+  "gegnerPunkte": 71,
+  "sieg": false,
+  "datetime": "2026-11-14T15:00:00+00:00"
+ },
+ {
   "liga": "Landesliga 3",
   "team": "3. Damen",
   "gegner": "VfvB Ruhrort/Laar",
   "heimAuswaerts": "Heim",
   "eigenePunkte": 70,
+  "gegnerPunkte": 43,
+  "sieg": true,
+  "datetime": "2026-11-14T13:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Essen",
+  "team": "U14 o",
+  "gegner": "TSV Viktoria Mülheim 2",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 55,
   "gegnerPunkte": 43,
   "sieg": true,
   "datetime": "2026-11-14T13:00:00+00:00"
@@ -158,15 +188,5 @@
   "gegnerPunkte": 64,
   "sieg": false,
   "datetime": "2026-10-31T18:30:00+00:00"
- },
- {
-  "liga": "DBBL-Pokal",
-  "team": "1. Damen",
-  "gegner": "VfL Viactiv Astro Ladies Bochum",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 74,
-  "gegnerPunkte": 59,
-  "sieg": true,
-  "datetime": "2026-10-10T17:30:00+00:00"
  }
 ]
