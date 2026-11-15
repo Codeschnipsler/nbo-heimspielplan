@@ -1,5 +1,45 @@
 [
  {
+  "liga": "Jugendoberliga 3",
+  "team": "U12 II",
+  "gegner": "CroBaskets Essen",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 165,
+  "gegnerPunkte": 18,
+  "sieg": true,
+  "datetime": "2026-11-15T14:00:00+00:00"
+ },
+ {
+  "liga": "2. Regionalliga",
+  "team": "U16",
+  "gegner": "BC Soest",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 56,
+  "gegnerPunkte": 64,
+  "sieg": false,
+  "datetime": "2026-11-15T13:00:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 3",
+  "team": "U14 II",
+  "gegner": "VfL AstroStars Bochum",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 100,
+  "gegnerPunkte": 44,
+  "sieg": true,
+  "datetime": "2026-11-15T12:00:00+00:00"
+ },
+ {
+  "liga": "Kreisliga Gr. B",
+  "team": "U14 III",
+  "gegner": "S.C. Union Lüdinghausen",
+  "heimAuswaerts": "Auswärts",
+  "eigenePunkte": 36,
+  "gegnerPunkte": 94,
+  "sieg": false,
+  "datetime": "2026-11-15T09:00:00+00:00"
+ },
+ {
   "liga": "DBBL-Pokal",
   "team": "1. Damen",
   "gegner": "WINGS Leverkusen",
