@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-15T19:13:25.765088+01:00",
+ "erzeugt": "2026-11-15T22:32:42.981902+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -505,6 +505,19 @@
    "tabelle": [
     {
      "rang": 1,
+     "team": "Talents BonnRhöndorf",
+     "spiele": 5,
+     "siege": 5,
+     "niederlagen": 0,
+     "koerbe": 449,
+     "gegenKoerbe": 205,
+     "korbdiff": 244,
+     "gewinnpunkte": 10,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 2,
      "team": "SG Bergische Löwen",
      "spiele": 4,
      "siege": 4,
@@ -517,46 +530,20 @@
      "eigenes": false
     },
     {
-     "rang": 2,
-     "team": "Talents BonnRhöndorf",
+     "rang": 3,
+     "team": "Osterather TV",
      "spiele": 4,
      "siege": 4,
      "niederlagen": 0,
-     "koerbe": 376,
-     "gegenKoerbe": 160,
-     "korbdiff": 216,
+     "koerbe": 277,
+     "gegenKoerbe": 171,
+     "korbdiff": 106,
      "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
     },
     {
-     "rang": 3,
-     "team": "Osterather TV",
-     "spiele": 3,
-     "siege": 3,
-     "niederlagen": 0,
-     "koerbe": 215,
-     "gegenKoerbe": 134,
-     "korbdiff": 81,
-     "gewinnpunkte": 6,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
      "rang": 4,
-     "team": "Capitol Bascats Düsseldorf",
-     "spiele": 4,
-     "siege": 2,
-     "niederlagen": 2,
-     "koerbe": 219,
-     "gegenKoerbe": 211,
-     "korbdiff": 8,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 4,
-     "eigenes": false
-    },
-    {
-     "rang": 5,
      "team": "New Basket Oberhausen",
      "spiele": 5,
      "siege": 2,
@@ -567,6 +554,19 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 6,
      "eigenes": true
+    },
+    {
+     "rang": 5,
+     "team": "Capitol Bascats Düsseldorf",
+     "spiele": 5,
+     "siege": 2,
+     "niederlagen": 3,
+     "koerbe": 256,
+     "gegenKoerbe": 273,
+     "korbdiff": -17,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 6,
+     "eigenes": false
     },
     {
      "rang": 6,
@@ -597,14 +597,14 @@
     {
      "rang": 8,
      "team": "TG Neuss",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 1,
-     "niederlagen": 2,
-     "koerbe": 143,
-     "gegenKoerbe": 153,
-     "korbdiff": -10,
+     "niederlagen": 3,
+     "koerbe": 188,
+     "gegenKoerbe": 226,
+     "korbdiff": -38,
      "gewinnpunkte": 2,
-     "verlustpunkte": 4,
+     "verlustpunkte": 6,
      "eigenes": false
     },
     {
