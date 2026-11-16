@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Overlay-Simulation</title>
+<style>
+  :root { --bg:#0a0e1a; --panel:#121a2e; --line:#23304d; --fg:#e8edf7; --mut:#8c9bb8; --acc:#1aa0b8; --ok:#4cd07d; --warn:#ffb347; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,Segoe UI,Roboto,Arial,sans-serif; padding:20px 16px 40px; }
+  .wrap { max-width:1100px; margin:0 auto; display:grid; gap:18px; }
+  h1 { margin:0; font-size:20px; letter-spacing:.02em; }
+  h1 small { color:var(--mut); font-weight:400; font-size:13px; margin-left:8px; }
+  .zeit { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px; display:grid; gap:12px; justify-items:center; }
+  .zeit input[type=datetime-local] { font:600 24px system-ui,Arial; color:var(--fg); background:var(--bg); border:1px solid var(--acc); border-radius:8px; padding:8px 12px; color-scheme:dark; max-width:100%; }
+  .btns { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+  button { font:inherit; color:var(--fg); background:var(--bg); border:1px solid var(--line); border-radius:8px; padding:6px 12px; cursor:pointer; }
+  button:hover { border-color:var(--acc); }
+  .vorschau { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px; }
+  canvas { width:100%; height:auto; display:block; border-radius:6px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+  @media (max-width:800px) { .grid { grid-template-columns:1fr; } }
+  .box { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:14px 16px; min-width:0; }
+  .box h2 { margin:0 0 8px; font-size:13px; color:var(--mut); text-transform:uppercase; letter-spacing:.08em; }
+  .box dl { margin:0; display:grid; grid-template-columns:auto 1fr; gap:4px 14px; }
+  .box dt { color:var(--mut); } .box dd { margin:0; font-weight:600; overflow-wrap:anywhere; }
+  ul { list-style:none; margin:0; padding:0; display:grid; gap:4px; }
+  li { padding:6px 8px; border-radius:6px; border:1px solid transparent; }
+  li.sel { border-color:var(--ok); background:rgba(76,208,125,.1); }
+  li .u { color:var(--mut); font-variant-numeric:tabular-nums; margin-right:8px; }
+  .why { color:var(--mut); font-size:13px; margin-top:8px; }
+  .warn { color:var(--warn); }
+  .leer { color:var(--mut); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Overlay-Simulation <small id="stand"></small></h1>
+
+  <div class="zeit">
+    <input type="datetime-local" id="zeit" step="60">
+    <div class="btns">
+      <button data-d="-1440">−1 Tag</button><button data-d="-60">−1 Std</button><button data-d="-15">−15 Min</button>
+      <button id="jetzt">Jetzt</button>
+      <button data-d="15">+15 Min</button><button data-d="60">+1 Std</button><button data-d="1440">+1 Tag</button>
+    </div>
+    <div class="btns" id="spiele-btn"></div>
+  </div>
+
+  <div class="vorschau"><canvas id="cv" width="1920" height="1080"></canvas></div>
+
+  <div class="grid">
+    <div class="box"><h2>Was das Overlay zeigt</h2><dl id="info"></dl><div class="why" id="why"></div></div>
+    <div class="box"><h2>Heimspiele an diesem Tag</h2><ul id="tag"></ul></div>
+  </div>
+</div>
+
+<script>
+const CFG = { ort: 'Hunsrückstraße', heimname: 'Oberhausen', heim: 'NBO', dauer: 120,
+  games: 'heimspiele.json', extra: 'zusatzspiele.json', kurz: 'kurznamen.json',
+  sponsor: 'D1_Spieltag_Sponsor.png', sponsorohne: 'D1_Spieltag_ohne_Sponsor.png', jugend: 'Jugend_Spieltag.png' };
+const TZ = 'Europe/Berlin';
+
+/* ===== Logik 1:1 aus overlay-roi.html ===== */
+const KURZ_EINGEBAUT = {
+  'barmer tv': 'Barmer TV',
+  'bc langendreer': 'Langendreer',
+  'bc soest': 'Soest',
+  'bbv köln-nordwest': 'Köln-Nordwest',
+  'bg 74 veilchen ladies göttingen': 'Göttingen',
+  'bg 89 avides hurricanes': 'Hurricanes',
+  'bg dorsten': 'Dorsten',
+  'bg kamp-lintfort': 'Kamp-Lintfort',
+  'bg niederrhein': 'Niederrhein',
+  'bonner sv roleber': 'Bonn Roleber',
+  'btv basketball brühl': 'Brühl',
+  'capitol bascats düsseldorf': 'Bascats',
+  'chemcats chemnitz': 'Chemnitz',
+  'citybasket recklinghausen': 'Recklinghausen',
+  'crobaskets essen': 'CroBaskets',
+  'djk adler frintrop': 'Frintrop',
+  'djk tusa düsseldorf': 'Düsseldorf',
+  'djk frankenberg': 'Frankenberg',
+  'dtv basketball köln': 'DTV Köln',
+  'eimsbütteler turnverband': 'Eimsbüttel',
+  'etb miners essen': 'ETB Miners',
+  'fc schalke 04': 'Schalke 04',
+  'gymnastikverein waltrop': 'Waltrop',
+  'herner tc': 'Herner TC',
+  'hürther bc': 'Hürther BC',
+  'isd sportverein': 'ISD SV',
+  'lippebaskets werne': 'Lippebaskets',
+  'mtg horst': 'MTG Horst',
+  'mülheimer tg 56er bären': 'Mülheim',
+  'rheinstars köln': 'RheinStars',
+  'rsv borken': 'Borken',
+  'ruhrbaskets oberhausen': 'Ruhrbaskets',
+  'ruhrpott baskets herne': 'Ruhrpott Herne',
+  's.c. union lüdinghausen': 'Lüdinghausen',
+  'sca ochtrup': 'Ochtrup',
+  'scala hamburg': 'Scala Hamburg',
+  'sg bergische löwen': 'Bergische Löwen',
+  'sg djk g-w nottuln ak': 'Nottuln',
+  'sv djk g-w nottuln ak': 'Nottuln',
+  'sportclub krefeld': 'Krefeld',
+  'sterkrade 69ers': 'Sterkrade 69ers',
+  'sv eintracht erle': 'Erle',
+  'talents bonnrhöndorf': 'Talents Bonn',
+  'tg neuss': 'Neuss',
+  'tsv hagen': 'Hagen',
+  'tsv urdenbach': 'Urdenbach',
+  'tsve 1890 bielefeld': 'Bielefeld',
+  'tv emsdetten': 'Emsdetten',
+  'tv gerthe': 'Gerthe',
+  'tv goch': 'Goch',
+  'tv jahn 1911 königshardt e.v.': 'Königshardt',
+  'tus hilden': 'Hilden',
+  'tus lichterfelde': 'Lichterfelde',
+  'ubc münster': 'UBC Münster',
+  'tve dortmund barop': 'Barop',
+  'osterather tv': 'Osterath',
+  'vfl astrostars bochum': 'AstroStars',
+  'vfl viactiv-astroladies bochum': 'AstroLadies',
+  'vfvb ruhrort/laar': 'Ruhrort/Laar',
+  'willicher tv': 'Willich',
+  'wings leverkusen': 'Leverkusen'
+};
+const VORSILBEN = /^(tv|tus|tsv|tsve|sv|sg|bg|bc|vfl|vfvb|vfb|dtv|djk|mtg|btv|ubc|rsv|sca|fc|bbv|etb|isd|tve|s\.c\.|sportclub|turnverein|post|polizei)\s+/;
+
+let KURZNAMEN = {};
+function setKurz(obj) {
+  const m = {};
+  for (const k in KURZ_EINGEBAUT) m[normName(k)] = KURZ_EINGEBAUT[k];
+  for (const k in (obj || {})) if (typeof obj[k] === 'string' && !k.startsWith('_')) m[normName(k)] = obj[k];
+  KURZNAMEN = m;
+}
+
+function normName(n) { return String(n || '').normalize('NFC').toLowerCase().replace(/[\u2010-\u2015]/g, '-').replace(/\s+/g, ' ').trim(); }
+
+function autoKurz(n) {
+  let t = n;
+  for (let i = 0; i < 4; i++) { const u = t.replace(VORSILBEN, ''); if (u === t) break; t = u; }
+  t = t.replace(/\b(basketball|basketballabteilung|baskets|e\.v\.)\b/g, ' ').replace(/\s+/g, ' ').trim();
+  return t || n;
+}
+
+function kurzname(voll) {
+  const n = normName(voll);
+  if (KURZNAMEN[n]) return KURZNAMEN[n];
+  let base = n, suffix = '';
+  const m = n.match(/^(.*\S)\s+([2-9])$/);            // Zweitmannschaft: " 2", " 3" ...
+  if (m) { base = m[1]; suffix = ' ' + m[2]; }
+  return (KURZNAMEN[base] || autoKurz(base)) + suffix;
+}
+
+function parseGames(arr) {
+  return (Array.isArray(arr) ? arr : []).map(g => Object.assign({}, g, { t: new Date(g.datetime).getTime() }))
+    .filter(g => !isNaN(g.t)).sort((a, b) => a.t - b.t);
+}
+
+function istD1(g) { return /^\s*(1\s*\.\s*damen|d\s*1)\b/i.test(String((g && g.team) || '')); }
+
+function istJugend(g) { return !!(g && g.team && !istD1(g)); }
+
+/* ===== Ende ===== */
+
+let games = [], img = { sponsor: null, ohne: null, jugend: null }, bildInfo = {};
+const $ = id => document.getElementById(id);
+const key = t => new Date(t).toLocaleDateString('sv-SE', { timeZone: TZ });
+const uhr = t => new Date(t).toLocaleTimeString('de-DE', { timeZone: TZ, hour: '2-digit', minute: '2-digit' });
+const heimspiele = () => games.filter(g => String(g.ort || '').toLowerCase().includes(CFG.ort.toLowerCase()));
+
+// Eingabe (Berlin-Ortszeit) -> Millisekunden
+function berlinToMs(v) {
+  const [d, t] = v.split('T'); const [Y, M, D] = d.split('-').map(Number); const [h, m] = t.split(':').map(Number);
+  let guess = Date.UTC(Y, M - 1, D, h, m);
+  for (let i = 0; i < 2; i++) {
+    const p = new Intl.DateTimeFormat('sv-SE', { timeZone: TZ, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }).format(guess);
+    const [pd, pt] = p.split(' '); const [py, pm, pdd] = pd.split('-').map(Number); const [ph, pmin] = pt.split(':').map(Number);
+    guess += Date.UTC(Y, M - 1, D, h, m) - Date.UTC(py, pm - 1, pdd, ph, pmin);
+  }
+  return guess;
+}
+function msToInput(ms) {
+  return new Date(ms).toLocaleString('sv-SE', { timeZone: TZ }).slice(0, 16).replace(' ', 'T');
+}
+
+// Auswahl wie pickAuto() im Overlay
+function pick(t) {
+  const list = heimspiele(), DAUER = CFG.dauer * 60000;
+  let best = null;
+  for (const g of list) if (g.t <= t && t < g.t + DAUER) best = g;
+  if (best) return { g: best, grund: 'Dieses Spiel läuft gerade (Anwurf bis ' + CFG.dauer + ' Min danach).' };
+  const heute = list.filter(g => key(g.t) === key(t));
+  for (const g of heute) if (g.t > t) return { g, grund: 'Gerade läuft kein Spiel – das nächste Heimspiel des Tages gilt.' };
+  if (heute.length) return { g: heute[heute.length - 1], grund: 'Alle Heimspiele des Tages sind vorbei – das letzte bleibt stehen.' };
+  return { g: null, grund: 'Kein Heimspiel an diesem Tag – kein Banner, Scoreboard neutral „NBO“ / „GÄSTE“.' };
+}
+
+function bildLaden(url) {
+  return new Promise(res => { const i = new Image(); i.onload = () => res(i); i.onerror = () => res(null); i.src = url + '?v=' + Date.now(); });
+}
+async function holeJson(url, pflicht) {
+  try { const r = await fetch(url + '?v=' + Date.now(), { cache: 'no-store' }); if (!r.ok) throw new Error('HTTP ' + r.status); return await r.json(); }
+  catch (e) { if (pflicht) throw e; return null; }
+}
+
+function jugendText(ctx, g, ox, oy, k) {   // wie im Overlay
+  const FX = 1133, FW = 440;
+  const team = String(g.team || '').trim().toLocaleUpperCase('de-DE');
+  const liga = String(g.liga || '').trim().toLocaleUpperCase('de-DE');
+  const fam = '"Liberation Sans", Arial, Helvetica, sans-serif';
+  const zeile = (t, px, y) => {
+    if (!t) return;
+    let f = px; ctx.font = 'bold ' + (f * k) + 'px ' + fam;
+    const w = ctx.measureText(t).width, max = FW * k;
+    if (w > max) { f = f * max / w; ctx.font = 'bold ' + (f * k) + 'px ' + fam; }
+    ctx.fillText(t, ox + FX * k, oy + y * k);
+  };
+  ctx.save(); ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  zeile(team, 68, 69.5); zeile(liga, 42, 146.5);
+  ctx.restore();
+}
+
+function render() {
+  const t = berlinToMs($('zeit').value);
+  const { g, grund } = pick(t);
+  const spieltag = heimspiele().some(x => key(x.t) === key(t));
+  const cv = $('cv'), ctx = cv.getContext('2d'), W = cv.width, H = cv.height;
+  ctx.fillStyle = '#ff00ff'; ctx.fillRect(0, 0, W, H);
+
+  let bannerArt = 'keiner';
+  if (spieltag) {
+    const jug = istJugend(g);
+    let bi = jug ? img.jugend : (img.sponsor || img.ohne);
+    bannerArt = jug ? 'Jugend_Spieltag.png (Team + Liga als Text)' : (img.sponsor ? 'D1_Spieltag_Sponsor.png' : (img.ohne ? 'D1_Spieltag_ohne_Sponsor.png (kein Sponsor-Bild auf GitHub)' : 'FEHLT'));
+    if (bi) {
+      const bx = .0292 * W, by = .004 * H, bw = .9439 * W, bh = .1363 * H;
+      const k = Math.min(bw / bi.width, bh / bi.height), iw = bi.width * k, ih = bi.height * k;
+      const ox = bx + (bw - iw) / 2, oy = by + (bh - ih) / 2;
+      ctx.drawImage(bi, ox, oy, iw, ih);
+      if (jug) jugendText(ctx, g, ox, oy, k);
+    }
+  }
+  // Scoreboard-Namensfeld (wie im Overlay)
+  const heim = (spieltag && g && g.team) ? CFG.heimname.toLocaleUpperCase('de-DE')
+             : ((CFG.heim + ' ' + (g && g.team ? g.team : '')).trim()).toLocaleUpperCase('de-DE');
+  const gast = g && g.gegner ? kurzname(g.gegner).toLocaleUpperCase('de-DE') : 'GÄSTE';
+  ctx.fillStyle = '#087288'; ctx.fillRect(.0292 * W, .8389 * H, .0031 * W, .1176 * H);
+  ctx.fillStyle = '#0a0e1a'; ctx.fillRect(.0329 * W, .8389 * H, .262 * W, .1176 * H);
+  ctx.fillStyle = '#fff'; ctx.textAlign = 'left'; ctx.textBaseline = 'middle'; ctx.font = '700 ' + (.044 * H * .88) + 'px Arial, sans-serif';
+  const fit = (s, y) => { let f = .044 * H * .88; ctx.font = '700 ' + f + 'px Arial'; const m = .189 * W; const w = ctx.measureText(s).width; if (w > m) ctx.font = '700 ' + (f * m / w) + 'px Arial'; ctx.fillText(s, .0412 * W, y); };
+  fit(heim, (.846 + .022) * H); fit(gast, (.905 + .0215) * H);
+  if (!spieltag) { ctx.fillStyle = '#fff'; ctx.font = '600 28px Arial'; ctx.textAlign = 'center'; ctx.fillText('(kein Heimspiel heute – Banner aus)', W / 2, 90); }
+
+  const dl = $('info'); dl.innerHTML = '';
+  const row = (a, b) => { dl.insertAdjacentHTML('beforeend', '<dt>' + a + '</dt><dd>' + b + '</dd>'); };
+  const esc = s => String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  row('Zeitpunkt', esc(new Date(t).toLocaleString('de-DE', { timeZone: TZ, weekday: 'short', day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })));
+  row('Banner', esc(bannerArt));
+  if (g) { row('Spiel', esc(uhr(g.t) + ' Uhr · ' + g.team + ' · ' + g.liga)); row('Gegner (Liste)', esc(g.gegner)); }
+  row('Scoreboard Heim', esc(heim)); row('Scoreboard Gast', esc(gast));
+  $('why').textContent = grund;
+
+  const ul = $('tag'); ul.innerHTML = '';
+  const tag = heimspiele().filter(x => key(x.t) === key(t));
+  if (!tag.length) ul.innerHTML = '<li class="leer">Keine Heimspiele an diesem Tag.</li>';
+  for (const x of tag) { const li = document.createElement('li'); if (g && x.t === g.t && x.gegner === g.gegner) li.className = 'sel';
+    li.innerHTML = '<span class="u">' + uhr(x.t) + '</span>' + esc(x.team) + ' – ' + esc(x.gegner) + ' <span class="leer">(' + esc(x.liga) + ')</span>'; ul.appendChild(li); }
+
+  // Direktsprung: Spieltage in der Nähe
+  const tage = [...new Set(heimspiele().map(x => key(x.t)))];
+  const sb = $('spiele-btn'); sb.innerHTML = '';
+  const heuteKey = key(t);
+  tage.filter(d => d >= heuteKey).slice(0, 4).forEach(d => {
+    const first = heimspiele().find(x => key(x.t) === d);
+    const b = document.createElement('button');
+    b.textContent = new Date(first.t).toLocaleDateString('de-DE', { timeZone: TZ, weekday: 'short', day: '2-digit', month: '2-digit' }) + ' ' + uhr(first.t);
+    b.onclick = () => { $('zeit').value = msToInput(first.t); render(); };
+    sb.appendChild(b);
+  });
+}
+
+async function start() {
+  $('zeit').value = msToInput(Date.now());
+  try {
+    const [a, b, k] = await Promise.all([holeJson(CFG.games, true), holeJson(CFG.extra, false),
+      holeJson(CFG.kurz, false).then(r => r || holeJson('Kurznamen.json', false))]);
+    games = parseGames([].concat(Array.isArray(a) ? a : [], Array.isArray(b) ? b : []));
+    setKurz(k || {});
+    $('stand').textContent = games.length + ' Spiele geladen' + (b ? ' (inkl. Zusatzspiele)' : '') + (k ? '' : ' · Kurznamen: nur Reserve');
+  } catch (e) { $('stand').textContent = 'Spielliste nicht geladen: ' + e.message; $('stand').className = 'warn'; }
+  [img.sponsor, img.ohne, img.jugend] = await Promise.all([bildLaden(CFG.sponsor), bildLaden(CFG.sponsorohne), bildLaden(CFG.jugend)]);
+  render();
+}
+$('zeit').addEventListener('input', render);
+document.querySelectorAll('[data-d]').forEach(b => b.onclick = () => { $('zeit').value = msToInput(berlinToMs($('zeit').value) + Number(b.dataset.d) * 60000); render(); });
+$('jetzt').onclick = () => { $('zeit').value = msToInput(Date.now()); render(); };
+start();
+</script>
+</body>
+</html>
