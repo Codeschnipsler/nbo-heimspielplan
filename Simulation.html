@@ -31,6 +31,14 @@
   .why { color:var(--mut); font-size:13px; margin-top:8px; }
   .warn { color:var(--warn); }
   .leer { color:var(--mut); }
+  .add label { display:grid; gap:3px; color:var(--mut); font-size:12px; }
+  .add input { font:inherit; color:var(--fg); background:var(--bg); border:1px solid var(--line); border-radius:6px; padding:6px 8px; width:100%; color-scheme:dark; }
+  .felder { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px; margin-bottom:10px; }
+  button.prim { background:var(--acc); border-color:var(--acc); color:#04141a; font-weight:700; }
+  .msg { margin-top:8px; font-size:13px; } .msg.ok { color:var(--ok); } .msg.err { color:var(--warn); }
+  details { margin-top:10px; color:var(--mut); font-size:13px; } summary { cursor:pointer; }
+  .ex li { display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .ex button { padding:2px 8px; }
 </style>
 </head>
 <body>
@@ -52,6 +60,31 @@
   <div class="grid">
     <div class="box"><h2>Was das Overlay zeigt</h2><dl id="info"></dl><div class="why" id="why"></div></div>
     <div class="box"><h2>Heimspiele an diesem Tag</h2><ul id="tag"></ul></div>
+  </div>
+  <div class="box add">
+    <h2>Spiel fehlt? Zusatzspiel anlegen</h2>
+    <div class="felder">
+      <label>Datum / Anwurf (Berlin)<input type="datetime-local" id="a-zeit" step="60"></label>
+      <label>Mannschaft<input id="a-team" list="dl-team" placeholder="z. B. U14 I"></label>
+      <label>Liga<input id="a-liga" placeholder="z. B. 2. Regionalliga"></label>
+      <label>Gegner<input id="a-gegner" list="dl-gegner" placeholder="voller Name"></label>
+      <label>Ort<input id="a-ort"></label>
+    </div>
+    <datalist id="dl-team"></datalist><datalist id="dl-gegner"></datalist>
+    <div class="btns" style="justify-content:flex-start">
+      <button id="a-zeit-uebernehmen">Zeit aus Simulation übernehmen</button>
+      <button class="prim" id="a-save">In zusatzspiele.json speichern</button>
+    </div>
+    <div class="msg" id="a-msg"></div>
+    <details><summary>Zusatzspiele auf GitHub (<span id="ex-n">0</span>)</summary><ul class="ex" id="ex-liste"></ul></details>
+    <details><summary>GitHub-Zugang (einmalig einrichten)</summary>
+      <div class="felder" style="margin-top:8px">
+        <label>Repository<input id="g-repo" value="Codeschnipsler/nbo-heimspielplan"></label>
+        <label>Branch<input id="g-branch" value="main"></label>
+        <label>Token (nur in diesem Browser gespeichert)<input id="g-token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+      </div>
+      <p>Token erzeugen: GitHub → Settings → Developer settings → Fine-grained tokens → nur dieses Repository, Berechtigung „Contents: Read and write“. Der Token bleibt im Browser (localStorage) und wird nur an api.github.com geschickt.</p>
+    </details>
   </div>
 </div>
 
@@ -291,11 +324,90 @@ async function start() {
     $('stand').textContent = games.length + ' Spiele geladen' + (b ? ' (inkl. Zusatzspiele)' : '') + (k ? '' : ' · Kurznamen: nur Reserve');
   } catch (e) { $('stand').textContent = 'Spielliste nicht geladen: ' + e.message; $('stand').className = 'warn'; }
   [img.sponsor, img.ohne, img.jugend] = await Promise.all([bildLaden(CFG.sponsor), bildLaden(CFG.sponsorohne), bildLaden(CFG.jugend)]);
-  render();
+  render(); datalisten(); $('a-ort').value = (games.find(g => String(g.ort || '').toLowerCase().includes(CFG.ort.toLowerCase())) || {}).ort || $('a-ort').value; ladeExtras();
 }
 $('zeit').addEventListener('input', render);
 document.querySelectorAll('[data-d]').forEach(b => b.onclick = () => { $('zeit').value = msToInput(berlinToMs($('zeit').value) + Number(b.dataset.d) * 60000); render(); });
 $('jetzt').onclick = () => { $('zeit').value = msToInput(Date.now()); render(); };
+/* ===== Zusatzspiele auf GitHub schreiben ===== */
+const LS = { get(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+['repo', 'branch', 'token'].forEach(k => { const v = LS.get('sim-g-' + k); if (v) $('g-' + k).value = v; $('g-' + k).addEventListener('change', () => LS.set('sim-g-' + k, $('g-' + k).value.trim())); });
+const EXTRA_DATEI = 'zusatzspiele.json';
+function msg(t, ok) { const m = $('a-msg'); m.textContent = t; m.className = 'msg ' + (ok ? 'ok' : 'err'); }
+const b64enc = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
+const b64dec = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), c => c.charCodeAt(0)));
+function ghUrl() { return 'https://api.github.com/repos/' + $('g-repo').value.trim() + '/contents/' + EXTRA_DATEI; }
+function ghHead() { return { 'Authorization': 'Bearer ' + $('g-token').value.trim(), 'Accept': 'application/vnd.github+json' }; }
+async function ghLies() {            // -> { liste, sha }  (Datei fehlt = leere Liste)
+  const r = await fetch(ghUrl() + '?ref=' + encodeURIComponent($('g-branch').value.trim()) + '&_=' + Date.now(), { headers: ghHead(), cache: 'no-store' });
+  if (r.status === 404) return { liste: [], sha: null };
+  if (r.status === 401 || r.status === 403) throw new Error('GitHub lehnt den Token ab (HTTP ' + r.status + ') – Token/Berechtigung prüfen.');
+  if (!r.ok) throw new Error('GitHub HTTP ' + r.status);
+  const j = await r.json(); let liste = [];
+  try { liste = JSON.parse(b64dec(j.content)); } catch (e) { throw new Error('zusatzspiele.json auf GitHub ist kein gültiges JSON – nichts geändert.'); }
+  if (!Array.isArray(liste)) throw new Error('zusatzspiele.json enthält keine Liste – nichts geändert.');
+  return { liste, sha: j.sha };
+}
+async function ghSchreibe(liste, sha, text) {
+  const body = { message: text, content: b64enc(JSON.stringify(liste, null, 2) + '\n'), branch: $('g-branch').value.trim() };
+  if (sha) body.sha = sha;
+  const r = await fetch(ghUrl(), { method: 'PUT', headers: Object.assign({ 'Content-Type': 'application/json' }, ghHead()), body: JSON.stringify(body) });
+  if (!r.ok) { let d = ''; try { d = (await r.json()).message; } catch (e) {} throw new Error('Schreiben fehlgeschlagen (HTTP ' + r.status + ') ' + d); }
+}
+function isoBerlin(v) {              // "2026-11-21T19:30" -> "2026-11-21T19:30:00+01:00"
+  const ms = berlinToMs(v);
+  const o = Math.round((Date.UTC(...v.split(/[-T:]/).map((n, i) => i === 1 ? n - 1 : +n)) - ms) / 60000);
+  const s = o >= 0 ? '+' : '-', a = Math.abs(o);
+  return v + ':00' + s + String(Math.floor(a / 60)).padStart(2, '0') + ':' + String(a % 60).padStart(2, '0');
+}
+function datalisten() {
+  const teams = [...new Set(games.map(g => g.team).filter(Boolean))].sort(), geg = [...new Set(games.map(g => g.gegner).filter(Boolean))].sort();
+  $('dl-team').innerHTML = teams.map(x => '<option value="' + x.replace(/"/g, '&quot;') + '">').join('');
+  $('dl-gegner').innerHTML = geg.map(x => '<option value="' + x.replace(/"/g, '&quot;') + '">').join('');
+}
+$('a-team').addEventListener('change', () => {      // Liga aus der Liste vorschlagen
+  if ($('a-liga').value) return; const g = [...games].reverse().find(x => x.team === $('a-team').value.trim()); if (g) $('a-liga').value = g.liga || '';
+});
+$('a-zeit-uebernehmen').onclick = () => { $('a-zeit').value = $('zeit').value; };
+$('a-zeit').value = $('zeit').value;
+$('a-ort').value = (games.find(g => String(g.ort || '').toLowerCase().includes(CFG.ort.toLowerCase())) || {}).ort || 'Hunsrückstraße 55, 46047, Oberhausen';
+
+function zeigeExtras(liste) {
+  $('ex-n').textContent = liste.length;
+  const ul = $('ex-liste'); ul.innerHTML = '';
+  liste.forEach((x, i) => { const li = document.createElement('li');
+    li.innerHTML = '<span>' + esc2(new Date(x.datetime).toLocaleString('de-DE', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' }) + ' · ' + x.team + ' – ' + x.gegner) + '</span>';
+    const b = document.createElement('button'); b.textContent = 'löschen'; b.onclick = () => loescheExtra(i); li.appendChild(b); ul.appendChild(li); });
+}
+const esc2 = s => String(s).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+async function ladeExtras() {
+  if (!$('g-token').value.trim()) return;
+  try { const { liste } = await ghLies(); zeigeExtras(liste); } catch (e) { /* stumm */ }
+}
+async function loescheExtra(i) {
+  try { const { liste, sha } = await ghLies(); const x = liste.splice(i, 1)[0];
+    await ghSchreibe(liste, sha, 'Zusatzspiel entfernt: ' + x.team + ' ' + x.gegner); zeigeExtras(liste);
+    games = games.filter(g => !(g.datetime === x.datetime && g.gegner === x.gegner && g.team === x.team)); render(); msg('Gelöscht.', true);
+  } catch (e) { msg(e.message, false); }
+}
+$('a-save').onclick = async () => {
+  const neu = { liga: $('a-liga').value.trim(), team: $('a-team').value.trim(), gegner: $('a-gegner').value.trim(), ort: $('a-ort').value.trim(), datetime: '' };
+  if (!$('a-zeit').value || !neu.team || !neu.gegner) return msg('Bitte Datum/Zeit, Mannschaft und Gegner ausfüllen.', false);
+  if (!$('g-token').value.trim()) { document.querySelectorAll('details')[1].open = true; return msg('Erst den GitHub-Token eintragen (unten „GitHub-Zugang“).', false); }
+  neu.datetime = isoBerlin($('a-zeit').value);
+  $('a-save').disabled = true; msg('Speichere …', true);
+  try {
+    const { liste, sha } = await ghLies();
+    if (liste.some(x => x.datetime === neu.datetime && x.team === neu.team && x.gegner === neu.gegner)) throw new Error('Dieses Spiel steht schon in zusatzspiele.json.');
+    liste.push(neu); liste.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
+    await ghSchreibe(liste, sha, 'Zusatzspiel: ' + neu.team + ' gegen ' + neu.gegner);
+    zeigeExtras(liste);
+    games = parseGames(games.concat([neu])); datalisten();
+    $('zeit').value = $('a-zeit').value; render();
+    msg('Gespeichert. Die Simulation zeigt das Spiel schon jetzt; auf dem Pi kommt es nach dem GitHub-Pages-Update (ca. 1–10 Min) beim nächsten Laden an.', true);
+  } catch (e) { msg(e.message, false); } finally { $('a-save').disabled = false; }
+};
+
 start();
 </script>
 </body>
