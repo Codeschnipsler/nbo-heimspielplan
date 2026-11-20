@@ -2,6 +2,16 @@
  {
   "liga": "Jugendoberliga 2",
   "team": "U18",
+  "gegner": "TV Goch",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 118,
+  "gegnerPunkte": 27,
+  "sieg": true,
+  "datetime": "2026-11-19T17:30:00+00:00"
+ },
+ {
+  "liga": "Jugendoberliga 2",
+  "team": "U18",
   "gegner": "TSV Urdenbach",
   "heimAuswaerts": "Heim",
   "eigenePunkte": 102,
