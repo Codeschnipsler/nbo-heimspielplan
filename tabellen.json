@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-16T13:10:03.444734+01:00",
+ "erzeugt": "2026-11-20T13:17:15.093146+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -335,7 +335,7 @@
    "team": "3. Damen",
    "liga": "Landesliga 3 Damen (LL3D)",
    "ligaId": 54594,
-   "stand": "5. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -545,13 +545,13 @@
     {
      "rang": 4,
      "team": "New Basket Oberhausen",
-     "spiele": 5,
-     "siege": 2,
+     "spiele": 6,
+     "siege": 3,
      "niederlagen": 3,
-     "koerbe": 330,
-     "gegenKoerbe": 326,
-     "korbdiff": 4,
-     "gewinnpunkte": 4,
+     "koerbe": 448,
+     "gegenKoerbe": 353,
+     "korbdiff": 95,
+     "gewinnpunkte": 6,
      "verlustpunkte": 6,
      "eigenes": true
     },
@@ -610,14 +610,14 @@
     {
      "rang": 9,
      "team": "TV Goch",
-     "spiele": 2,
+     "spiele": 3,
      "siege": 0,
-     "niederlagen": 2,
-     "koerbe": 48,
-     "gegenKoerbe": 189,
-     "korbdiff": -141,
+     "niederlagen": 3,
+     "koerbe": 75,
+     "gegenKoerbe": 307,
+     "korbdiff": -232,
      "gewinnpunkte": 0,
-     "verlustpunkte": 4,
+     "verlustpunkte": 6,
      "eigenes": false
     },
     {
@@ -835,6 +835,19 @@
     },
     {
      "rang": 2,
+     "team": "Talents BonnRhöndorf 2",
+     "spiele": 6,
+     "siege": 5,
+     "niederlagen": 1,
+     "koerbe": 472,
+     "gegenKoerbe": 305,
+     "korbdiff": 167,
+     "gewinnpunkte": 10,
+     "verlustpunkte": 2,
+     "eigenes": false
+    },
+    {
+     "rang": 3,
      "team": "SG Bergische Löwen",
      "spiele": 6,
      "siege": 5,
@@ -843,19 +856,6 @@
      "gegenKoerbe": 369,
      "korbdiff": 57,
      "gewinnpunkte": 10,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 3,
-     "team": "Talents BonnRhöndorf 2",
-     "spiele": 5,
-     "siege": 4,
-     "niederlagen": 1,
-     "koerbe": 354,
-     "gegenKoerbe": 257,
-     "korbdiff": 97,
-     "gewinnpunkte": 8,
      "verlustpunkte": 2,
      "eigenes": false
     },
@@ -953,14 +953,14 @@
     {
      "rang": 11,
      "team": "Hürther BC",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 0,
-     "niederlagen": 4,
-     "koerbe": 232,
-     "gegenKoerbe": 354,
-     "korbdiff": -122,
+     "niederlagen": 5,
+     "koerbe": 280,
+     "gegenKoerbe": 472,
+     "korbdiff": -192,
      "gewinnpunkte": 0,
-     "verlustpunkte": 8,
+     "verlustpunkte": 10,
      "eigenes": false
     },
     {
@@ -1134,7 +1134,7 @@
    "team": "U14 III",
    "liga": "Kreisliga U14 weiblich Gr. B",
    "ligaId": 53586,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
