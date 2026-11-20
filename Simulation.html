@@ -39,6 +39,9 @@
   details { margin-top:10px; color:var(--mut); font-size:13px; } summary { cursor:pointer; }
   .ex li { display:flex; justify-content:space-between; gap:8px; align-items:center; }
   .ex button { padding:2px 8px; }
+  .yt li { display:flex; gap:8px; align-items:center; justify-content:space-between; }
+  .yt code { font:13px ui-monospace,Consolas,monospace; overflow-wrap:anywhere; color:var(--fg); }
+  .yt button { flex:none; padding:3px 10px; }
 </style>
 </head>
 <body>
@@ -61,6 +64,8 @@
     <div class="box"><h2>Was das Overlay zeigt</h2><dl id="info"></dl><div class="why" id="why"></div></div>
     <div class="box"><h2>Heimspiele an diesem Tag</h2><ul id="tag"></ul></div>
   </div>
+  <div class="box yt"><h2>YouTube-Titel für diesen Tag</h2><ul id="yt-liste"></ul><div class="why">Format: JJJJ-MM-TT_Liga_NBO Mannschaft_vs_Gegner (voller Name)</div></div>
+
   <div class="box add">
     <h2>Spiel fehlt? Zusatzspiel anlegen</h2>
     <div class="felder">
@@ -255,6 +260,21 @@ function jugendText(ctx, g, ox, oy, k) {   // wie im Overlay
   ctx.restore();
 }
 
+
+function ytTitel(g) { return key(g.t) + '_' + g.liga + '_' + CFG.heim + ' ' + g.team + '_vs_' + g.gegner; }
+function zeigeTitel(tag) {
+  const ul = $('yt-liste'); ul.innerHTML = '';
+  if (!tag.length) { ul.innerHTML = '<li class="leer">Kein Heimspiel an diesem Tag.</li>'; return; }
+  for (const x of tag) {
+    const li = document.createElement('li'), c = document.createElement('code'), b = document.createElement('button');
+    c.textContent = ytTitel(x); b.textContent = 'Kopieren';
+    b.onclick = async () => { try { await navigator.clipboard.writeText(c.textContent); b.textContent = 'Kopiert ✓'; }
+      catch (e) { const r = document.createRange(); r.selectNodeContents(c); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Markiert – Strg+C'; }
+      setTimeout(() => b.textContent = 'Kopieren', 2000); };
+    li.append(c, b); ul.appendChild(li);
+  }
+}
+
 function render() {
   const t = berlinToMs($('zeit').value);
   const { g, grund } = pick(t);
@@ -300,6 +320,8 @@ function render() {
   if (!tag.length) ul.innerHTML = '<li class="leer">Keine Heimspiele an diesem Tag.</li>';
   for (const x of tag) { const li = document.createElement('li'); if (g && x.t === g.t && x.gegner === g.gegner) li.className = 'sel';
     li.innerHTML = '<span class="u">' + uhr(x.t) + '</span>' + esc(x.team) + ' – ' + esc(x.gegner) + ' <span class="leer">(' + esc(x.liga) + ')</span>'; ul.appendChild(li); }
+
+  zeigeTitel(tag);
 
   // Direktsprung: Spieltage in der Nähe
   const tage = [...new Set(heimspiele().map(x => key(x.t)))];
