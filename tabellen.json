@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-21T16:59:27.442984+01:00",
+ "erzeugt": "2026-11-21T23:05:54.791336+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -24,13 +24,13 @@
     {
      "rang": 2,
      "team": "VfL VIACTIV-AstroLadies Bochum",
-     "spiele": 6,
-     "siege": 5,
+     "spiele": 7,
+     "siege": 6,
      "niederlagen": 1,
-     "koerbe": 372,
-     "gegenKoerbe": 305,
-     "korbdiff": 67,
-     "gewinnpunkte": 10,
+     "koerbe": 459,
+     "gegenKoerbe": 358,
+     "korbdiff": 101,
+     "gewinnpunkte": 12,
      "verlustpunkte": 2,
      "eigenes": false
     },
@@ -50,53 +50,53 @@
     {
      "rang": 4,
      "team": "Talents BonnRhöndorf",
-     "spiele": 6,
-     "siege": 4,
+     "spiele": 7,
+     "siege": 5,
      "niederlagen": 2,
-     "koerbe": 396,
-     "gegenKoerbe": 351,
-     "korbdiff": 45,
-     "gewinnpunkte": 8,
+     "koerbe": 452,
+     "gegenKoerbe": 401,
+     "korbdiff": 51,
+     "gewinnpunkte": 10,
      "verlustpunkte": 4,
      "eigenes": false
     },
     {
      "rang": 5,
      "team": "WINGS Leverkusen",
-     "spiele": 6,
-     "siege": 4,
+     "spiele": 7,
+     "siege": 5,
      "niederlagen": 2,
-     "koerbe": 383,
-     "gegenKoerbe": 334,
-     "korbdiff": 49,
-     "gewinnpunkte": 7,
+     "koerbe": 466,
+     "gegenKoerbe": 410,
+     "korbdiff": 56,
+     "gewinnpunkte": 9,
      "verlustpunkte": 4,
      "eigenes": false
     },
     {
      "rang": 6,
      "team": "BG 89 AVIDES Hurricanes",
-     "spiele": 6,
-     "siege": 3,
+     "spiele": 7,
+     "siege": 4,
      "niederlagen": 3,
-     "koerbe": 433,
-     "gegenKoerbe": 426,
-     "korbdiff": 7,
-     "gewinnpunkte": 6,
+     "koerbe": 530,
+     "gegenKoerbe": 481,
+     "korbdiff": 49,
+     "gewinnpunkte": 8,
      "verlustpunkte": 6,
      "eigenes": false
     },
     {
      "rang": 7,
      "team": "New Basket 92 Oberhausen e.V.",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 3,
-     "niederlagen": 3,
-     "koerbe": 470,
-     "gegenKoerbe": 386,
-     "korbdiff": 84,
+     "niederlagen": 4,
+     "koerbe": 546,
+     "gegenKoerbe": 469,
+     "korbdiff": 77,
      "gewinnpunkte": 6,
-     "verlustpunkte": 6,
+     "verlustpunkte": 8,
      "eigenes": true
     },
     {
@@ -115,14 +115,14 @@
     {
      "rang": 9,
      "team": "ChemCats Chemnitz",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 2,
-     "niederlagen": 4,
-     "koerbe": 398,
-     "gegenKoerbe": 447,
-     "korbdiff": -49,
+     "niederlagen": 5,
+     "koerbe": 448,
+     "gegenKoerbe": 503,
+     "korbdiff": -55,
      "gewinnpunkte": 4,
-     "verlustpunkte": 8,
+     "verlustpunkte": 10,
      "eigenes": false
     },
     {
@@ -141,27 +141,27 @@
     {
      "rang": 11,
      "team": "Eimsbütteler Turnverband",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 1,
-     "niederlagen": 5,
-     "koerbe": 373,
-     "gegenKoerbe": 449,
-     "korbdiff": -76,
+     "niederlagen": 6,
+     "koerbe": 426,
+     "gegenKoerbe": 536,
+     "korbdiff": -110,
      "gewinnpunkte": 2,
-     "verlustpunkte": 10,
+     "verlustpunkte": 12,
      "eigenes": false
     },
     {
      "rang": 12,
      "team": "SCALA Hamburg",
-     "spiele": 6,
+     "spiele": 7,
      "siege": 0,
-     "niederlagen": 6,
-     "koerbe": 221,
-     "gegenKoerbe": 514,
-     "korbdiff": -293,
+     "niederlagen": 7,
+     "koerbe": 276,
+     "gegenKoerbe": 611,
+     "korbdiff": -335,
      "gewinnpunkte": -1,
-     "verlustpunkte": 12,
+     "verlustpunkte": 14,
      "eigenes": false
     }
    ]
@@ -658,13 +658,13 @@
     {
      "rang": 1,
      "team": "BC Soest",
-     "spiele": 5,
-     "siege": 5,
+     "spiele": 6,
+     "siege": 6,
      "niederlagen": 0,
-     "koerbe": 330,
-     "gegenKoerbe": 243,
-     "korbdiff": 87,
-     "gewinnpunkte": 10,
+     "koerbe": 382,
+     "gegenKoerbe": 294,
+     "korbdiff": 88,
+     "gewinnpunkte": 12,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -696,19 +696,6 @@
     },
     {
      "rang": 4,
-     "team": "BTV Basketball Brühl",
-     "spiele": 5,
-     "siege": 4,
-     "niederlagen": 1,
-     "koerbe": 329,
-     "gegenKoerbe": 220,
-     "korbdiff": 109,
-     "gewinnpunkte": 8,
-     "verlustpunkte": 2,
-     "eigenes": false
-    },
-    {
-     "rang": 5,
      "team": "VfL AstroStars Bochum 2",
      "spiele": 6,
      "siege": 4,
@@ -721,7 +708,7 @@
      "eigenes": false
     },
     {
-     "rang": 6,
+     "rang": 5,
      "team": "New Basket Oberhausen",
      "spiele": 6,
      "siege": 4,
@@ -732,6 +719,19 @@
      "gewinnpunkte": 8,
      "verlustpunkte": 4,
      "eigenes": true
+    },
+    {
+     "rang": 6,
+     "team": "BTV Basketball Brühl",
+     "spiele": 6,
+     "siege": 4,
+     "niederlagen": 2,
+     "koerbe": 380,
+     "gegenKoerbe": 272,
+     "korbdiff": 108,
+     "gewinnpunkte": 8,
+     "verlustpunkte": 4,
+     "eigenes": false
     },
     {
      "rang": 7,
@@ -1140,13 +1140,13 @@
     {
      "rang": 1,
      "team": "TV Jahn 1911 Königshardt e.V.",
-     "spiele": 4,
-     "siege": 4,
+     "spiele": 5,
+     "siege": 5,
      "niederlagen": 0,
-     "koerbe": 350,
-     "gegenKoerbe": 133,
-     "korbdiff": 217,
-     "gewinnpunkte": 8,
+     "koerbe": 447,
+     "gegenKoerbe": 160,
+     "korbdiff": 287,
+     "gewinnpunkte": 10,
      "verlustpunkte": 0,
      "eigenes": false
     },
@@ -1192,14 +1192,14 @@
     {
      "rang": 5,
      "team": "New Basket 92 Oberhausen 3",
-     "spiele": 4,
+     "spiele": 5,
      "siege": 1,
-     "niederlagen": 3,
-     "koerbe": 150,
-     "gegenKoerbe": 286,
-     "korbdiff": -136,
+     "niederlagen": 4,
+     "koerbe": 177,
+     "gegenKoerbe": 383,
+     "korbdiff": -206,
      "gewinnpunkte": 2,
-     "verlustpunkte": 6,
+     "verlustpunkte": 8,
      "eigenes": true
     },
     {
@@ -1681,6 +1681,19 @@
    "berechnet": true,
    "tabelle": [
     {
+     "team": "CroBaskets Essen",
+     "spiele": 3,
+     "siege": 3,
+     "niederlagen": 0,
+     "koerbe": 148,
+     "gegenKoerbe": 80,
+     "korbdiff": 68,
+     "gewinnpunkte": 6,
+     "verlustpunkte": 0,
+     "eigenes": false,
+     "rang": 1
+    },
+    {
      "team": "Citybasket Recklinghausen",
      "spiele": 2,
      "siege": 2,
@@ -1691,7 +1704,7 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 1
+     "rang": 2
     },
     {
      "team": "Ruhrpott Baskets Herne",
@@ -1704,7 +1717,7 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 2
+     "rang": 3
     },
     {
      "team": "TV Gerthe",
@@ -1717,7 +1730,7 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 3
+     "rang": 4
     },
     {
      "team": "RheinStars Köln",
@@ -1730,7 +1743,7 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 4
+     "rang": 5
     },
     {
      "team": "Herner TC",
@@ -1743,7 +1756,7 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 5
+     "rang": 6
     },
     {
      "team": "LippeBaskets Werne e. V.",
@@ -1756,31 +1769,18 @@
      "gewinnpunkte": 4,
      "verlustpunkte": 0,
      "eigenes": false,
-     "rang": 6
-    },
-    {
-     "team": "CroBaskets Essen",
-     "spiele": 2,
-     "siege": 2,
-     "niederlagen": 0,
-     "koerbe": 92,
-     "gegenKoerbe": 47,
-     "korbdiff": 45,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 0,
-     "eigenes": false,
      "rang": 7
     },
     {
      "team": "SV Eintracht Erle 69 e. V.",
-     "spiele": 3,
+     "spiele": 4,
      "siege": 2,
-     "niederlagen": 1,
-     "koerbe": 93,
-     "gegenKoerbe": 95,
-     "korbdiff": -2,
+     "niederlagen": 2,
+     "koerbe": 126,
+     "gegenKoerbe": 151,
+     "korbdiff": -25,
      "gewinnpunkte": 4,
-     "verlustpunkte": 2,
+     "verlustpunkte": 4,
      "eigenes": false,
      "rang": 8
     },
