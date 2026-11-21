@@ -1,5 +1,15 @@
 [
  {
+  "liga": "2. Regionalliga",
+  "team": "U14 I",
+  "gegner": "Ruhrpott Baskets Herne",
+  "heimAuswaerts": "Heim",
+  "eigenePunkte": 110,
+  "gegnerPunkte": 48,
+  "sieg": true,
+  "datetime": "2026-11-21T13:00:00+00:00"
+ },
+ {
   "liga": "Jugendoberliga 2",
   "team": "U18",
   "gegner": "TV Goch",
@@ -190,16 +200,6 @@
   "datetime": "2026-11-07T19:00:00+00:00"
  },
  {
-  "liga": "2. Bundesliga Nord",
-  "team": "1. Damen",
-  "gegner": "SCALA Hamburg",
-  "heimAuswaerts": "Auswärts",
-  "eigenePunkte": 116,
-  "gegnerPunkte": 49,
-  "sieg": true,
-  "datetime": "2026-11-07T17:30:00+00:00"
- },
- {
   "liga": "Jugendoberliga 2",
   "team": "U18",
   "gegner": "Talents BonnRhöndorf",
@@ -248,15 +248,5 @@
   "gegnerPunkte": 82,
   "sieg": false,
   "datetime": "2026-11-03T17:00:00+00:00"
- },
- {
-  "liga": "2. Bundesliga Nord",
-  "team": "1. Damen",
-  "gegner": "BG 74 Veilchen Ladies",
-  "heimAuswaerts": "Heim",
-  "eigenePunkte": 62,
-  "gegnerPunkte": 64,
-  "sieg": false,
-  "datetime": "2026-10-31T18:30:00+00:00"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-20T13:17:15.095246+01:00",
+ "erzeugt": "2026-11-21T16:59:27.444693+01:00",
  "hinweis": "Rohdaten aller NBO-Mannschaften von basketball-bund.net, ungefiltert (inkl. vergangener Spiele, Platzhalter-Gegner und abgesagter Spiele).",
  "mannschaften": [
   {
@@ -51,13 +51,7 @@
      "heimteam": "New Basket 92 Oberhausen e.V.",
      "gastteam": "BG 74 Veilchen Ladies",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket 92 Oberhausen e.V.-BG 74 Veilchen Ladies, 209B121 (SpNr. 2030)",
-     "spieltag": 5,
-     "spielNr": 2030,
-     "ergebnis": "62:64",
-     "ergebnisBestaetigt": true,
-     "abgesagt": false,
-     "verzicht": false
+     "kalenderText": "New Basket 92 Oberhausen e.V.-BG 74 Veilchen Ladies, 209B121 (SpNr. 2030)"
     },
     {
      "spielId": "2959461",
@@ -66,13 +60,7 @@
      "heimteam": "SCALA Hamburg",
      "gastteam": "New Basket 92 Oberhausen e.V.",
      "ort": "Steinwiesenweg 30, 22527, Hamburg",
-     "kalenderText": "SCALA Hamburg-New Basket 92 Oberhausen e.V., HBV-STEI (SpNr. 2034)",
-     "spieltag": 6,
-     "spielNr": 2034,
-     "ergebnis": "49:116",
-     "ergebnisBestaetigt": true,
-     "abgesagt": false,
-     "verzicht": false
+     "kalenderText": "SCALA Hamburg-New Basket 92 Oberhausen e.V., HBV-STEI (SpNr. 2034)"
     },
     {
      "spielId": "2959469",
@@ -234,7 +222,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20260926T150000Z",
       "DTEND": "20260926T170000Z",
       "SUMMARY": "Talents BonnRhöndorf-New Basket 92 Oberhausen e.V., 107A303 (SpNr. 2003)",
@@ -243,7 +231,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261003T173000Z",
       "DTEND": "20261003T193000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-TuS Lichterfelde, 209B121 (SpNr. 2011)",
@@ -252,7 +240,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261017T173000Z",
       "DTEND": "20261017T193000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-UBC Münster, 209B121 (SpNr. 2016)",
@@ -261,7 +249,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261024T163000Z",
       "DTEND": "20261024T183000Z",
       "SUMMARY": "BG 89 AVIDES Hurricanes-New Basket 92 Oberhausen e.V., ROW-PES (SpNr. 2023)",
@@ -270,7 +258,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261031T183000Z",
       "DTEND": "20261031T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-BG 74 Veilchen Ladies, 209B121 (SpNr. 2030)",
@@ -279,7 +267,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261107T173000Z",
       "DTEND": "20261107T193000Z",
       "SUMMARY": "SCALA Hamburg-New Basket 92 Oberhausen e.V., HBV-STEI (SpNr. 2034)",
@@ -288,7 +276,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261121T183000Z",
       "DTEND": "20261121T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-WINGS Leverkusen, 209B121 (SpNr. 2042)",
@@ -297,7 +285,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261128T170000Z",
       "DTEND": "20261128T190000Z",
       "SUMMARY": "ChemCats Chemnitz-New Basket 92 Oberhausen e.V., CHE-GSH (SpNr. 2045)",
@@ -306,7 +294,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261205T183000Z",
       "DTEND": "20261205T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-VfL VIACTIV-AstroLadies Bochum, 209B121 (SpNr. 2053)",
@@ -315,7 +303,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261213T150000Z",
       "DTEND": "20261213T170000Z",
       "SUMMARY": "BBC Osnabrück-New Basket 92 Oberhausen e.V., OSN-SCH (SpNr. 2059)",
@@ -324,7 +312,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20261219T183000Z",
       "DTEND": "20261219T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-Eimsbütteler Turnverband, 209B121 (SpNr. 2064)",
@@ -333,7 +321,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270110T150000Z",
       "DTEND": "20270110T170000Z",
       "SUMMARY": "BG 74 Veilchen Ladies-New Basket 92 Oberhausen e.V., GOE-FKG (SpNr. 2071)",
@@ -342,7 +330,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270116T183000Z",
       "DTEND": "20270116T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-BBC Osnabrück, 209B121 (SpNr. 2076)",
@@ -351,7 +339,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270123T183000Z",
       "DTEND": "20270123T203000Z",
       "SUMMARY": "UBC Münster-New Basket 92 Oberhausen e.V., 401B340 (SpNr. 2083)",
@@ -360,7 +348,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270130T183000Z",
       "DTEND": "20270130T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-SCALA Hamburg, 209B121 (SpNr. 2087)",
@@ -369,7 +357,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270206T170000Z",
       "DTEND": "20270206T190000Z",
       "SUMMARY": "WINGS Leverkusen-New Basket 92 Oberhausen e.V., 111A200 (SpNr. 2092)",
@@ -378,7 +366,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270213T183000Z",
       "DTEND": "20270213T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-Talents BonnRhöndorf, 209B121 (SpNr. 2100)",
@@ -387,7 +375,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270220T140000Z",
       "DTEND": "20270220T160000Z",
       "SUMMARY": "TuS Lichterfelde-New Basket 92 Oberhausen e.V., BLN-DRA (SpNr. 2103)",
@@ -396,7 +384,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270227T183000Z",
       "DTEND": "20270227T203000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-BG 89 AVIDES Hurricanes, 209B121 (SpNr. 2112)",
@@ -405,7 +393,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270314T160000Z",
       "DTEND": "20270314T180000Z",
       "SUMMARY": "VfL VIACTIV-AstroLadies Bochum-New Basket 92 Oberhausen e.V., 301A141 (SpNr. 2120)",
@@ -414,7 +402,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270320T160000Z",
       "DTEND": "20270320T180000Z",
       "SUMMARY": "Eimsbütteler Turnverband-New Basket 92 Oberhausen e.V., HBV-HOWE (SpNr. 2125)",
@@ -423,7 +411,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121608Z",
+      "DTSTAMP": "20261121T155821Z",
       "DTSTART": "20270327T160000Z",
       "DTEND": "20270327T180000Z",
       "SUMMARY": "New Basket 92 Oberhausen e.V.-ChemCats Chemnitz, 209B121 (SpNr. 2130)",
@@ -433,438 +421,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2959452,
-      "matchDay": 5,
-      "matchNo": 2025,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "15:00",
-      "homeTeam": {
-       "seasonTeamId": 463433,
-       "teamCompetitionId": 463433,
-       "teamPermanentId": 163245,
-       "teamname": "TuS Lichterfelde",
-       "teamnameSmall": "TUSLI",
-       "clubId": 4323,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463426,
-       "teamCompetitionId": 463426,
-       "teamPermanentId": 167379,
-       "teamname": "BG 89 AVIDES Hurricanes",
-       "teamnameSmall": "AH",
-       "clubId": 4019,
-       "verzicht": false
-      },
-      "result": "76:71",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959453,
-      "matchDay": 5,
-      "matchNo": 2026,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "17:00",
-      "homeTeam": {
-       "seasonTeamId": 463434,
-       "teamCompetitionId": 463434,
-       "teamPermanentId": 315192,
-       "teamname": "VfL VIACTIV-AstroLadies Bochum",
-       "teamnameSmall": "BO",
-       "clubId": 4936,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463427,
-       "teamCompetitionId": 463427,
-       "teamPermanentId": 313998,
-       "teamname": "ChemCats Chemnitz",
-       "teamnameSmall": "CCC",
-       "clubId": 4848,
-       "verzicht": false
-      },
-      "result": "78:55",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959454,
-      "matchDay": 5,
-      "matchNo": 2027,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "17:00",
-      "homeTeam": {
-       "seasonTeamId": 463432,
-       "teamCompetitionId": 463432,
-       "teamPermanentId": 167381,
-       "teamname": "Talents BonnRhöndorf",
-       "teamnameSmall": "TBR",
-       "clubId": 3841,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463435,
-       "teamCompetitionId": 463435,
-       "teamPermanentId": 163235,
-       "teamname": "WINGS Leverkusen",
-       "teamnameSmall": "LEV",
-       "clubId": 3846,
-       "verzicht": false
-      },
-      "result": "57:72",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959455,
-      "matchDay": 5,
-      "matchNo": 2028,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "17:00",
-      "homeTeam": {
-       "seasonTeamId": 465220,
-       "teamCompetitionId": 465220,
-       "teamPermanentId": 323096,
-       "teamname": "UBC Münster",
-       "teamnameSmall": "MS",
-       "clubId": 5389,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 465221,
-       "teamCompetitionId": 465221,
-       "teamPermanentId": 323097,
-       "teamname": "SCALA Hamburg",
-       "teamnameSmall": "HH",
-       "clubId": 5390,
-       "verzicht": false
-      },
-      "result": "95:55",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959456,
-      "matchDay": 5,
-      "matchNo": 2029,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 463428,
-       "teamCompetitionId": 463428,
-       "teamPermanentId": 319695,
-       "teamname": "Eimsbütteler Turnverband",
-       "teamnameSmall": "ETV",
-       "clubId": 5208,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463423,
-       "teamCompetitionId": 463423,
-       "teamPermanentId": 318165,
-       "teamname": "BBC Osnabrück",
-       "teamnameSmall": "BBC",
-       "clubId": 5100,
-       "verzicht": false
-      },
-      "result": "44:91",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959457,
-      "matchDay": 5,
-      "matchNo": 2030,
-      "kickoffDate": "2026-10-31",
-      "kickoffTime": "19:30",
-      "homeTeam": {
-       "seasonTeamId": 463431,
-       "teamCompetitionId": 463431,
-       "teamPermanentId": 319593,
-       "teamname": "New Basket 92 Oberhausen e.V.",
-       "teamnameSmall": "NBO",
-       "clubId": 5209,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463425,
-       "teamCompetitionId": 463425,
-       "teamPermanentId": 163237,
-       "teamname": "BG 74 Veilchen Ladies",
-       "teamnameSmall": "BG 74",
-       "clubId": 4157,
-       "verzicht": false
-      },
-      "result": "62:64",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959458,
-      "matchDay": 6,
-      "matchNo": 2031,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 463435,
-       "teamCompetitionId": 463435,
-       "teamPermanentId": 163235,
-       "teamname": "WINGS Leverkusen",
-       "teamnameSmall": "LEV",
-       "clubId": 3846,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463433,
-       "teamCompetitionId": 463433,
-       "teamPermanentId": 163245,
-       "teamname": "TuS Lichterfelde",
-       "teamnameSmall": "TUSLI",
-       "clubId": 4323,
-       "verzicht": false
-      },
-      "result": "83:71",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959459,
-      "matchDay": 6,
-      "matchNo": 2032,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 463427,
-       "teamCompetitionId": 463427,
-       "teamPermanentId": 313998,
-       "teamname": "ChemCats Chemnitz",
-       "teamnameSmall": "CCC",
-       "clubId": 4848,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463428,
-       "teamCompetitionId": 463428,
-       "teamPermanentId": 319695,
-       "teamname": "Eimsbütteler Turnverband",
-       "teamnameSmall": "ETV",
-       "clubId": 5208,
-       "verzicht": false
-      },
-      "result": "79:59",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959460,
-      "matchDay": 6,
-      "matchNo": 2033,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:30",
-      "homeTeam": {
-       "seasonTeamId": 463426,
-       "teamCompetitionId": 463426,
-       "teamPermanentId": 167379,
-       "teamname": "BG 89 AVIDES Hurricanes",
-       "teamnameSmall": "AH",
-       "clubId": 4019,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 465220,
-       "teamCompetitionId": 465220,
-       "teamPermanentId": 323096,
-       "teamname": "UBC Münster",
-       "teamnameSmall": "MS",
-       "clubId": 5389,
-       "verzicht": false
-      },
-      "result": "69:62",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959461,
-      "matchDay": 6,
-      "matchNo": 2034,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:30",
-      "homeTeam": {
-       "seasonTeamId": 465221,
-       "teamCompetitionId": 465221,
-       "teamPermanentId": 323097,
-       "teamname": "SCALA Hamburg",
-       "teamnameSmall": "HH",
-       "clubId": 5390,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463431,
-       "teamCompetitionId": 463431,
-       "teamPermanentId": 319593,
-       "teamname": "New Basket 92 Oberhausen e.V.",
-       "teamnameSmall": "NBO",
-       "clubId": 5209,
-       "verzicht": false
-      },
-      "result": "49:116",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959462,
-      "matchDay": 6,
-      "matchNo": 2035,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 463425,
-       "teamCompetitionId": 463425,
-       "teamPermanentId": 163237,
-       "teamname": "BG 74 Veilchen Ladies",
-       "teamnameSmall": "BG 74",
-       "clubId": 4157,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463432,
-       "teamCompetitionId": 463432,
-       "teamPermanentId": 167381,
-       "teamname": "Talents BonnRhöndorf",
-       "teamnameSmall": "TBR",
-       "clubId": 3841,
-       "verzicht": false
-      },
-      "result": "57:47",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2959463,
-      "matchDay": 6,
-      "matchNo": 2036,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 463423,
-       "teamCompetitionId": 463423,
-       "teamPermanentId": 318165,
-       "teamname": "BBC Osnabrück",
-       "teamnameSmall": "BBC",
-       "clubId": 5100,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463434,
-       "teamCompetitionId": 463434,
-       "teamPermanentId": 315192,
-       "teamname": "VfL VIACTIV-AstroLadies Bochum",
-       "teamnameSmall": "BO",
-       "clubId": 4936,
-       "verzicht": false
-      },
-      "result": "56:62",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2959464,
@@ -890,7 +446,7 @@
        "clubId": 5100,
        "verzicht": false
       },
-      "result": null,
+      "result": "50:78",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -1349,13 +905,7 @@
      "heimteam": "TSV Hagen",
      "gastteam": "New Basket Oberhausen 2",
      "ort": "Berghofstraße 5, 58097, Hagen - Altenhagen",
-     "kalenderText": "TSV Hagen-New Basket Oberhausen 2, 308A221 (SpNr. 30)",
-     "spieltag": 5,
-     "spielNr": 30,
-     "ergebnis": "72:68",
-     "ergebnisBestaetigt": true,
-     "abgesagt": false,
-     "verzicht": false
+     "kalenderText": "TSV Hagen-New Basket Oberhausen 2, 308A221 (SpNr. 30)"
     },
     {
      "spielId": "2853036",
@@ -1394,7 +944,13 @@
      "heimteam": "New Basket Oberhausen 2",
      "gastteam": "DTV Basketball Köln",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen 2-DTV Basketball Köln, 209B121 (SpNr. 43)"
+     "kalenderText": "New Basket Oberhausen 2-DTV Basketball Köln, 209B121 (SpNr. 43)",
+     "spieltag": 8,
+     "spielNr": 43,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2853055",
@@ -1526,7 +1082,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20260920T140000Z",
       "DTEND": "20260920T160000Z",
       "SUMMARY": "TSVE 1890 Bielefeld-New Basket Oberhausen 2, 501A131 (SpNr. 5)",
@@ -1535,7 +1091,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20260927T120000Z",
       "DTEND": "20260927T140000Z",
       "SUMMARY": "New Basket Oberhausen 2-TV Gerthe, 209B121 (SpNr. 7)",
@@ -1544,7 +1100,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261003T160000Z",
       "DTEND": "20261003T180000Z",
       "SUMMARY": "Hürther BC-New Basket Oberhausen 2, 105B551 (SpNr. 15)",
@@ -1553,7 +1109,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261010T140000Z",
       "DTEND": "20261010T160000Z",
       "SUMMARY": "New Basket Oberhausen 2-Citybasket Recklinghausen, 209B121 (SpNr. 19)",
@@ -1562,7 +1118,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261107T150000Z",
       "DTEND": "20261107T170000Z",
       "SUMMARY": "TSV Hagen-New Basket Oberhausen 2, 308A221 (SpNr. 30)",
@@ -1571,7 +1127,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261114T150000Z",
       "DTEND": "20261114T170000Z",
       "SUMMARY": "New Basket Oberhausen 2-Talents BonnRhöndorf 2, 209B121 (SpNr. 31)",
@@ -1580,7 +1136,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261128T170000Z",
       "DTEND": "20261128T190000Z",
       "SUMMARY": "VfL AstroStars Bochum 2-New Basket Oberhausen 2, 301A511 (SpNr. 40)",
@@ -1589,7 +1145,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261205T150000Z",
       "DTEND": "20261205T170000Z",
       "SUMMARY": "New Basket Oberhausen 2-DTV Basketball Köln, 209B121 (SpNr. 43)",
@@ -1598,7 +1154,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261213T130000Z",
       "DTEND": "20261213T150000Z",
       "SUMMARY": "DJK Frankenberg-New Basket Oberhausen 2, 101A170 (SpNr. 50)",
@@ -1607,7 +1163,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20261219T140000Z",
       "DTEND": "20261219T160000Z",
       "SUMMARY": "WINGS Leverkusen 2-New Basket Oberhausen 2, 111A200 (SpNr. 55)",
@@ -1616,7 +1172,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270109T170000Z",
       "DTEND": "20270109T190000Z",
       "SUMMARY": "New Basket Oberhausen 2-BC Langendreer, 209B121 (SpNr. 61)",
@@ -1625,7 +1181,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270116T150000Z",
       "DTEND": "20270116T170000Z",
       "SUMMARY": "New Basket Oberhausen 2-TSVE 1890 Bielefeld, 209B121 (SpNr. 71)",
@@ -1634,7 +1190,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270124T150000Z",
       "DTEND": "20270124T170000Z",
       "SUMMARY": "TV Gerthe-New Basket Oberhausen 2, 301A321 (SpNr. 73)",
@@ -1643,7 +1199,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270130T150000Z",
       "DTEND": "20270130T170000Z",
       "SUMMARY": "New Basket Oberhausen 2-Hürther BC, 209B121 (SpNr. 81)",
@@ -1652,7 +1208,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270213T160000Z",
       "DTEND": "20270213T180000Z",
       "SUMMARY": "Citybasket Recklinghausen-New Basket Oberhausen 2, 406A630 (SpNr. 85)",
@@ -1661,7 +1217,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270220T170000Z",
       "DTEND": "20270220T190000Z",
       "SUMMARY": "New Basket Oberhausen 2-TSV Hagen, 209B121 (SpNr. 96)",
@@ -1670,7 +1226,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270226T193000Z",
       "DTEND": "20270226T213000Z",
       "SUMMARY": "Talents BonnRhöndorf 2-New Basket Oberhausen 2, 107A303 (SpNr. 97)",
@@ -1679,7 +1235,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270303T193000Z",
       "DTEND": "20270303T213000Z",
       "SUMMARY": "New Basket Oberhausen 2-VfL AstroStars Bochum 2, 209B121 (SpNr. 106)",
@@ -1688,7 +1244,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270313T170000Z",
       "DTEND": "20270313T190000Z",
       "SUMMARY": "DTV Basketball Köln-New Basket Oberhausen 2, 110B801 (SpNr. 109)",
@@ -1697,7 +1253,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270410T140000Z",
       "DTEND": "20270410T160000Z",
       "SUMMARY": "New Basket Oberhausen 2-DJK Frankenberg, 209B121 (SpNr. 116)",
@@ -1706,7 +1262,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270417T140000Z",
       "DTEND": "20270417T160000Z",
       "SUMMARY": "New Basket Oberhausen 2-WINGS Leverkusen 2, 209B121 (SpNr. 121)",
@@ -1715,7 +1271,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121614Z",
+      "DTSTAMP": "20261121T155826Z",
       "DTSTART": "20270424T150000Z",
       "DTEND": "20270424T170000Z",
       "SUMMARY": "BC Langendreer-New Basket Oberhausen 2, 301B602 (SpNr. 127)",
@@ -1725,222 +1281,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2853034,
-      "matchDay": 5,
-      "matchNo": 29,
-      "kickoffDate": "2026-11-06",
-      "kickoffTime": "20:30",
-      "homeTeam": {
-       "seasonTeamId": 451378,
-       "teamCompetitionId": 451378,
-       "teamPermanentId": 208876,
-       "teamname": "Talents BonnRhöndorf 2",
-       "teamnameSmall": "TBoRh",
-       "clubId": 742,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 451375,
-       "teamCompetitionId": 451375,
-       "teamPermanentId": 159678,
-       "teamname": "DJK Frankenberg",
-       "teamnameSmall": "Frbg",
-       "clubId": 1264,
-       "verzicht": false
-      },
-      "result": "64:75",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2853030,
-      "matchDay": 5,
-      "matchNo": 25,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "15:00",
-      "homeTeam": {
-       "seasonTeamId": 451384,
-       "teamCompetitionId": 451384,
-       "teamPermanentId": 159698,
-       "teamname": "WINGS Leverkusen 2",
-       "teamnameSmall": "WINGS",
-       "clubId": 887,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 451386,
-       "teamCompetitionId": 451386,
-       "teamPermanentId": 309529,
-       "teamname": "TV Gerthe",
-       "teamnameSmall": "TV Ge",
-       "clubId": 1514,
-       "verzicht": false
-      },
-      "result": "66:54",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2853035,
-      "matchDay": 5,
-      "matchNo": 30,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 451380,
-       "teamCompetitionId": 451380,
-       "teamPermanentId": 159708,
-       "teamname": "TSV Hagen",
-       "teamnameSmall": "TSV H",
-       "clubId": 501,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 452154,
-       "teamCompetitionId": 452154,
-       "teamPermanentId": 159704,
-       "teamname": "New Basket Oberhausen 2",
-       "teamnameSmall": "NBO2",
-       "clubId": 682,
-       "verzicht": false
-      },
-      "result": "72:68",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2853032,
-      "matchDay": 5,
-      "matchNo": 27,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 451385,
-       "teamCompetitionId": 451385,
-       "teamPermanentId": 159703,
-       "teamname": "Hürther BC",
-       "teamnameSmall": "HBC",
-       "clubId": 520,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 451381,
-       "teamCompetitionId": 451381,
-       "teamPermanentId": 159712,
-       "teamname": "TSVE 1890 Bielefeld",
-       "teamnameSmall": "TSVE",
-       "clubId": 1526,
-       "verzicht": false
-      },
-      "result": "71:61",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2853033,
-      "matchDay": 5,
-      "matchNo": 28,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 451383,
-       "teamCompetitionId": 451383,
-       "teamPermanentId": 159662,
-       "teamname": "VfL AstroStars Bochum 2",
-       "teamnameSmall": "VfLBo",
-       "clubId": 4209,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 451376,
-       "teamCompetitionId": 451376,
-       "teamPermanentId": 159679,
-       "teamname": "DTV Basketball Köln",
-       "teamnameSmall": "DTV",
-       "clubId": 699,
-       "verzicht": false
-      },
-      "result": "62:70",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2853031,
-      "matchDay": 5,
-      "matchNo": 26,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:30",
-      "homeTeam": {
-       "seasonTeamId": 451374,
-       "teamCompetitionId": 451374,
-       "teamPermanentId": 159700,
-       "teamname": "Citybasket Recklinghausen",
-       "teamnameSmall": "CBR 1",
-       "clubId": 1965,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 451373,
-       "teamCompetitionId": 451373,
-       "teamPermanentId": 159410,
-       "teamname": "BC Langendreer",
-       "teamnameSmall": "BCL_D",
-       "clubId": 1531,
-       "verzicht": false
-      },
-      "result": "70:59",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2853040,
@@ -2182,7 +1522,7 @@
        "clubId": 1514,
        "verzicht": false
       },
-      "result": null,
+      "result": "63:57",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -2396,6 +1736,222 @@
        "teamname": "DJK Frankenberg",
        "teamnameSmall": "Frbg",
        "clubId": 1264,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853053,
+      "matchDay": 8,
+      "matchNo": 48,
+      "kickoffDate": "2026-12-03",
+      "kickoffTime": "20:00",
+      "homeTeam": {
+       "seasonTeamId": 451373,
+       "teamCompetitionId": 451373,
+       "teamPermanentId": 159410,
+       "teamname": "BC Langendreer",
+       "teamnameSmall": "BCL_D",
+       "clubId": 1531,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451383,
+       "teamCompetitionId": 451383,
+       "teamPermanentId": 159662,
+       "teamname": "VfL AstroStars Bochum 2",
+       "teamnameSmall": "VfLBo",
+       "clubId": 4209,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853052,
+      "matchDay": 8,
+      "matchNo": 47,
+      "kickoffDate": "2026-12-04",
+      "kickoffTime": "20:00",
+      "homeTeam": {
+       "seasonTeamId": 451381,
+       "teamCompetitionId": 451381,
+       "teamPermanentId": 159712,
+       "teamname": "TSVE 1890 Bielefeld",
+       "teamnameSmall": "TSVE",
+       "clubId": 1526,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451378,
+       "teamCompetitionId": 451378,
+       "teamPermanentId": 208876,
+       "teamname": "Talents BonnRhöndorf 2",
+       "teamnameSmall": "TBoRh",
+       "clubId": 742,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853048,
+      "matchDay": 8,
+      "matchNo": 43,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "16:00",
+      "homeTeam": {
+       "seasonTeamId": 452154,
+       "teamCompetitionId": 452154,
+       "teamPermanentId": 159704,
+       "teamname": "New Basket Oberhausen 2",
+       "teamnameSmall": "NBO2",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451376,
+       "teamCompetitionId": 451376,
+       "teamPermanentId": 159679,
+       "teamname": "DTV Basketball Köln",
+       "teamnameSmall": "DTV",
+       "clubId": 699,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853051,
+      "matchDay": 8,
+      "matchNo": 46,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "17:00",
+      "homeTeam": {
+       "seasonTeamId": 451386,
+       "teamCompetitionId": 451386,
+       "teamPermanentId": 309529,
+       "teamname": "TV Gerthe",
+       "teamnameSmall": "TV Ge",
+       "clubId": 1514,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451380,
+       "teamCompetitionId": 451380,
+       "teamPermanentId": 159708,
+       "teamname": "TSV Hagen",
+       "teamnameSmall": "TSV H",
+       "clubId": 501,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853050,
+      "matchDay": 8,
+      "matchNo": 45,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "20:00",
+      "homeTeam": {
+       "seasonTeamId": 451385,
+       "teamCompetitionId": 451385,
+       "teamPermanentId": 159703,
+       "teamname": "Hürther BC",
+       "teamnameSmall": "HBC",
+       "clubId": 520,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451374,
+       "teamCompetitionId": 451374,
+       "teamPermanentId": 159700,
+       "teamname": "Citybasket Recklinghausen",
+       "teamnameSmall": "CBR 1",
+       "clubId": 1965,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2853049,
+      "matchDay": 8,
+      "matchNo": 44,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "20:30",
+      "homeTeam": {
+       "seasonTeamId": 451375,
+       "teamCompetitionId": 451375,
+       "teamPermanentId": 159678,
+       "teamname": "DJK Frankenberg",
+       "teamnameSmall": "Frbg",
+       "clubId": 1264,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 451384,
+       "teamCompetitionId": 451384,
+       "teamPermanentId": 159698,
+       "teamname": "WINGS Leverkusen 2",
+       "teamnameSmall": "WINGS",
+       "clubId": 887,
        "verzicht": false
       },
       "result": null,
@@ -2644,7 +2200,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20260919T140000Z",
       "DTEND": "20260919T160000Z",
       "SUMMARY": "SCA Ochtrup-New Basket Oberhausen 3, 404B202 (SpNr. 3)",
@@ -2653,7 +2209,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20260927T140000Z",
       "DTEND": "20260927T160000Z",
       "SUMMARY": "New Basket Oberhausen 3-Citybasket Recklinghausen 3, 209B121 (SpNr. 9)",
@@ -2662,7 +2218,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261003T120000Z",
       "DTEND": "20261003T140000Z",
       "SUMMARY": "BG Dorsten-New Basket Oberhausen 3, 406A141 (SpNr. 18)",
@@ -2671,7 +2227,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261010T120000Z",
       "DTEND": "20261010T140000Z",
       "SUMMARY": "New Basket Oberhausen 3-DJK Adler Frintrop, 209B121 (SpNr. 21)",
@@ -2680,7 +2236,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261107T190000Z",
       "DTEND": "20261107T210000Z",
       "SUMMARY": "RSV Borken-New Basket Oberhausen 3, 403B521 (SpNr. 28)",
@@ -2689,7 +2245,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261114T130000Z",
       "DTEND": "20261114T150000Z",
       "SUMMARY": "New Basket Oberhausen 3-VfvB Ruhrort/Laar, 209B121 (SpNr. 33)",
@@ -2698,7 +2254,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261129T150000Z",
       "DTEND": "20261129T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-FC Schalke 04, 209B121 (SpNr. 39)",
@@ -2707,7 +2263,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261206T150000Z",
       "DTEND": "20261206T170000Z",
       "SUMMARY": "Ruhrbaskets Oberhausen-New Basket Oberhausen 3, 209B200 (SpNr. 43)",
@@ -2716,7 +2272,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261212T150000Z",
       "DTEND": "20261212T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-CroBaskets Essen, 209B121 (SpNr. 51)",
@@ -2725,7 +2281,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20261219T143000Z",
       "DTEND": "20261219T163000Z",
       "SUMMARY": "BG Kamp-Lintfort-New Basket Oberhausen 3, 207A010 (SpNr. 59)",
@@ -2734,7 +2290,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270109T150000Z",
       "DTEND": "20270109T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-SV Eintracht Erle, 209B121 (SpNr. 63)",
@@ -2743,7 +2299,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270117T150000Z",
       "DTEND": "20270117T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-SCA Ochtrup, 209B121 (SpNr. 69)",
@@ -2752,7 +2308,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270124T150000Z",
       "DTEND": "20270124T170000Z",
       "SUMMARY": "Citybasket Recklinghausen 3-New Basket Oberhausen 3, 406A630 (SpNr. 75)",
@@ -2761,7 +2317,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270131T150000Z",
       "DTEND": "20270131T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-BG Dorsten, 209B121 (SpNr. 84)",
@@ -2770,7 +2326,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270214T110000Z",
       "DTEND": "20270214T130000Z",
       "SUMMARY": "DJK Adler Frintrop-New Basket Oberhausen 3, 211A211 (SpNr. 87)",
@@ -2779,7 +2335,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270220T150000Z",
       "DTEND": "20270220T170000Z",
       "SUMMARY": "New Basket Oberhausen 3-RSV Borken, 209B121 (SpNr. 94)",
@@ -2788,7 +2344,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270228T150000Z",
       "DTEND": "20270228T170000Z",
       "SUMMARY": "VfvB Ruhrort/Laar-New Basket Oberhausen 3, 208C101 (SpNr. 99)",
@@ -2797,7 +2353,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270306T150000Z",
       "DTEND": "20270306T170000Z",
       "SUMMARY": "FC Schalke 04-New Basket Oberhausen 3, 407A511 (SpNr. 105)",
@@ -2806,7 +2362,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270313T170000Z",
       "DTEND": "20270313T190000Z",
       "SUMMARY": "New Basket Oberhausen 3-Ruhrbaskets Oberhausen, 209B121 (SpNr. 109)",
@@ -2815,7 +2371,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270411T120000Z",
       "DTEND": "20270411T140000Z",
       "SUMMARY": "CroBaskets Essen-New Basket Oberhausen 3, 211C251 (SpNr. 117)",
@@ -2824,7 +2380,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270418T140000Z",
       "DTEND": "20270418T160000Z",
       "SUMMARY": "New Basket Oberhausen 3-BG Kamp-Lintfort, 209B121 (SpNr. 125)",
@@ -2833,7 +2389,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121620Z",
+      "DTSTAMP": "20261121T155832Z",
       "DTSTART": "20270424T160000Z",
       "DTEND": "20270424T180000Z",
       "SUMMARY": "SV Eintracht Erle-New Basket Oberhausen 3, 403D302 (SpNr. 129)",
@@ -3846,7 +3402,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20260920T120000Z",
       "DTEND": "20260920T140000Z",
       "SUMMARY": "New Basket Oberhausen-SG Bergische Löwen, 209B121 (SpNr. 4)",
@@ -3855,7 +3411,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20260926T140000Z",
       "DTEND": "20260926T160000Z",
       "SUMMARY": "Osterather TV-New Basket Oberhausen, 202B021 (SpNr. 7)",
@@ -3864,7 +3420,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261010T140000Z",
       "DTEND": "20261010T160000Z",
       "SUMMARY": "Willicher TV-New Basket Oberhausen, 204B301 (SpNr. 23)",
@@ -3873,7 +3429,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261107T170000Z",
       "DTEND": "20261107T190000Z",
       "SUMMARY": "Talents BonnRhöndorf-New Basket Oberhausen, 107B321 (SpNr. 25)",
@@ -3882,7 +3438,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261115T160000Z",
       "DTEND": "20261115T180000Z",
       "SUMMARY": "New Basket Oberhausen-TSV Urdenbach, 209B121 (SpNr. 34)",
@@ -3891,7 +3447,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261119T173000Z",
       "DTEND": "20261119T193000Z",
       "SUMMARY": "New Basket Oberhausen-TV Goch, 209B121 (SpNr. 16)",
@@ -3900,7 +3456,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261122T230000Z",
       "DTEND": "20261123T010000Z",
       "SUMMARY": "Hürther BC-New Basket Oberhausen, 105B551 (SpNr. 38)",
@@ -3909,7 +3465,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261213T170000Z",
       "DTEND": "20261213T190000Z",
       "SUMMARY": "Capitol Bascats Düsseldorf-New Basket Oberhausen, 201A480 (SpNr. 53)",
@@ -3918,7 +3474,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20261220T130000Z",
       "DTEND": "20261220T150000Z",
       "SUMMARY": "New Basket Oberhausen-ISD Sportverein, 209B121 (SpNr. 58)",
@@ -3927,7 +3483,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270110T110000Z",
       "DTEND": "20270110T130000Z",
       "SUMMARY": "TG Neuss-New Basket Oberhausen, 202A292 (SpNr. 63)",
@@ -3936,7 +3492,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270117T130000Z",
       "DTEND": "20270117T150000Z",
       "SUMMARY": "SG Bergische Löwen-New Basket Oberhausen, 112A101 (SpNr. 70)",
@@ -3945,7 +3501,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270124T090000Z",
       "DTEND": "20270124T110000Z",
       "SUMMARY": "New Basket Oberhausen-Osterather TV, 209B121 (SpNr. 73)",
@@ -3954,7 +3510,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270130T150000Z",
       "DTEND": "20270130T170000Z",
       "SUMMARY": "TV Goch-New Basket Oberhausen, 206B200 (SpNr. 82)",
@@ -3963,7 +3519,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270213T150000Z",
       "DTEND": "20270213T170000Z",
       "SUMMARY": "New Basket Oberhausen-Willicher TV, 209B121 (SpNr. 89)",
@@ -3972,7 +3528,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270220T130000Z",
       "DTEND": "20270220T150000Z",
       "SUMMARY": "New Basket Oberhausen-Talents BonnRhöndorf, 209B121 (SpNr. 91)",
@@ -3981,7 +3537,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270228T130000Z",
       "DTEND": "20270228T150000Z",
       "SUMMARY": "TSV Urdenbach-New Basket Oberhausen, 201B502 (SpNr. 100)",
@@ -3990,7 +3546,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270228T230000Z",
       "DTEND": "20270301T010000Z",
       "SUMMARY": "New Basket Oberhausen-Hürther BC, 209B121 (SpNr. 104)",
@@ -3999,7 +3555,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270410T120000Z",
       "DTEND": "20270410T140000Z",
       "SUMMARY": "New Basket Oberhausen-Capitol Bascats Düsseldorf, 209B121 (SpNr. 119)",
@@ -4008,7 +3564,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270418T160000Z",
       "DTEND": "20270418T180000Z",
       "SUMMARY": "ISD Sportverein-New Basket Oberhausen, 201B121 (SpNr. 124)",
@@ -4017,7 +3573,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121627Z",
+      "DTSTAMP": "20261121T155839Z",
       "DTSTART": "20270425T100000Z",
       "DTEND": "20270425T120000Z",
       "SUMMARY": "New Basket Oberhausen-TG Neuss, 209B121 (SpNr. 129)",
@@ -4547,13 +4103,7 @@
      "heimteam": "New Basket Oberhausen",
      "gastteam": "TG Neuss 2",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen-TG Neuss 2, 209B121 (SpNr. 26)",
-     "spieltag": 5,
-     "spielNr": 26,
-     "ergebnis": "82:47",
-     "ergebnisBestaetigt": true,
-     "abgesagt": false,
-     "verzicht": false
+     "kalenderText": "New Basket Oberhausen-TG Neuss 2, 209B121 (SpNr. 26)"
     },
     {
      "spielId": "2886202",
@@ -4592,7 +4142,13 @@
      "heimteam": "BTV Basketball Brühl",
      "gastteam": "New Basket Oberhausen",
      "ort": "von Wied Straße 2, 50321, Brühl",
-     "kalenderText": "BTV Basketball Brühl-New Basket Oberhausen, 105A770 (SpNr. 45)"
+     "kalenderText": "BTV Basketball Brühl-New Basket Oberhausen, 105A770 (SpNr. 45)",
+     "spieltag": 8,
+     "spielNr": 45,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2886216",
@@ -4724,7 +4280,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20260920T100000Z",
       "DTEND": "20260920T120000Z",
       "SUMMARY": "New Basket Oberhausen-Sportclub Krefeld, 209B121 (SpNr. 2)",
@@ -4733,7 +4289,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20260926T160000Z",
       "DTEND": "20260926T180000Z",
       "SUMMARY": "Osterather TV-New Basket Oberhausen, 202B021 (SpNr. 9)",
@@ -4742,7 +4298,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261003T140000Z",
       "DTEND": "20261003T160000Z",
       "SUMMARY": "New Basket Oberhausen-SG Bergische Löwen, 209B121 (SpNr. 14)",
@@ -4751,7 +4307,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261010T140000Z",
       "DTEND": "20261010T160000Z",
       "SUMMARY": "Talents BonnRhöndorf 2-New Basket Oberhausen, 107B321 (SpNr. 19)",
@@ -4760,7 +4316,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261108T150000Z",
       "DTEND": "20261108T170000Z",
       "SUMMARY": "New Basket Oberhausen-TG Neuss 2, 209B121 (SpNr. 26)",
@@ -4769,7 +4325,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261115T130000Z",
       "DTEND": "20261115T150000Z",
       "SUMMARY": "BC Soest-New Basket Oberhausen, 306B131 (SpNr. 35)",
@@ -4778,7 +4334,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261129T130000Z",
       "DTEND": "20261129T150000Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrpott Baskets Herne, 209B121 (SpNr. 38)",
@@ -4787,7 +4343,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261206T110000Z",
       "DTEND": "20261206T130000Z",
       "SUMMARY": "BTV Basketball Brühl-New Basket Oberhausen, 105A770 (SpNr. 45)",
@@ -4796,7 +4352,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261212T130000Z",
       "DTEND": "20261212T150000Z",
       "SUMMARY": "BBV Köln-Nordwest-New Basket Oberhausen, 109B451 (SpNr. 49)",
@@ -4805,7 +4361,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20261220T110000Z",
       "DTEND": "20261220T130000Z",
       "SUMMARY": "New Basket Oberhausen-Capitol Bascats Düsseldorf, 209B121 (SpNr. 56)",
@@ -4814,7 +4370,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270109T110000Z",
       "DTEND": "20270109T130000Z",
       "SUMMARY": "VfL AstroStars Bochum 2-New Basket Oberhausen, 301B520 (SpNr. 65)",
@@ -4823,7 +4379,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270116T150000Z",
       "DTEND": "20270116T170000Z",
       "SUMMARY": "Sportclub Krefeld-New Basket Oberhausen, 205A011 (SpNr. 68)",
@@ -4832,7 +4388,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270124T110000Z",
       "DTEND": "20270124T130000Z",
       "SUMMARY": "New Basket Oberhausen-Osterather TV, 209B121 (SpNr. 75)",
@@ -4841,7 +4397,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270130T150000Z",
       "DTEND": "20270130T170000Z",
       "SUMMARY": "SG Bergische Löwen-New Basket Oberhausen, 112B111 (SpNr. 80)",
@@ -4850,7 +4406,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270214T110000Z",
       "DTEND": "20270214T130000Z",
       "SUMMARY": "New Basket Oberhausen-Talents BonnRhöndorf 2, 209B121 (SpNr. 85)",
@@ -4859,7 +4415,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270220T100000Z",
       "DTEND": "20270220T120000Z",
       "SUMMARY": "TG Neuss 2-New Basket Oberhausen, 202A292 (SpNr. 92)",
@@ -4868,7 +4424,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270227T150000Z",
       "DTEND": "20270227T170000Z",
       "SUMMARY": "New Basket Oberhausen-BC Soest, 209B121 (SpNr. 101)",
@@ -4877,7 +4433,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270307T150000Z",
       "DTEND": "20270307T170000Z",
       "SUMMARY": "Ruhrpott Baskets Herne-New Basket Oberhausen, 302B111 (SpNr. 104)",
@@ -4886,7 +4442,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270313T150000Z",
       "DTEND": "20270313T170000Z",
       "SUMMARY": "New Basket Oberhausen-BTV Basketball Brühl, 209B121 (SpNr. 111)",
@@ -4895,7 +4451,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270411T100000Z",
       "DTEND": "20270411T120000Z",
       "SUMMARY": "New Basket Oberhausen-BBV Köln-Nordwest, 209B121 (SpNr. 115)",
@@ -4904,7 +4460,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270418T140000Z",
       "DTEND": "20270418T160000Z",
       "SUMMARY": "Capitol Bascats Düsseldorf-New Basket Oberhausen, 201A480 (SpNr. 122)",
@@ -4913,7 +4469,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121633Z",
+      "DTSTAMP": "20261121T155845Z",
       "DTSTART": "20270425T080000Z",
       "DTEND": "20270425T100000Z",
       "SUMMARY": "New Basket Oberhausen-VfL AstroStars Bochum 2, 209B121 (SpNr. 131)",
@@ -4923,186 +4479,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2886196,
-      "matchDay": 5,
-      "matchNo": 29,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "12:00",
-      "homeTeam": {
-       "seasonTeamId": 454976,
-       "teamCompetitionId": 454976,
-       "teamPermanentId": 311169,
-       "teamname": "VfL AstroStars Bochum 2",
-       "teamnameSmall": "VfL 2",
-       "clubId": 4209,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 454934,
-       "teamCompetitionId": 454934,
-       "teamPermanentId": 311095,
-       "teamname": "SG Bergische Löwen",
-       "teamnameSmall": "BGL",
-       "clubId": 4440,
-       "verzicht": false
-      },
-      "result": "105:32",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2886195,
-      "matchDay": 5,
-      "matchNo": 28,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 454935,
-       "teamCompetitionId": 454935,
-       "teamPermanentId": 263528,
-       "teamname": "Sportclub Krefeld",
-       "teamnameSmall": "SCKR",
-       "clubId": 1621,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 454932,
-       "teamCompetitionId": 454932,
-       "teamPermanentId": 256439,
-       "teamname": "Osterather TV",
-       "teamnameSmall": "OTV",
-       "clubId": 1466,
-       "verzicht": false
-      },
-      "result": "83:64",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2886197,
-      "matchDay": 5,
-      "matchNo": 30,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 454931,
-       "teamCompetitionId": 454931,
-       "teamPermanentId": 310988,
-       "teamname": "Capitol Bascats Düsseldorf",
-       "teamnameSmall": "Capit",
-       "clubId": 4476,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 454975,
-       "teamCompetitionId": 454975,
-       "teamPermanentId": 311938,
-       "teamname": "Talents BonnRhöndorf 2",
-       "teamnameSmall": "Talen",
-       "clubId": 742,
-       "verzicht": false
-      },
-      "result": "41:53",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2886192,
-      "matchDay": 5,
-      "matchNo": 25,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 455118,
-       "teamCompetitionId": 455118,
-       "teamPermanentId": 317288,
-       "teamname": "BBV Köln-Nordwest",
-       "teamnameSmall": "BBV",
-       "clubId": 3543,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 454977,
-       "teamCompetitionId": 454977,
-       "teamPermanentId": 311162,
-       "teamname": "Ruhrpott Baskets Herne",
-       "teamnameSmall": "RBH",
-       "clubId": 4297,
-       "verzicht": false
-      },
-      "result": "45:52",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2886193,
-      "matchDay": 5,
-      "matchNo": 26,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 454974,
-       "teamCompetitionId": 454974,
-       "teamPermanentId": 204094,
-       "teamname": "New Basket Oberhausen",
-       "teamnameSmall": "NBO",
-       "clubId": 682,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 454936,
-       "teamCompetitionId": 454936,
-       "teamPermanentId": 252661,
-       "teamname": "TG Neuss 2",
-       "teamnameSmall": "TGN 2",
-       "clubId": 1415,
-       "verzicht": false
-      },
-      "result": "82:47",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2886200,
@@ -5570,6 +4946,222 @@
       "matchBoxscore": null,
       "playByPlay": null,
       "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886210,
+      "matchDay": 8,
+      "matchNo": 43,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "14:00",
+      "homeTeam": {
+       "seasonTeamId": 454975,
+       "teamCompetitionId": 454975,
+       "teamPermanentId": 311938,
+       "teamname": "Talents BonnRhöndorf 2",
+       "teamnameSmall": "Talen",
+       "clubId": 742,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 454932,
+       "teamCompetitionId": 454932,
+       "teamPermanentId": 256439,
+       "teamname": "Osterather TV",
+       "teamnameSmall": "OTV",
+       "clubId": 1466,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886211,
+      "matchDay": 8,
+      "matchNo": 44,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "16:00",
+      "homeTeam": {
+       "seasonTeamId": 454934,
+       "teamCompetitionId": 454934,
+       "teamPermanentId": 311095,
+       "teamname": "SG Bergische Löwen",
+       "teamnameSmall": "BGL",
+       "clubId": 4440,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455118,
+       "teamCompetitionId": 455118,
+       "teamPermanentId": 317288,
+       "teamname": "BBV Köln-Nordwest",
+       "teamnameSmall": "BBV",
+       "clubId": 3543,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886215,
+      "matchDay": 8,
+      "matchNo": 48,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "18:00",
+      "homeTeam": {
+       "seasonTeamId": 454936,
+       "teamCompetitionId": 454936,
+       "teamPermanentId": 252661,
+       "teamname": "TG Neuss 2",
+       "teamnameSmall": "TGN 2",
+       "clubId": 1415,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 454935,
+       "teamCompetitionId": 454935,
+       "teamPermanentId": 263528,
+       "teamname": "Sportclub Krefeld",
+       "teamnameSmall": "SCKR",
+       "clubId": 1621,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886212,
+      "matchDay": 8,
+      "matchNo": 45,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "12:00",
+      "homeTeam": {
+       "seasonTeamId": 454930,
+       "teamCompetitionId": 454930,
+       "teamPermanentId": 216933,
+       "teamname": "BTV Basketball Brühl",
+       "teamnameSmall": "BTV",
+       "clubId": 875,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 454974,
+       "teamCompetitionId": 454974,
+       "teamPermanentId": 204094,
+       "teamname": "New Basket Oberhausen",
+       "teamnameSmall": "NBO",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886213,
+      "matchDay": 8,
+      "matchNo": 46,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "14:00",
+      "homeTeam": {
+       "seasonTeamId": 454977,
+       "teamCompetitionId": 454977,
+       "teamPermanentId": 311162,
+       "teamname": "Ruhrpott Baskets Herne",
+       "teamnameSmall": "RBH",
+       "clubId": 4297,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 454931,
+       "teamCompetitionId": 454931,
+       "teamPermanentId": 310988,
+       "teamname": "Capitol Bascats Düsseldorf",
+       "teamnameSmall": "Capit",
+       "clubId": 4476,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886214,
+      "matchDay": 8,
+      "matchNo": 47,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "16:00",
+      "homeTeam": {
+       "seasonTeamId": 454978,
+       "teamCompetitionId": 454978,
+       "teamPermanentId": 311053,
+       "teamname": "BC Soest",
+       "teamnameSmall": "BC 70",
+       "clubId": 1184,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 454976,
+       "teamCompetitionId": 454976,
+       "teamPermanentId": 311169,
+       "teamname": "VfL AstroStars Bochum 2",
+       "teamnameSmall": "VfL 2",
+       "clubId": 4209,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
      }
     ]
    }
@@ -5650,7 +5242,7 @@
      "kalenderText": "New Basket Oberhausen-Ruhrpott Baskets Herne, 209B121 (SpNr. 54)",
      "spieltag": 9,
      "spielNr": 54,
-     "ergebnis": null,
+     "ergebnis": "110:48",
      "ergebnisBestaetigt": false,
      "abgesagt": false,
      "verzicht": false
@@ -5677,7 +5269,13 @@
      "heimteam": "SG Bergische Löwen",
      "gastteam": "New Basket Oberhausen",
      "ort": "Kaule 3-15 (E: über Schlossfeldweg), 51429, Bergisch Gladbach",
-     "kalenderText": "SG Bergische Löwen-New Basket Oberhausen, 112B111 (SpNr. 46)"
+     "kalenderText": "SG Bergische Löwen-New Basket Oberhausen, 112B111 (SpNr. 46)",
+     "spieltag": 8,
+     "spielNr": 46,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2886751",
@@ -5800,7 +5398,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20260920T080000Z",
       "DTEND": "20260920T100000Z",
       "SUMMARY": "New Basket Oberhausen-RheinStars Köln 2, 209B121 (SpNr. 6)",
@@ -5809,7 +5407,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20260927T100000Z",
       "DTEND": "20260927T120000Z",
       "SUMMARY": "Bonner SV Roleber-New Basket Oberhausen, 107B190 (SpNr. 10)",
@@ -5818,7 +5416,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261004T080000Z",
       "DTEND": "20261004T100000Z",
       "SUMMARY": "New Basket Oberhausen-CroBaskets Essen, 209B121 (SpNr. 18)",
@@ -5827,7 +5425,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261011T140000Z",
       "DTEND": "20261011T160000Z",
       "SUMMARY": "Osterather TV-New Basket Oberhausen, 202B021 (SpNr. 20)",
@@ -5836,7 +5434,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261108T130000Z",
       "DTEND": "20261108T150000Z",
       "SUMMARY": "New Basket Oberhausen-Capitol Bascats Düsseldorf, 209B121 (SpNr. 30)",
@@ -5845,7 +5443,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261115T150000Z",
       "DTEND": "20261115T170000Z",
       "SUMMARY": "TG Neuss-New Basket Oberhausen, 202A292 (SpNr. 36)",
@@ -5854,7 +5452,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261121T130000Z",
       "DTEND": "20261121T150000Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrpott Baskets Herne, 209B121 (SpNr. 54)",
@@ -5863,7 +5461,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261129T110000Z",
       "DTEND": "20261129T130000Z",
       "SUMMARY": "New Basket Oberhausen-Talents BonnRhöndorf 2, 209B121 (SpNr. 42)",
@@ -5872,7 +5470,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261205T170000Z",
       "DTEND": "20261205T190000Z",
       "SUMMARY": "SG Bergische Löwen-New Basket Oberhausen, 112B111 (SpNr. 46)",
@@ -5881,7 +5479,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20261220T150000Z",
       "DTEND": "20261220T170000Z",
       "SUMMARY": "Hürther BC-New Basket Oberhausen, 105B551 (SpNr. 56)",
@@ -5890,7 +5488,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270110T130000Z",
       "DTEND": "20270110T150000Z",
       "SUMMARY": "New Basket Oberhausen-WINGS Leverkusen, 209B121 (SpNr. 66)",
@@ -5899,7 +5497,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270116T130000Z",
       "DTEND": "20270116T150000Z",
       "SUMMARY": "RheinStars Köln 2-New Basket Oberhausen, 109A542 (SpNr. 72)",
@@ -5908,7 +5506,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270124T130000Z",
       "DTEND": "20270124T150000Z",
       "SUMMARY": "New Basket Oberhausen-Bonner SV Roleber, 209B121 (SpNr. 76)",
@@ -5917,7 +5515,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270130T110000Z",
       "DTEND": "20270130T130000Z",
       "SUMMARY": "CroBaskets Essen-New Basket Oberhausen, 211B701 (SpNr. 84)",
@@ -5926,7 +5524,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270214T090000Z",
       "DTEND": "20270214T110000Z",
       "SUMMARY": "New Basket Oberhausen-Osterather TV, 209B121 (SpNr. 86)",
@@ -5935,7 +5533,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270221T110000Z",
       "DTEND": "20270221T130000Z",
       "SUMMARY": "Capitol Bascats Düsseldorf-New Basket Oberhausen, 201A480 (SpNr. 96)",
@@ -5944,7 +5542,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270228T130000Z",
       "DTEND": "20270228T150000Z",
       "SUMMARY": "New Basket Oberhausen-TG Neuss, 209B121 (SpNr. 102)",
@@ -5953,7 +5551,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270306T110000Z",
       "DTEND": "20270306T130000Z",
       "SUMMARY": "Talents BonnRhöndorf 2-New Basket Oberhausen, 107B321 (SpNr. 108)",
@@ -5962,7 +5560,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270314T110000Z",
       "DTEND": "20270314T130000Z",
       "SUMMARY": "New Basket Oberhausen-SG Bergische Löwen, 209B121 (SpNr. 112)",
@@ -5971,7 +5569,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270411T080000Z",
       "DTEND": "20270411T100000Z",
       "SUMMARY": "Ruhrpott Baskets Herne-New Basket Oberhausen, 302B111 (SpNr. 120)",
@@ -5980,7 +5578,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270418T120000Z",
       "DTEND": "20270418T140000Z",
       "SUMMARY": "New Basket Oberhausen-Hürther BC, 209B121 (SpNr. 122)",
@@ -5989,7 +5587,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121638Z",
+      "DTSTAMP": "20261121T155850Z",
       "DTSTART": "20270424T130000Z",
       "DTEND": "20270424T150000Z",
       "SUMMARY": "WINGS Leverkusen-New Basket Oberhausen, 111A081 (SpNr. 132)",
@@ -6244,7 +5842,7 @@
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
-      "abgesagt": false,
+      "abgesagt": true,
       "matchResult": null,
       "matchInfo": null,
       "matchBoxscore": null,
@@ -6276,7 +5874,7 @@
        "clubId": 4297,
        "verzicht": false
       },
-      "result": null,
+      "result": "110:48",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -6502,6 +6100,222 @@
       "matchBoxscore": null,
       "playByPlay": null,
       "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886742,
+      "matchDay": 8,
+      "matchNo": 47,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "10:00",
+      "homeTeam": {
+       "seasonTeamId": 455026,
+       "teamCompetitionId": 455026,
+       "teamPermanentId": 311940,
+       "teamname": "Talents BonnRhöndorf 2",
+       "teamnameSmall": "BGBN2",
+       "clubId": 742,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455225,
+       "teamCompetitionId": 455225,
+       "teamPermanentId": 311067,
+       "teamname": "RheinStars Köln 2",
+       "teamnameSmall": "RSK",
+       "clubId": 4306,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886743,
+      "matchDay": 8,
+      "matchNo": 48,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "13:00",
+      "homeTeam": {
+       "seasonTeamId": 455027,
+       "teamCompetitionId": 455027,
+       "teamPermanentId": 252593,
+       "teamname": "TG Neuss",
+       "teamnameSmall": "TGN",
+       "clubId": 1415,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455224,
+       "teamCompetitionId": 455224,
+       "teamPermanentId": 320508,
+       "teamname": "Bonner SV Roleber",
+       "teamnameSmall": "BSV",
+       "clubId": 654,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886741,
+      "matchDay": 8,
+      "matchNo": 46,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "18:00",
+      "homeTeam": {
+       "seasonTeamId": 455228,
+       "teamCompetitionId": 455228,
+       "teamPermanentId": 311070,
+       "teamname": "SG Bergische Löwen",
+       "teamnameSmall": null,
+       "clubId": 4440,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455022,
+       "teamCompetitionId": 455022,
+       "teamPermanentId": 204077,
+       "teamname": "New Basket Oberhausen",
+       "teamnameSmall": "NBO",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886738,
+      "matchDay": 8,
+      "matchNo": 43,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "12:00",
+      "homeTeam": {
+       "seasonTeamId": 455019,
+       "teamCompetitionId": 455019,
+       "teamPermanentId": 311064,
+       "teamname": "Capitol Bascats Düsseldorf",
+       "teamnameSmall": "Capit",
+       "clubId": 4476,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455226,
+       "teamCompetitionId": 455226,
+       "teamPermanentId": 312327,
+       "teamname": "CroBaskets Essen",
+       "teamnameSmall": "CroBa",
+       "clubId": 3571,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886739,
+      "matchDay": 8,
+      "matchNo": 44,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "16:00",
+      "homeTeam": {
+       "seasonTeamId": 455024,
+       "teamCompetitionId": 455024,
+       "teamPermanentId": 311055,
+       "teamname": "Osterather TV",
+       "teamnameSmall": "OTV",
+       "clubId": 1466,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455028,
+       "teamCompetitionId": 455028,
+       "teamPermanentId": 311054,
+       "teamname": "WINGS Leverkusen",
+       "teamnameSmall": "WINGS",
+       "clubId": 887,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2886740,
+      "matchDay": 8,
+      "matchNo": 45,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "16:00",
+      "homeTeam": {
+       "seasonTeamId": 455227,
+       "teamCompetitionId": 455227,
+       "teamPermanentId": 311057,
+       "teamname": "Ruhrpott Baskets Herne",
+       "teamnameSmall": "RBH",
+       "clubId": 4297,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455021,
+       "teamCompetitionId": 455021,
+       "teamPermanentId": 192452,
+       "teamname": "Hürther BC",
+       "teamnameSmall": "HBC",
+       "clubId": 520,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
      }
     ]
    }
@@ -6585,7 +6399,13 @@
      "heimteam": "New Basket Oberhausen 2",
      "gastteam": "TV Gerthe",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen 2-TV Gerthe, 209B121 (SpNr. 43)"
+     "kalenderText": "New Basket Oberhausen 2-TV Gerthe, 209B121 (SpNr. 43)",
+     "spieltag": 8,
+     "spielNr": 43,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2887141",
@@ -6708,7 +6528,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20260920T140000Z",
       "DTEND": "20260920T160000Z",
       "SUMMARY": "TVE Dortmund Barop-New Basket Oberhausen 2, 303A231 (SpNr. 5)",
@@ -6717,7 +6537,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20260927T080000Z",
       "DTEND": "20260927T100000Z",
       "SUMMARY": "New Basket Oberhausen 2-Herner TC 2, 209B121 (SpNr. 7)",
@@ -6726,7 +6546,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261004T120000Z",
       "DTEND": "20261004T140000Z",
       "SUMMARY": "Hilden 96ers-New Basket Oberhausen 2, 212A121 (SpNr. 15)",
@@ -6735,7 +6555,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261103T170000Z",
       "DTEND": "20261103T190000Z",
       "SUMMARY": "New Basket Oberhausen 2-TV Germania Kaiserau, 209B121 (SpNr. 19)",
@@ -6744,7 +6564,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261115T120000Z",
       "DTEND": "20261115T140000Z",
       "SUMMARY": "New Basket Oberhausen 2-VfL AstroStars Bochum, 209B121 (SpNr. 31)",
@@ -6753,7 +6573,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261128T110000Z",
       "DTEND": "20261128T130000Z",
       "SUMMARY": "Barmer TV-New Basket Oberhausen 2, 213A271 (SpNr. 40)",
@@ -6762,7 +6582,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261206T110000Z",
       "DTEND": "20261206T130000Z",
       "SUMMARY": "New Basket Oberhausen 2-TV Gerthe, 209B121 (SpNr. 43)",
@@ -6771,7 +6591,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261213T110000Z",
       "DTEND": "20261213T130000Z",
       "SUMMARY": "ETB Miners Essen-New Basket Oberhausen 2, 211C221 (SpNr. 50)",
@@ -6780,7 +6600,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20261220T130000Z",
       "DTEND": "20261220T150000Z",
       "SUMMARY": "Ruhrbaskets Oberhausen-New Basket Oberhausen 2, 209B200 (SpNr. 55)",
@@ -6789,7 +6609,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270109T130000Z",
       "DTEND": "20270109T150000Z",
       "SUMMARY": "New Basket Oberhausen 2-TV Gerthe 2, 209B121 (SpNr. 61)",
@@ -6798,7 +6618,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270117T130000Z",
       "DTEND": "20270117T150000Z",
       "SUMMARY": "New Basket Oberhausen 2-TVE Dortmund Barop, 209B121 (SpNr. 71)",
@@ -6807,7 +6627,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270124T110000Z",
       "DTEND": "20270124T130000Z",
       "SUMMARY": "Herner TC 2-New Basket Oberhausen 2, 302B211 (SpNr. 73)",
@@ -6816,7 +6636,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270131T130000Z",
       "DTEND": "20270131T150000Z",
       "SUMMARY": "New Basket Oberhausen 2-Hilden 96ers, 209B121 (SpNr. 81)",
@@ -6825,7 +6645,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270213T150000Z",
       "DTEND": "20270213T170000Z",
       "SUMMARY": "TV Germania Kaiserau-New Basket Oberhausen 2, 304B421 (SpNr. 85)",
@@ -6834,7 +6654,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270228T130000Z",
       "DTEND": "20270228T150000Z",
       "SUMMARY": "VfL AstroStars Bochum-New Basket Oberhausen 2, 301A511 (SpNr. 97)",
@@ -6843,7 +6663,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270307T110000Z",
       "DTEND": "20270307T130000Z",
       "SUMMARY": "New Basket Oberhausen 2-Barmer TV, 209B121 (SpNr. 106)",
@@ -6852,7 +6672,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270313T160000Z",
       "DTEND": "20270313T180000Z",
       "SUMMARY": "TV Gerthe-New Basket Oberhausen 2, 301A321 (SpNr. 109)",
@@ -6861,7 +6681,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270411T080000Z",
       "DTEND": "20270411T100000Z",
       "SUMMARY": "New Basket Oberhausen 2-ETB Miners Essen, 209B121 (SpNr. 116)",
@@ -6870,7 +6690,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270418T100000Z",
       "DTEND": "20270418T120000Z",
       "SUMMARY": "New Basket Oberhausen 2-Ruhrbaskets Oberhausen, 209B121 (SpNr. 121)",
@@ -6879,7 +6699,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121644Z",
+      "DTSTAMP": "20261121T155856Z",
       "DTSTART": "20270425T100000Z",
       "DTEND": "20270425T120000Z",
       "SUMMARY": "TV Gerthe 2-New Basket Oberhausen 2, 301A321 (SpNr. 127)",
@@ -6889,186 +6709,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2887117,
-      "matchDay": 5,
-      "matchNo": 26,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 455261,
-       "teamCompetitionId": 455261,
-       "teamPermanentId": 312919,
-       "teamname": "TV Germania Kaiserau",
-       "teamnameSmall": "TVGK",
-       "clubId": 1344,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 455257,
-       "teamCompetitionId": 455257,
-       "teamPermanentId": 318436,
-       "teamname": "TV Gerthe 2",
-       "teamnameSmall": "TVGe2",
-       "clubId": 1514,
-       "verzicht": false
-      },
-      "result": "103:30",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2887119,
-      "matchDay": 5,
-      "matchNo": 28,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 455255,
-       "teamCompetitionId": 455255,
-       "teamPermanentId": 311071,
-       "teamname": "Barmer TV",
-       "teamnameSmall": "BTV",
-       "clubId": 1064,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 455256,
-       "teamCompetitionId": 455256,
-       "teamPermanentId": 311056,
-       "teamname": "TV Gerthe",
-       "teamnameSmall": "TV Ge",
-       "clubId": 1514,
-       "verzicht": false
-      },
-      "result": "9:78",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2887120,
-      "matchDay": 5,
-      "matchNo": 29,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 455258,
-       "teamCompetitionId": 455258,
-       "teamPermanentId": 311156,
-       "teamname": "VfL AstroStars Bochum",
-       "teamnameSmall": "VflBo",
-       "clubId": 4209,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 455253,
-       "teamCompetitionId": 455253,
-       "teamPermanentId": 217813,
-       "teamname": "ETB Miners Essen",
-       "teamnameSmall": "ETB",
-       "clubId": 884,
-       "verzicht": false
-      },
-      "result": null,
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": true,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2887116,
-      "matchDay": 5,
-      "matchNo": 25,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 455252,
-       "teamCompetitionId": 455252,
-       "teamPermanentId": 320119,
-       "teamname": "Ruhrbaskets Oberhausen",
-       "teamnameSmall": "RBO",
-       "clubId": 5234,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 455259,
-       "teamCompetitionId": 455259,
-       "teamPermanentId": 260816,
-       "teamname": "Herner TC 2",
-       "teamnameSmall": "HTC 2",
-       "clubId": 1535,
-       "verzicht": false
-      },
-      "result": "50:41",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2887118,
-      "matchDay": 5,
-      "matchNo": 27,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "14:00",
-      "homeTeam": {
-       "seasonTeamId": 455254,
-       "teamCompetitionId": 455254,
-       "teamPermanentId": 188803,
-       "teamname": "Hilden 96ers",
-       "teamnameSmall": "TuS H",
-       "clubId": 466,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 455260,
-       "teamCompetitionId": 455260,
-       "teamPermanentId": 311073,
-       "teamname": "TVE Dortmund Barop",
-       "teamnameSmall": "TVE",
-       "clubId": 1036,
-       "verzicht": false
-      },
-      "result": "47:35",
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2887122,
@@ -7274,7 +6914,7 @@
        "clubId": 1514,
        "verzicht": false
       },
-      "result": null,
+      "result": "82:37",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -7310,7 +6950,7 @@
        "clubId": 1064,
        "verzicht": false
       },
-      "result": null,
+      "result": "55:23",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -7500,6 +7140,186 @@
       "matchBoxscore": null,
       "playByPlay": null,
       "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2887138,
+      "matchDay": 8,
+      "matchNo": 47,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "12:00",
+      "homeTeam": {
+       "seasonTeamId": 455260,
+       "teamCompetitionId": 455260,
+       "teamPermanentId": 311073,
+       "teamname": "TVE Dortmund Barop",
+       "teamnameSmall": "TVE",
+       "clubId": 1036,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455258,
+       "teamCompetitionId": 455258,
+       "teamPermanentId": 311156,
+       "teamname": "VfL AstroStars Bochum",
+       "teamnameSmall": "VflBo",
+       "clubId": 4209,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2887139,
+      "matchDay": 8,
+      "matchNo": 48,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "12:30",
+      "homeTeam": {
+       "seasonTeamId": 455257,
+       "teamCompetitionId": 455257,
+       "teamPermanentId": 318436,
+       "teamname": "TV Gerthe 2",
+       "teamnameSmall": "TVGe2",
+       "clubId": 1514,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455255,
+       "teamCompetitionId": 455255,
+       "teamPermanentId": 311071,
+       "teamname": "Barmer TV",
+       "teamnameSmall": "BTV",
+       "clubId": 1064,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2887134,
+      "matchDay": 8,
+      "matchNo": 43,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "12:00",
+      "homeTeam": {
+       "seasonTeamId": 455251,
+       "teamCompetitionId": 455251,
+       "teamPermanentId": 312034,
+       "teamname": "New Basket Oberhausen 2",
+       "teamnameSmall": "NBO 2",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455256,
+       "teamCompetitionId": 455256,
+       "teamPermanentId": 311056,
+       "teamname": "TV Gerthe",
+       "teamnameSmall": "TV Ge",
+       "clubId": 1514,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2887135,
+      "matchDay": 8,
+      "matchNo": 44,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "12:00",
+      "homeTeam": {
+       "seasonTeamId": 455253,
+       "teamCompetitionId": 455253,
+       "teamPermanentId": 217813,
+       "teamname": "ETB Miners Essen",
+       "teamnameSmall": "ETB",
+       "clubId": 884,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455252,
+       "teamCompetitionId": 455252,
+       "teamPermanentId": 320119,
+       "teamname": "Ruhrbaskets Oberhausen",
+       "teamnameSmall": "RBO",
+       "clubId": 5234,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2887136,
+      "matchDay": 8,
+      "matchNo": 45,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "14:00",
+      "homeTeam": {
+       "seasonTeamId": 455254,
+       "teamCompetitionId": 455254,
+       "teamPermanentId": 188803,
+       "teamname": "Hilden 96ers",
+       "teamnameSmall": "TuS H",
+       "clubId": 466,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455261,
+       "teamCompetitionId": 455261,
+       "teamPermanentId": 312919,
+       "teamname": "TV Germania Kaiserau",
+       "teamnameSmall": "TVGK",
+       "clubId": 1344,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
      }
     ]
    }
@@ -7658,7 +7478,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20260913T220000Z",
       "DTEND": "20260914T000000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-, 209B121 (SpNr. 4)",
@@ -7667,7 +7487,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20260926T103000Z",
       "DTEND": "20260926T123000Z",
       "SUMMARY": "SV DJK G-W Nottuln ak-New Basket 92 Oberhausen 3, 402B581 (SpNr. 6)",
@@ -7676,7 +7496,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261004T220000Z",
       "DTEND": "20261005T000000Z",
       "SUMMARY": "-New Basket 92 Oberhausen 3,  (SpNr. 16)",
@@ -7685,7 +7505,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261017T100000Z",
       "DTEND": "20261017T120000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-TV Emsdetten, 209B121 (SpNr. 12)",
@@ -7694,7 +7514,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261107T130000Z",
       "DTEND": "20261107T150000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-LippeBaskets Werne, 209B121 (SpNr. 20)",
@@ -7703,7 +7523,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261115T090000Z",
       "DTEND": "20261115T110000Z",
       "SUMMARY": "S.C. Union Lüdinghausen-New Basket 92 Oberhausen 3, 402B611 (SpNr. 22)",
@@ -7712,7 +7532,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261121T150000Z",
       "DTEND": "20261121T170000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-TV Jahn 1911 Königshardt e.V., 209B121 (SpNr. 28)",
@@ -7721,7 +7541,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261122T230000Z",
       "DTEND": "20261123T010000Z",
       "SUMMARY": "-New Basket 92 Oberhausen 3, 302B111 (SpNr. 32)",
@@ -7730,7 +7550,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261206T130000Z",
       "DTEND": "20261206T150000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-SV DJK G-W Nottuln ak, 209B121 (SpNr. 34)",
@@ -7739,7 +7559,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261213T130000Z",
       "DTEND": "20261213T150000Z",
       "SUMMARY": "TV Emsdetten-New Basket 92 Oberhausen 3, 404B821 (SpNr. 40)",
@@ -7748,7 +7568,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20261213T230000Z",
       "DTEND": "20261214T010000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-, 209B121 (SpNr. 44)",
@@ -7757,7 +7577,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20270110T110000Z",
       "DTEND": "20270110T130000Z",
       "SUMMARY": "LippeBaskets Werne-New Basket 92 Oberhausen 3, 304A601 (SpNr. 48)",
@@ -7766,7 +7586,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20270116T120000Z",
       "DTEND": "20270116T140000Z",
       "SUMMARY": "New Basket 92 Oberhausen 3-S.C. Union Lüdinghausen, 209B121 (SpNr. 50)",
@@ -7775,7 +7595,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121649Z",
+      "DTSTAMP": "20261121T155901Z",
       "DTSTART": "20270124T130000Z",
       "DTEND": "20270124T150000Z",
       "SUMMARY": "TV Jahn 1911 Königshardt e.V.-New Basket 92 Oberhausen 3, 209N513 (SpNr. 56)",
@@ -7785,70 +7605,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2922134,
-      "matchDay": 5,
-      "matchNo": 17,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "16:00",
-      "homeTeam": {
-       "seasonTeamId": 460639,
-       "teamCompetitionId": 460639,
-       "teamPermanentId": 314258,
-       "teamname": "TV Jahn 1911 Königshardt e.V.",
-       "teamnameSmall": null,
-       "clubId": 382,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 461486,
-       "teamCompetitionId": 461486,
-       "teamPermanentId": 319598,
-       "teamname": "S.C. Union Lüdinghausen",
-       "teamnameSmall": null,
-       "clubId": 1467,
-       "verzicht": false
-      },
-      "result": "73:47",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2922141,
-      "matchDay": 6,
-      "matchNo": 24,
-      "kickoffDate": "2026-11-09",
-      "kickoffTime": "00:00",
-      "homeTeam": null,
-      "guestTeam": {
-       "seasonTeamId": 461485,
-       "teamCompetitionId": 461485,
-       "teamPermanentId": 321309,
-       "teamname": "SV DJK G-W Nottuln ak",
-       "teamnameSmall": "GWN",
-       "clubId": 1488,
-       "verzicht": false
-      },
-      "result": null,
-      "ergebnisbestaetigt": false,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2922138,
@@ -8002,7 +7758,7 @@
        "clubId": 1651,
        "verzicht": false
       },
-      "result": null,
+      "result": "72:4",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -8257,13 +8013,7 @@
      "heimteam": "New Basket Oberhausen",
      "gastteam": "DJK Adler Frintrop 2",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen-DJK Adler Frintrop 2, 209B121 (SpNr. 29)",
-     "spieltag": 5,
-     "spielNr": 29,
-     "ergebnis": "71:48",
-     "ergebnisBestaetigt": true,
-     "abgesagt": false,
-     "verzicht": false
+     "kalenderText": "New Basket Oberhausen-DJK Adler Frintrop 2, 209B121 (SpNr. 29)"
     },
     {
      "spielId": "2945516",
@@ -8302,7 +8052,13 @@
      "heimteam": "TSV Viktoria Mülheim",
      "gastteam": "New Basket Oberhausen",
      "ort": "Frühlingstraße, 45478, Mülheim an der Ruhr",
-     "kalenderText": "TSV Viktoria Mülheim-New Basket Oberhausen, 210B401 (SpNr. 52)"
+     "kalenderText": "TSV Viktoria Mülheim-New Basket Oberhausen, 210B401 (SpNr. 52)",
+     "spieltag": 8,
+     "spielNr": 52,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2945534",
@@ -8344,7 +8100,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20260919T120000Z",
       "DTEND": "20260919T140000Z",
       "SUMMARY": "New Basket Oberhausen-Mülheimer TG 56er Bären, 209B121 (SpNr. 1)",
@@ -8353,7 +8109,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20260926T123000Z",
       "DTEND": "20260926T143000Z",
       "SUMMARY": "TV Jahn Königshardt 3-New Basket Oberhausen, 209B511 (SpNr. 13)",
@@ -8362,7 +8118,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261003T100000Z",
       "DTEND": "20261003T120000Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrbaskets Oberhausen 2, 209B121 (SpNr. 15)",
@@ -8371,7 +8127,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261010T143000Z",
       "DTEND": "20261010T163000Z",
       "SUMMARY": "TV Jahn Königshardt 2-New Basket Oberhausen, 209B511 (SpNr. 26)",
@@ -8380,7 +8136,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261108T090000Z",
       "DTEND": "20261108T110000Z",
       "SUMMARY": "New Basket Oberhausen-DJK Adler Frintrop 2, 209B121 (SpNr. 29)",
@@ -8389,7 +8145,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261114T130000Z",
       "DTEND": "20261114T150000Z",
       "SUMMARY": "TSV Viktoria Mülheim 2-New Basket Oberhausen, 210B401 (SpNr. 39)",
@@ -8398,7 +8154,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261129T090000Z",
       "DTEND": "20261129T110000Z",
       "SUMMARY": "New Basket Oberhausen-CroBaskets Essen, 209B121 (SpNr. 43)",
@@ -8407,7 +8163,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261206T130000Z",
       "DTEND": "20261206T150000Z",
       "SUMMARY": "TSV Viktoria Mülheim-New Basket Oberhausen, 210B401 (SpNr. 52)",
@@ -8416,7 +8172,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20261213T150000Z",
       "DTEND": "20261213T170000Z",
       "SUMMARY": "New Basket Oberhausen-MTG Horst, 209B121 (SpNr. 57)",
@@ -8425,7 +8181,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20270110T090000Z",
       "DTEND": "20270110T110000Z",
       "SUMMARY": "New Basket Oberhausen-Sterkrade 69ers, 209B121 (SpNr. 71)",
@@ -8434,7 +8190,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20270116T100000Z",
       "DTEND": "20270116T120000Z",
       "SUMMARY": "New Basket Oberhausen-ETB Miners Essen 2, 209B121 (SpNr. 78)",
@@ -8443,7 +8199,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121653Z",
+      "DTSTAMP": "20261121T155906Z",
       "DTSTART": "20270124T153000Z",
       "DTEND": "20270124T173000Z",
       "SUMMARY": "Turnerbund Oberhausen AK-New Basket Oberhausen, 209D011 (SpNr. 91)",
@@ -8453,222 +8209,6 @@
      }
     ],
     "ligaSpiele": [
-     {
-      "ligaData": null,
-      "matchId": 2945509,
-      "matchDay": 5,
-      "matchNo": 32,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "12:00",
-      "homeTeam": {
-       "seasonTeamId": 462978,
-       "teamCompetitionId": 462978,
-       "teamPermanentId": 310758,
-       "teamname": "CroBaskets Essen",
-       "teamnameSmall": "cro",
-       "clubId": 3571,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 462982,
-       "teamCompetitionId": 462982,
-       "teamPermanentId": 320044,
-       "teamname": "Ruhrbaskets Oberhausen 2",
-       "teamnameSmall": "RBO2",
-       "clubId": 5234,
-       "verzicht": false
-      },
-      "result": "87:24",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2945510,
-      "matchDay": 5,
-      "matchNo": 33,
-      "kickoffDate": "2026-11-07",
-      "kickoffTime": "18:00",
-      "homeTeam": {
-       "seasonTeamId": 462986,
-       "teamCompetitionId": 462986,
-       "teamPermanentId": 182118,
-       "teamname": "TV Jahn Königshardt 2",
-       "teamnameSmall": "TV Ja",
-       "clubId": 382,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 462984,
-       "teamCompetitionId": 462984,
-       "teamPermanentId": 204665,
-       "teamname": "TSV Viktoria Mülheim 2",
-       "teamnameSmall": null,
-       "clubId": 697,
-       "verzicht": false
-      },
-      "result": "98:30",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2945506,
-      "matchDay": 5,
-      "matchNo": 29,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "10:00",
-      "homeTeam": {
-       "seasonTeamId": 463038,
-       "teamCompetitionId": 463038,
-       "teamPermanentId": 204078,
-       "teamname": "New Basket Oberhausen",
-       "teamnameSmall": "New B",
-       "clubId": 682,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 462979,
-       "teamCompetitionId": 462979,
-       "teamPermanentId": 310671,
-       "teamname": "DJK Adler Frintrop 2",
-       "teamnameSmall": "DJKAF",
-       "clubId": 616,
-       "verzicht": false
-      },
-      "result": "71:48",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2945511,
-      "matchDay": 5,
-      "matchNo": 34,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "12:00",
-      "homeTeam": {
-       "seasonTeamId": 462987,
-       "teamCompetitionId": 462987,
-       "teamPermanentId": 315885,
-       "teamname": "TV Jahn Königshardt 3",
-       "teamnameSmall": "TVJK3",
-       "clubId": 382,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 462983,
-       "teamCompetitionId": 462983,
-       "teamPermanentId": 161331,
-       "teamname": "TSV Viktoria Mülheim",
-       "teamnameSmall": "TSV V",
-       "clubId": 697,
-       "verzicht": false
-      },
-      "result": "21:95",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2945507,
-      "matchDay": 5,
-      "matchNo": 30,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "13:00",
-      "homeTeam": {
-       "seasonTeamId": 463036,
-       "teamCompetitionId": 463036,
-       "teamPermanentId": 155777,
-       "teamname": "Sterkrade 69ers",
-       "teamnameSmall": "69ers",
-       "clubId": 1011,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 463243,
-       "teamCompetitionId": 463243,
-       "teamPermanentId": 155772,
-       "teamname": "ETB Miners Essen 2",
-       "teamnameSmall": "ETB 2",
-       "clubId": 884,
-       "verzicht": false
-      },
-      "result": "24:93",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
-     {
-      "ligaData": null,
-      "matchId": 2945508,
-      "matchDay": 5,
-      "matchNo": 31,
-      "kickoffDate": "2026-11-08",
-      "kickoffTime": "13:00",
-      "homeTeam": {
-       "seasonTeamId": 462980,
-       "teamCompetitionId": 462980,
-       "teamPermanentId": 161330,
-       "teamname": "MTG Horst",
-       "teamnameSmall": "MTG H",
-       "clubId": 936,
-       "verzicht": false
-      },
-      "guestTeam": {
-       "seasonTeamId": 462981,
-       "teamCompetitionId": 462981,
-       "teamPermanentId": 246158,
-       "teamname": "Mülheimer TG 56er Bären",
-       "teamnameSmall": "56er",
-       "clubId": 1315,
-       "verzicht": false
-      },
-      "result": "34:96",
-      "ergebnisbestaetigt": true,
-      "statisticType": null,
-      "verzicht": false,
-      "abgesagt": false,
-      "matchResult": null,
-      "matchInfo": null,
-      "matchBoxscore": null,
-      "playByPlay": null,
-      "hasPlayByPlay": null
-     },
      {
       "ligaData": null,
       "matchId": 2945519,
@@ -8910,7 +8450,7 @@
        "clubId": 1315,
        "verzicht": false
       },
-      "result": null,
+      "result": "31:77",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -9136,6 +8676,222 @@
       "matchBoxscore": null,
       "playByPlay": null,
       "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945530,
+      "matchDay": 8,
+      "matchNo": 53,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "10:00",
+      "homeTeam": {
+       "seasonTeamId": 462978,
+       "teamCompetitionId": 462978,
+       "teamPermanentId": 310758,
+       "teamname": "CroBaskets Essen",
+       "teamnameSmall": "cro",
+       "clubId": 3571,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 462980,
+       "teamCompetitionId": 462980,
+       "teamPermanentId": 161330,
+       "teamname": "MTG Horst",
+       "teamnameSmall": "MTG H",
+       "clubId": 936,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945531,
+      "matchDay": 8,
+      "matchNo": 54,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "11:00",
+      "homeTeam": {
+       "seasonTeamId": 462979,
+       "teamCompetitionId": 462979,
+       "teamPermanentId": 310671,
+       "teamname": "DJK Adler Frintrop 2",
+       "teamnameSmall": "DJKAF",
+       "clubId": 616,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 463036,
+       "teamCompetitionId": 463036,
+       "teamPermanentId": 155777,
+       "teamname": "Sterkrade 69ers",
+       "teamnameSmall": "69ers",
+       "clubId": 1011,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945533,
+      "matchDay": 8,
+      "matchNo": 56,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "11:00",
+      "homeTeam": {
+       "seasonTeamId": 462981,
+       "teamCompetitionId": 462981,
+       "teamPermanentId": 246158,
+       "teamname": "Mülheimer TG 56er Bären",
+       "teamnameSmall": "56er",
+       "clubId": 1315,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 462987,
+       "teamCompetitionId": 462987,
+       "teamPermanentId": 315885,
+       "teamname": "TV Jahn Königshardt 3",
+       "teamnameSmall": "TVJK3",
+       "clubId": 382,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945532,
+      "matchDay": 8,
+      "matchNo": 55,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "10:00",
+      "homeTeam": {
+       "seasonTeamId": 462982,
+       "teamCompetitionId": 462982,
+       "teamPermanentId": 320044,
+       "teamname": "Ruhrbaskets Oberhausen 2",
+       "teamnameSmall": "RBO2",
+       "clubId": 5234,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 469993,
+       "teamCompetitionId": 469993,
+       "teamPermanentId": 323033,
+       "teamname": "Turnerbund Oberhausen AK",
+       "teamnameSmall": "TBO",
+       "clubId": 5344,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945527,
+      "matchDay": 8,
+      "matchNo": 50,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "14:00",
+      "homeTeam": {
+       "seasonTeamId": 463243,
+       "teamCompetitionId": 463243,
+       "teamPermanentId": 155772,
+       "teamname": "ETB Miners Essen 2",
+       "teamnameSmall": "ETB 2",
+       "clubId": 884,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 462986,
+       "teamCompetitionId": 462986,
+       "teamPermanentId": 182118,
+       "teamname": "TV Jahn Königshardt 2",
+       "teamnameSmall": "TV Ja",
+       "clubId": 382,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2945529,
+      "matchDay": 8,
+      "matchNo": 52,
+      "kickoffDate": "2026-12-06",
+      "kickoffTime": "14:00",
+      "homeTeam": {
+       "seasonTeamId": 462983,
+       "teamCompetitionId": 462983,
+       "teamPermanentId": 161331,
+       "teamname": "TSV Viktoria Mülheim",
+       "teamnameSmall": "TSV V",
+       "clubId": 697,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 463038,
+       "teamCompetitionId": 463038,
+       "teamPermanentId": 204078,
+       "teamname": "New Basket Oberhausen",
+       "teamnameSmall": "New B",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
      }
     ]
    }
@@ -9330,7 +9086,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20260919T100000Z",
       "DTEND": "20260919T120000Z",
       "SUMMARY": "BBV Köln-Nordwest-New Basket Oberhausen 2, 109B451 (SpNr. 2)",
@@ -9339,7 +9095,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261004T100000Z",
       "DTEND": "20261004T120000Z",
       "SUMMARY": "BG Kamp-Lintfort-New Basket Oberhausen 2, 207D061 (SpNr. 17)",
@@ -9348,7 +9104,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261005T160000Z",
       "DTEND": "20261005T180000Z",
       "SUMMARY": "New Basket Oberhausen 2-BG Niederrhein, 209B121 (SpNr. 22)",
@@ -9357,7 +9113,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261108T110000Z",
       "DTEND": "20261108T130000Z",
       "SUMMARY": "New Basket Oberhausen 2-TG Neuss, 209B121 (SpNr. 28)",
@@ -9366,7 +9122,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261114T110000Z",
       "DTEND": "20261114T130000Z",
       "SUMMARY": "Talents BonnRhöndorf-New Basket Oberhausen 2, 108D221 (SpNr. 32)",
@@ -9375,7 +9131,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261128T130000Z",
       "DTEND": "20261128T150000Z",
       "SUMMARY": "New Basket Oberhausen 2-RheinStars Köln, 209B121 (SpNr. 40)",
@@ -9384,7 +9140,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261213T110000Z",
       "DTEND": "20261213T130000Z",
       "SUMMARY": "New Basket Oberhausen 2-Sportclub Krefeld, 209B121 (SpNr. 52)",
@@ -9393,7 +9149,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20261220T090000Z",
       "DTEND": "20261220T110000Z",
       "SUMMARY": "Capitol Bascats Düsseldorf-New Basket Oberhausen 2, 201D481 (SpNr. 58)",
@@ -9402,7 +9158,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270106T230000Z",
       "DTEND": "20270107T010000Z",
       "SUMMARY": "New Basket Oberhausen 2-DJK TUSA Düsseldorf 2,  (SpNr. 64)",
@@ -9411,7 +9167,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270117T090000Z",
       "DTEND": "20270117T110000Z",
       "SUMMARY": "New Basket Oberhausen 2-BBV Köln-Nordwest, 209B121 (SpNr. 68)",
@@ -9420,7 +9176,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270131T090000Z",
       "DTEND": "20270131T110000Z",
       "SUMMARY": "New Basket Oberhausen 2-BG Kamp-Lintfort, 209B121 (SpNr. 83)",
@@ -9429,7 +9185,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270214T110000Z",
       "DTEND": "20270214T130000Z",
       "SUMMARY": "BG Niederrhein-New Basket Oberhausen 2, 207N382 (SpNr. 88)",
@@ -9438,7 +9194,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270221T100000Z",
       "DTEND": "20270221T120000Z",
       "SUMMARY": "TG Neuss-New Basket Oberhausen 2, 202N293 (SpNr. 94)",
@@ -9447,7 +9203,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270228T110000Z",
       "DTEND": "20270228T130000Z",
       "SUMMARY": "New Basket Oberhausen 2-Talents BonnRhöndorf, 209B121 (SpNr. 98)",
@@ -9456,7 +9212,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270306T090000Z",
       "DTEND": "20270306T110000Z",
       "SUMMARY": "RheinStars Köln-New Basket Oberhausen 2, 109A542 (SpNr. 106)",
@@ -9465,7 +9221,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270410T120000Z",
       "DTEND": "20270410T140000Z",
       "SUMMARY": "Sportclub Krefeld-New Basket Oberhausen 2, 205A011 (SpNr. 118)",
@@ -9474,7 +9230,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270418T080000Z",
       "DTEND": "20270418T100000Z",
       "SUMMARY": "New Basket Oberhausen 2-Capitol Bascats Düsseldorf, 209B121 (SpNr. 124)",
@@ -9483,7 +9239,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121659Z",
+      "DTSTAMP": "20261121T155911Z",
       "DTSTART": "20270418T220000Z",
       "DTEND": "20270419T000000Z",
       "SUMMARY": "DJK TUSA Düsseldorf 2-New Basket Oberhausen 2,  (SpNr. 130)",
@@ -10262,7 +10018,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20260920T120000Z",
       "DTEND": "20260920T140000Z",
       "SUMMARY": "TVE Dortmund Barop-New Basket Oberhausen, 303A231 (SpNr. 4)",
@@ -10271,7 +10027,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20260927T100000Z",
       "DTEND": "20260927T120000Z",
       "SUMMARY": "New Basket Oberhausen-Herner TC 2, 209B121 (SpNr. 8)",
@@ -10280,7 +10036,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261003T110000Z",
       "DTEND": "20261003T130000Z",
       "SUMMARY": "ETB Miners Essen-New Basket Oberhausen, 211C130 (SpNr. 14)",
@@ -10289,7 +10045,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261107T150000Z",
       "DTEND": "20261107T170000Z",
       "SUMMARY": "TV Gerthe 2-New Basket Oberhausen, 301A321 (SpNr. 29)",
@@ -10298,7 +10054,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261115T140000Z",
       "DTEND": "20261115T160000Z",
       "SUMMARY": "New Basket Oberhausen-CroBaskets Essen, 209B121 (SpNr. 32)",
@@ -10307,7 +10063,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261129T090000Z",
       "DTEND": "20261129T110000Z",
       "SUMMARY": "Ruhrpott Baskets Herne-New Basket Oberhausen, 302B111 (SpNr. 39)",
@@ -10316,7 +10072,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261206T090000Z",
       "DTEND": "20261206T110000Z",
       "SUMMARY": "New Basket Oberhausen-Barmer TV, 209B121 (SpNr. 44)",
@@ -10325,7 +10081,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20261212T130000Z",
       "DTEND": "20261212T150000Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrbaskets Oberhausen, 209B121 (SpNr. 50)",
@@ -10334,7 +10090,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270110T110000Z",
       "DTEND": "20270110T130000Z",
       "SUMMARY": "New Basket Oberhausen-VfL AstroStars Bochum, 209B121 (SpNr. 62)",
@@ -10343,7 +10099,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270117T110000Z",
       "DTEND": "20270117T130000Z",
       "SUMMARY": "New Basket Oberhausen-TVE Dortmund Barop, 209B121 (SpNr. 70)",
@@ -10352,7 +10108,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270123T130000Z",
       "DTEND": "20270123T150000Z",
       "SUMMARY": "Herner TC 2-New Basket Oberhausen, 302B211 (SpNr. 74)",
@@ -10361,7 +10117,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270131T110000Z",
       "DTEND": "20270131T130000Z",
       "SUMMARY": "New Basket Oberhausen-ETB Miners Essen, 209B121 (SpNr. 80)",
@@ -10370,7 +10126,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270221T090000Z",
       "DTEND": "20270221T110000Z",
       "SUMMARY": "New Basket Oberhausen-TV Gerthe 2, 209B121 (SpNr. 95)",
@@ -10379,7 +10135,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270227T090000Z",
       "DTEND": "20270227T110000Z",
       "SUMMARY": "CroBaskets Essen-New Basket Oberhausen, 211D703 (SpNr. 98)",
@@ -10388,7 +10144,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270307T090000Z",
       "DTEND": "20270307T110000Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrpott Baskets Herne, 209B121 (SpNr. 105)",
@@ -10397,7 +10153,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270314T110000Z",
       "DTEND": "20270314T130000Z",
       "SUMMARY": "Barmer TV-New Basket Oberhausen, 213D221 (SpNr. 110)",
@@ -10406,7 +10162,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270410T120000Z",
       "DTEND": "20270410T140000Z",
       "SUMMARY": "Ruhrbaskets Oberhausen-New Basket Oberhausen, 209B200 (SpNr. 116)",
@@ -10415,7 +10171,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121704Z",
+      "DTSTAMP": "20261121T155916Z",
       "DTSTART": "20270425T100000Z",
       "DTEND": "20270425T120000Z",
       "SUMMARY": "VfL AstroStars Bochum-New Basket Oberhausen, 301D112 (SpNr. 128)",
@@ -11059,7 +10815,13 @@
      "heimteam": "New Basket Oberhausen",
      "gastteam": "ETB Miners Essen",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen-ETB Miners Essen, 209B121 (SpNr. 213)"
+     "kalenderText": "New Basket Oberhausen-ETB Miners Essen, 209B121 (SpNr. 213)",
+     "spieltag": 2,
+     "spielNr": 213,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2926534",
@@ -11068,7 +10830,13 @@
      "heimteam": "New Basket Oberhausen",
      "gastteam": "BG Dorsten",
      "ort": "Hunsrückstraße 55, 46047, Oberhausen",
-     "kalenderText": "New Basket Oberhausen-BG Dorsten, 209B121 (SpNr. 215)"
+     "kalenderText": "New Basket Oberhausen-BG Dorsten, 209B121 (SpNr. 215)",
+     "spieltag": 2,
+     "spielNr": 215,
+     "ergebnis": null,
+     "ergebnisBestaetigt": false,
+     "abgesagt": false,
+     "verzicht": false
     },
     {
      "spielId": "2926804",
@@ -11191,7 +10959,7 @@
    "rohdaten": {
     "kalender": [
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20260926T080000Z",
       "DTEND": "20260926T100000Z",
       "SUMMARY": "Basket Duisburg-New Basket Oberhausen, 208D033 (SpNr. 104)",
@@ -11200,7 +10968,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20260926T091500Z",
       "DTEND": "20260926T111500Z",
       "SUMMARY": "New Basket Oberhausen-Ruhrbaskets Oberhausen, 208D033 (SpNr. 105)",
@@ -11209,7 +10977,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261114T104500Z",
       "DTEND": "20261114T124500Z",
       "SUMMARY": "TV Gerthe-New Basket Oberhausen, 107N302 (SpNr. 332)",
@@ -11218,7 +10986,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261114T120000Z",
       "DTEND": "20261114T140000Z",
       "SUMMARY": "Talents BonnRhöndorf 2-New Basket Oberhausen, 107N302 (SpNr. 333)",
@@ -11227,7 +10995,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261128T090000Z",
       "DTEND": "20261128T110000Z",
       "SUMMARY": "Citybasket Recklinghausen-New Basket Oberhausen, 406N631 (SpNr. 419)",
@@ -11236,7 +11004,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261128T101500Z",
       "DTEND": "20261128T121500Z",
       "SUMMARY": "New Basket Oberhausen-Gymnastikverein Waltrop 2, 406N631 (SpNr. 420)",
@@ -11245,7 +11013,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261205T090000Z",
       "DTEND": "20261205T110000Z",
       "SUMMARY": "New Basket Oberhausen-ETB Miners Essen, 209B121 (SpNr. 213)",
@@ -11254,7 +11022,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261205T113000Z",
       "DTEND": "20261205T133000Z",
       "SUMMARY": "New Basket Oberhausen-BG Dorsten, 209B121 (SpNr. 215)",
@@ -11263,7 +11031,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261219T090000Z",
       "DTEND": "20261219T110000Z",
       "SUMMARY": "New Basket Oberhausen-Capitol Bascats Düsseldorf, 209B121 (SpNr. 510)",
@@ -11272,7 +11040,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20261219T113000Z",
       "DTEND": "20261219T133000Z",
       "SUMMARY": "New Basket Oberhausen-Herner TC, 209B121 (SpNr. 512)",
@@ -11281,7 +11049,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270109T090000Z",
       "DTEND": "20270109T110000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 601)",
@@ -11290,7 +11058,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270109T110000Z",
       "DTEND": "20270109T130000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 602)",
@@ -11299,7 +11067,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270123T093000Z",
       "DTEND": "20270123T113000Z",
       "SUMMARY": "Platzhalter Turnierteilnehmer-New Basket Oberhausen,  (SpNr. 703)",
@@ -11308,7 +11076,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270213T090000Z",
       "DTEND": "20270213T110000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 801)",
@@ -11317,7 +11085,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270213T110000Z",
       "DTEND": "20270213T130000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 802)",
@@ -11326,7 +11094,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270227T093000Z",
       "DTEND": "20270227T113000Z",
       "SUMMARY": "Platzhalter Turnierteilnehmer-New Basket Oberhausen,  (SpNr. 903)",
@@ -11335,7 +11103,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270313T090000Z",
       "DTEND": "20270313T110000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 1001)",
@@ -11344,7 +11112,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270313T110000Z",
       "DTEND": "20270313T130000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 1002)",
@@ -11353,7 +11121,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270410T083000Z",
       "DTEND": "20270410T103000Z",
       "SUMMARY": "Platzhalter Turnierteilnehmer-New Basket Oberhausen,  (SpNr. 1103)",
@@ -11362,7 +11130,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270424T080000Z",
       "DTEND": "20270424T100000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 1201)",
@@ -11371,7 +11139,7 @@
       "ORGANIZER": ""
      },
      {
-      "DTSTAMP": "20261120T121710Z",
+      "DTSTAMP": "20261121T155921Z",
       "DTSTART": "20270424T100000Z",
       "DTEND": "20270424T120000Z",
       "SUMMARY": "New Basket Oberhausen-Platzhalter Turnierveranstalter, 209B121 (SpNr. 1202)",
@@ -12450,7 +12218,7 @@
        "clubId": 844,
        "verzicht": false
       },
-      "result": null,
+      "result": "38:16",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -12486,7 +12254,7 @@
        "clubId": 3571,
        "verzicht": false
       },
-      "result": null,
+      "result": "24:56",
       "ergebnisbestaetigt": false,
       "statisticType": null,
       "verzicht": false,
@@ -13636,6 +13404,114 @@
        "teamname": "Paderborn Baskets",
        "teamnameSmall": "PBB1",
        "clubId": 409,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2926532,
+      "matchDay": 2,
+      "matchNo": 213,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "10:00",
+      "homeTeam": {
+       "seasonTeamId": 455358,
+       "teamCompetitionId": 455358,
+       "teamPermanentId": 318635,
+       "teamname": "New Basket Oberhausen",
+       "teamnameSmall": "NBO1",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455379,
+       "teamCompetitionId": 455379,
+       "teamPermanentId": 322754,
+       "teamname": "ETB Miners Essen",
+       "teamnameSmall": "ETB1",
+       "clubId": 884,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2926533,
+      "matchDay": 2,
+      "matchNo": 214,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "11:15",
+      "homeTeam": {
+       "seasonTeamId": 455379,
+       "teamCompetitionId": 455379,
+       "teamPermanentId": 322754,
+       "teamname": "ETB Miners Essen",
+       "teamnameSmall": "ETB1",
+       "clubId": 884,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455345,
+       "teamCompetitionId": 455345,
+       "teamPermanentId": 320946,
+       "teamname": "BG Dorsten",
+       "teamnameSmall": "BGD1",
+       "clubId": 758,
+       "verzicht": false
+      },
+      "result": null,
+      "ergebnisbestaetigt": false,
+      "statisticType": null,
+      "verzicht": false,
+      "abgesagt": false,
+      "matchResult": null,
+      "matchInfo": null,
+      "matchBoxscore": null,
+      "playByPlay": null,
+      "hasPlayByPlay": null
+     },
+     {
+      "ligaData": null,
+      "matchId": 2926534,
+      "matchDay": 2,
+      "matchNo": 215,
+      "kickoffDate": "2026-12-05",
+      "kickoffTime": "12:30",
+      "homeTeam": {
+       "seasonTeamId": 455358,
+       "teamCompetitionId": 455358,
+       "teamPermanentId": 318635,
+       "teamname": "New Basket Oberhausen",
+       "teamnameSmall": "NBO1",
+       "clubId": 682,
+       "verzicht": false
+      },
+      "guestTeam": {
+       "seasonTeamId": 455345,
+       "teamCompetitionId": 455345,
+       "teamPermanentId": 320946,
+       "teamname": "BG Dorsten",
+       "teamnameSmall": "BGD1",
+       "clubId": 758,
        "verzicht": false
       },
       "result": null,
