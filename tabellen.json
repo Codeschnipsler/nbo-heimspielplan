@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-21T23:05:54.791336+01:00",
+ "erzeugt": "2026-11-22T17:04:04.950840+01:00",
  "ligen": [
   {
    "team": "1. Damen",
@@ -500,7 +500,7 @@
    "team": "U18",
    "liga": "Jugendoberliga 2 U18 weiblich (JOL2U18W)",
    "ligaId": 54888,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -652,7 +652,7 @@
    "team": "U16",
    "liga": "2. Regionalliga U16 weiblich (2JRLU16W)",
    "ligaId": 54893,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -817,7 +817,7 @@
    "team": "U14 I",
    "liga": "2.Regionalliga U14 weiblich (2JRLU14W) ",
    "ligaId": 54903,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -982,7 +982,7 @@
    "team": "U14 II",
    "liga": "Jugendoberliga 3 U14 weiblich (JOL3U14W)",
    "ligaId": 54906,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1221,7 +1221,7 @@
    "team": "U14 o",
    "liga": "U14o KL Essen",
    "ligaId": 55709,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -1399,7 +1399,7 @@
    "team": "U12 I",
    "liga": "Jugendoberliga 2 U12 weiblich (JOL2U12W)",
    "ligaId": 54924,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
