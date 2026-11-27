@@ -24,10 +24,10 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Poster rendern (Instagram-Format)
-        run: python generate_poster.py
+        run: python scripts/generate_poster.py
 
       - name: Poster rendern (A3-Druckformat)
-        run: python generate_poster_a3.py
+        run: python scripts/generate_poster_a3.py
 
       - name: Aenderungen committen
         run: |

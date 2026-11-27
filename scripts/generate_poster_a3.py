@@ -13,7 +13,8 @@ Ausgabe: poster_a3.png (3508x4961px, 300dpi A3-Hochformat)
 from pathlib import Path
 
 from generate_poster import (
-    BASE_DIR,
+    ROOT_DIR,
+    POSTER_DIR,
     D1_TEAM,
     TEAM_ORDER,
     load_games,
@@ -27,9 +28,9 @@ from zoneinfo import ZoneInfo
 
 BERLIN = ZoneInfo('Europe/Berlin')
 
-TEMPLATE_PATH = BASE_DIR / 'poster_template_a3.html'
-RENDERED_HTML_PATH = BASE_DIR / '_poster_a3_rendered.html'
-OUT_PNG_PATH = BASE_DIR / 'poster_a3.png'
+TEMPLATE_PATH = POSTER_DIR / 'poster_template_a3.html'
+RENDERED_HTML_PATH = POSTER_DIR / '_poster_a3_rendered.html'
+OUT_PNG_PATH = ROOT_DIR / 'poster_a3.png'
 
 A3_WIDTH = 3508
 A3_HEIGHT = 4961
@@ -65,7 +66,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={'width': A3_WIDTH, 'height': A3_HEIGHT})
-        page.goto(f'file://{RENDERED_HTML_PATH}')
+        page.goto(RENDERED_HTML_PATH.as_uri())
         page.wait_for_timeout(400)  # Google Fonts laden lassen
         page.screenshot(path=str(OUT_PNG_PATH))
         browser.close()

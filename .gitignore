@@ -1,0 +1,6 @@
+# Zwischendateien der Poster-Erzeugung
+poster/_poster_rendered.html
+poster/_poster_a3_rendered.html
+
+# Python
+__pycache__/

@@ -1,8 +1,70 @@
 # nbo-heimspielplan
-Heimspiele des NBO in der Saison 2026/27 abrufen und zur Verfügung stellen
-Auswärtsspiele auf einer separaten Seiter darstellen
-Und noch die neuesten Ergebnisse zusammenstellen und auf der dritten Seite darstellen
 
-Poster für die nächsten Heimspiele pro Team werden erstellt und daten für andere NBO Aktivitäten zur Verfügung gestellt.
+Heim- und Auswärtsspiele, Ergebnisse und Tabellen von New Basket '92 Oberhausen
+in der Saison 2026/27 – automatisch von basketball-bund.net abgerufen und als
+Webseite, Daten (JSON) und Poster bereitgestellt.
+
+Webseite: https://codeschnipsler.github.io/nbo-heimspielplan/
 
 Let's go NBO
+
+## Ordnerstruktur
+
+```
+/                    Webseite + öffentliche Daten (Adressen bitte nicht ändern,
+                     sie sind in Overlays/Tools und anderen NBO-Seiten fest verlinkt)
+  index.html           Heimspiele
+  auswaerts.html       Auswärtsspiele
+  ergebnisse.html      Ergebnisse
+  tabellen.html        Tabellen
+  *.json               Daten (siehe unten)
+  poster.png           Poster Instagram-Format (automatisch erzeugt)
+  poster_a3.png        Poster A3-Druck (automatisch erzeugt)
+  D1_Spieltag_*.png,
+  Jugend_Spieltag.png  Spieltags-Banner für das Overlay
+  overlay-roi.html,
+  Simulation.html,
+  nbo_spiel_intro_generator*.html   Tools (fest verlinkt, bleiben hier)
+
+scripts/             Python-Skripte, laufen per GitHub Actions
+  update_heimspielplan.py   holt Spielplan, Ergebnisse, Tabellen -> *.json
+  generate_poster.py        erzeugt poster.png
+  generate_poster_a3.py     erzeugt poster_a3.png
+
+poster/              Vorlagen und Bilder für die Poster
+  poster_template*.html, court-photo*.jpg, logo-nbo-3d.png, event-ball.png
+  special_event.txt    Text für den „Special Event“-Kreis (leer = kein Kreis)
+
+img/                 Bilder der Webseite
+```
+
+## Daten (JSON)
+
+| Datei | Inhalt | Quelle |
+|---|---|---|
+| `heimspiele.json` | anstehende Heimspiele | automatisch |
+| `auswaertsspiele.json` | anstehende Auswärtsspiele | automatisch |
+| `ergebnisse.json` | letzte Ergebnisse | automatisch |
+| `tabellen.json` | Ligatabellen | automatisch |
+| `NBO_overview.json` | Gesamtübersicht für andere NBO-Aktivitäten | automatisch |
+| `zusatzspiele.json` | Test-/Zusatzspiele (z. B. über `Simulation.html` gepflegt) | von Hand |
+| `Kurznamen.json` | Kurznamen der Gegner fürs Scoreboard | von Hand |
+
+## Automatische Abläufe (GitHub Actions)
+
+| Workflow | Wann | Was |
+|---|---|---|
+| Heimspielplan aktualisieren | Mo + Fr früh, Sa + So alle 3 Std. | `scripts/update_heimspielplan.py`, committet die JSON-Dateien |
+| Heimspiel-Poster aktualisieren | montags früh | `scripts/generate_poster*.py`, committet `poster.png` und `poster_a3.png` |
+
+Beide lassen sich unter *Actions* auch von Hand starten („Run workflow“).
+
+## Lokal ausführen
+
+```
+python scripts/update_heimspielplan.py
+pip install playwright
+playwright install chromium
+python scripts/generate_poster.py
+python scripts/generate_poster_a3.py
+```

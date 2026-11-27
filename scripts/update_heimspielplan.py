@@ -62,11 +62,13 @@ TEAM_LABEL = {
     'U12.1': 'U12 I', 'U12.2': 'U12 II', 'U10': 'U10',
 }
 
-OUT_PATH = Path(__file__).resolve().parent / 'heimspiele.json'
-OUT_PATH_AWAY = Path(__file__).resolve().parent / 'auswaertsspiele.json'
-OUT_PATH_RESULTS = Path(__file__).resolve().parent / 'ergebnisse.json'
-OUT_PATH_TABLES = Path(__file__).resolve().parent / 'tabellen.json'
-OUT_PATH_OVERVIEW = Path(__file__).resolve().parent / 'NBO_overview.json'
+# Die JSON-Dateien liegen im Repo-Hauptordner (oeffentlich ueber GitHub Pages)
+ROOT_DIR = Path(__file__).resolve().parent.parent
+OUT_PATH = ROOT_DIR / 'heimspiele.json'
+OUT_PATH_AWAY = ROOT_DIR / 'auswaertsspiele.json'
+OUT_PATH_RESULTS = ROOT_DIR / 'ergebnisse.json'
+OUT_PATH_TABLES = ROOT_DIR / 'tabellen.json'
+OUT_PATH_OVERVIEW = ROOT_DIR / 'NBO_overview.json'
 
 # Club-ID von New Basket 92 Oberhausen (fuer Pokal-/Zusatzspiele ausserhalb der Ligen)
 CLUB_ID = '5209'

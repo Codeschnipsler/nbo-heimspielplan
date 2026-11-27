@@ -8,12 +8,12 @@ Inhalt des Posters:
 
 Ablauf:
   1. heimspiele.json einlesen (von update_heimspielplan.py erzeugt).
-  2. Passende Spiele auswaehlen und in poster_template.html einsetzen.
+  2. Passende Spiele auswaehlen und in poster/poster_template.html einsetzen.
   3. Die ausgefuellte HTML-Datei mit Playwright (Chromium) als PNG
      rendern (1080x1350 - Instagram-Hochformat, auch als Story/Feed
      verwendbar).
 
-Ausgabe: poster.png (im selben Verzeichnis)
+Ausgabe: poster.png (im Repo-Hauptordner, oeffentlich ueber GitHub Pages)
 
 Abhaengigkeit: playwright (muss vor dem Lauf installiert sein, siehe
 Workflow: `pip install playwright` + `playwright install --with-deps chromium`).
@@ -24,12 +24,15 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-BASE_DIR = Path(__file__).resolve().parent
-HEIMSPIELE_PATH = BASE_DIR / 'heimspiele.json'
-TEMPLATE_PATH = BASE_DIR / 'poster_template.html'
-RENDERED_HTML_PATH = BASE_DIR / '_poster_rendered.html'
-OUT_PNG_PATH = BASE_DIR / 'poster.png'
-SPECIAL_EVENT_PATH = BASE_DIR / 'special_event.txt'
+# Repo-Hauptordner (Webseite + Daten) und Poster-Ordner (Templates + Bilder)
+ROOT_DIR = Path(__file__).resolve().parent.parent
+POSTER_DIR = ROOT_DIR / 'poster'
+HEIMSPIELE_PATH = ROOT_DIR / 'heimspiele.json'
+TEMPLATE_PATH = POSTER_DIR / 'poster_template.html'
+# Gerenderte HTML liegt im Poster-Ordner, damit die relativen Bildpfade passen
+RENDERED_HTML_PATH = POSTER_DIR / '_poster_rendered.html'
+OUT_PNG_PATH = ROOT_DIR / 'poster.png'
+SPECIAL_EVENT_PATH = POSTER_DIR / 'special_event.txt'
 
 D1_TEAM = '1. Damen'
 
@@ -172,7 +175,7 @@ def main():
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={'width': 1080, 'height': 1350})
-        page.goto(f'file://{RENDERED_HTML_PATH}')
+        page.goto(RENDERED_HTML_PATH.as_uri())
         page.wait_for_timeout(300)  # Google Fonts laden lassen
         page.screenshot(path=str(OUT_PNG_PATH))
         browser.close()
