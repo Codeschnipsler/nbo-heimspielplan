@@ -4,7 +4,26 @@ Heim- und Auswärtsspiele, Ergebnisse und Tabellen von New Basket '92 Oberhausen
 in der Saison 2026/27 – automatisch von basketball-bund.net abgerufen und als
 Webseite, Daten (JSON) und Poster bereitgestellt.
 
-Webseite: https://codeschnipsler.github.io/nbo-heimspielplan/
+## Seiten
+
+**Webseite**
+
+- [Heimspielplan](https://codeschnipsler.github.io/nbo-heimspielplan/index.html)
+- [Auswärtsspiele](https://codeschnipsler.github.io/nbo-heimspielplan/auswaerts.html)
+- [Ergebnisse](https://codeschnipsler.github.io/nbo-heimspielplan/ergebnisse.html)
+- [Tabellen](https://codeschnipsler.github.io/nbo-heimspielplan/tabellen.html)
+
+**Tools**
+
+- [Halle-Overlay](https://codeschnipsler.github.io/nbo-heimspielplan/overlay-roi.html)
+- [Overlay-Simulation](https://codeschnipsler.github.io/nbo-heimspielplan/Simulation.html)
+- [Spiel-Intro-Generator](https://codeschnipsler.github.io/nbo-heimspielplan/nbo_spiel_intro_generator.html)
+- [Spiel-Intro-Generator Auswärtsspiele](https://codeschnipsler.github.io/nbo-heimspielplan/nbo_spiel_intro_generator_auswaerts.html)
+
+**Poster**
+
+- [Poster Instagram-Format](https://codeschnipsler.github.io/nbo-heimspielplan/poster.png)
+- [Poster A3-Druck](https://codeschnipsler.github.io/nbo-heimspielplan/poster_a3.png)
 
 Let's go NBO
 
