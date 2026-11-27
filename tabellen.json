@@ -1,11 +1,11 @@
 {
- "erzeugt": "2026-11-23T14:46:36.028298+01:00",
+ "erzeugt": "2026-11-27T14:15:14.947291+01:00",
  "ligen": [
   {
    "team": "1. Damen",
    "liga": "2. DBBL Nord",
    "ligaId": 55746,
-   "stand": "7. Spieltag",
+   "stand": "8. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -505,19 +505,6 @@
    "tabelle": [
     {
      "rang": 1,
-     "team": "Talents BonnRhöndorf",
-     "spiele": 5,
-     "siege": 5,
-     "niederlagen": 0,
-     "koerbe": 449,
-     "gegenKoerbe": 205,
-     "korbdiff": 244,
-     "gewinnpunkte": 10,
-     "verlustpunkte": 0,
-     "eigenes": false
-    },
-    {
-     "rang": 2,
      "team": "SG Bergische Löwen",
      "spiele": 4,
      "siege": 4,
@@ -525,6 +512,19 @@
      "koerbe": 379,
      "gegenKoerbe": 136,
      "korbdiff": 243,
+     "gewinnpunkte": 8,
+     "verlustpunkte": 0,
+     "eigenes": false
+    },
+    {
+     "rang": 2,
+     "team": "Talents BonnRhöndorf",
+     "spiele": 4,
+     "siege": 4,
+     "niederlagen": 0,
+     "koerbe": 317,
+     "gegenKoerbe": 194,
+     "korbdiff": 123,
      "gewinnpunkte": 8,
      "verlustpunkte": 0,
      "eigenes": false
@@ -545,13 +545,13 @@
     {
      "rang": 4,
      "team": "New Basket Oberhausen",
-     "spiele": 6,
-     "siege": 3,
+     "spiele": 5,
+     "siege": 2,
      "niederlagen": 3,
-     "koerbe": 448,
-     "gegenKoerbe": 353,
-     "korbdiff": 95,
-     "gewinnpunkte": 6,
+     "koerbe": 330,
+     "gegenKoerbe": 326,
+     "korbdiff": 4,
+     "gewinnpunkte": 4,
      "verlustpunkte": 6,
      "eigenes": true
     },
@@ -570,19 +570,6 @@
     },
     {
      "rang": 6,
-     "team": "Willicher TV",
-     "spiele": 5,
-     "siege": 2,
-     "niederlagen": 3,
-     "koerbe": 263,
-     "gegenKoerbe": 307,
-     "korbdiff": -44,
-     "gewinnpunkte": 4,
-     "verlustpunkte": 6,
-     "eigenes": false
-    },
-    {
-     "rang": 7,
      "team": "ISD Sportverein",
      "spiele": 3,
      "siege": 1,
@@ -595,7 +582,7 @@
      "eigenes": false
     },
     {
-     "rang": 8,
+     "rang": 7,
      "team": "TG Neuss",
      "spiele": 4,
      "siege": 1,
@@ -608,34 +595,47 @@
      "eigenes": false
     },
     {
+     "rang": 8,
+     "team": "Willicher TV",
+     "spiele": 4,
+     "siege": 1,
+     "niederlagen": 3,
+     "koerbe": 206,
+     "gegenKoerbe": 270,
+     "korbdiff": -64,
+     "gewinnpunkte": 2,
+     "verlustpunkte": 6,
+     "eigenes": false
+    },
+    {
      "rang": 9,
      "team": "TSV Urdenbach",
-     "spiele": 6,
-     "siege": 1,
+     "spiele": 5,
+     "siege": 0,
      "niederlagen": 5,
-     "koerbe": 240,
-     "gegenKoerbe": 506,
-     "korbdiff": -266,
-     "gewinnpunkte": 2,
+     "koerbe": 177,
+     "gegenKoerbe": 454,
+     "korbdiff": -277,
+     "gewinnpunkte": 0,
      "verlustpunkte": 10,
      "eigenes": false
     },
     {
      "rang": 10,
-     "team": "TV Goch",
-     "spiele": 4,
+     "team": "Hürther BC",
+     "spiele": 0,
      "siege": 0,
-     "niederlagen": 4,
-     "koerbe": 127,
-     "gegenKoerbe": 370,
-     "korbdiff": -243,
+     "niederlagen": 0,
+     "koerbe": 0,
+     "gegenKoerbe": 0,
+     "korbdiff": 0,
      "gewinnpunkte": 0,
-     "verlustpunkte": 8,
+     "verlustpunkte": 0,
      "eigenes": false
     },
     {
      "rang": 11,
-     "team": "Hürther BC",
+     "team": "TV Goch",
      "spiele": 0,
      "siege": 0,
      "niederlagen": 0,
@@ -817,7 +817,7 @@
    "team": "U14 I",
    "liga": "2.Regionalliga U14 weiblich (2JRLU14W) ",
    "ligaId": 54903,
-   "stand": "7. Spieltag",
+   "stand": "8. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
@@ -913,6 +913,19 @@
     },
     {
      "rang": 8,
+     "team": "CroBaskets Essen",
+     "spiele": 6,
+     "siege": 2,
+     "niederlagen": 4,
+     "koerbe": 241,
+     "gegenKoerbe": 323,
+     "korbdiff": -82,
+     "gewinnpunkte": 4,
+     "verlustpunkte": 8,
+     "eigenes": false
+    },
+    {
+     "rang": 9,
      "team": "Ruhrpott Baskets Herne",
      "spiele": 7,
      "siege": 2,
@@ -922,19 +935,6 @@
      "korbdiff": -111,
      "gewinnpunkte": 4,
      "verlustpunkte": 10,
-     "eigenes": false
-    },
-    {
-     "rang": 9,
-     "team": "CroBaskets Essen",
-     "spiele": 5,
-     "siege": 1,
-     "niederlagen": 4,
-     "koerbe": 221,
-     "gegenKoerbe": 323,
-     "korbdiff": -102,
-     "gewinnpunkte": 2,
-     "verlustpunkte": 8,
      "eigenes": false
     },
     {
@@ -952,19 +952,6 @@
     },
     {
      "rang": 11,
-     "team": "Hürther BC",
-     "spiele": 5,
-     "siege": 0,
-     "niederlagen": 5,
-     "koerbe": 280,
-     "gegenKoerbe": 472,
-     "korbdiff": -192,
-     "gewinnpunkte": 0,
-     "verlustpunkte": 10,
-     "eigenes": false
-    },
-    {
-     "rang": 12,
      "team": "RheinStars Köln 2",
      "spiele": 5,
      "siege": 0,
@@ -974,6 +961,19 @@
      "korbdiff": -225,
      "gewinnpunkte": 0,
      "verlustpunkte": 10,
+     "eigenes": false
+    },
+    {
+     "rang": 12,
+     "team": "Hürther BC",
+     "spiele": 6,
+     "siege": 0,
+     "niederlagen": 6,
+     "koerbe": 280,
+     "gegenKoerbe": 492,
+     "korbdiff": -212,
+     "gewinnpunkte": -1,
+     "verlustpunkte": 12,
      "eigenes": false
     }
    ]
@@ -1538,7 +1538,7 @@
    "team": "U12 II",
    "liga": "Jugendoberliga 3 U12 weiblich (JOL3U12W)",
    "ligaId": 54925,
-   "stand": "6. Spieltag",
+   "stand": "7. Spieltag",
    "berechnet": false,
    "tabelle": [
     {
