@@ -48,8 +48,8 @@ const DEFAULTS = {
   plate: '#0a0e1a',
 
   // Spielplan: Die Namen im Namensfeld kommen aus dem Heimspielplan-JSON.
-  games: 'https://codeschnipsler.github.io/nbo-heimspielplan/heimspiele.json',
-  kurz: 'https://codeschnipsler.github.io/nbo-heimspielplan/kurznamen.json', // Spitznamenliste (auf GitHub editierbar)
+  games: 'https://codeschnipsler.github.io/nbo-heimspielplan/data/heimspiele.json',
+  kurz: 'https://codeschnipsler.github.io/nbo-heimspielplan/data/kurznamen.json', // Spitznamenliste (auf GitHub editierbar)
   heimname: 'Oberhausen',   // Heimzeile im Scoreboard, wenn Mannschaft und Liga im Banner stehen ('' = immer "NBO U14 I" usw.)
   heim: 'NBO',    // Heimname, davor die Mannschaft aus dem JSON (z. B. "NBO U14 I")
   ort: 'Hunsrückstraße', // nur Spiele, deren Ort diesen Text enthält (Halle); leer lassen = alle: ?ort=
@@ -431,7 +431,7 @@ async function loadGames() {
   }
 }
 /* ---------- Spieltagssponsor ---------- */
-// Das Bild liegt auf GitHub (z. B. spieltagssponsor.png neben heimspiele.json). Es wird nur geladen und gezeigt,
+// Das Bild liegt auf GitHub (z. B. spieltagssponsor.png im Hauptordner, die Daten liegen in data/). Es wird nur geladen und gezeigt,
 // wenn heute (Ortszeit Berlin) ein Heimspiel stattfindet. Fehlt die Datei, bleibt der Banner einfach weg.
 // Standardbanner (eingebettet): "NBO OBERHAUSEN / weiblicher Spitzenbasketball", Sponsorfeld leer.
 // Liegt auf GitHub eine spieltagssponsor.png, wird sie genau darüber gelegt (mit Liga und Sponsor).

@@ -384,7 +384,7 @@ function render(){
 
 document.getElementById('teamFilter').addEventListener('change', render);
 
-fetch('./ergebnisse.json', {cache: 'no-store'})
+fetch('./data/ergebnisse.json', {cache: 'no-store'})
   .then(r => r.json())
   .then(data => {
     GAMES = data;

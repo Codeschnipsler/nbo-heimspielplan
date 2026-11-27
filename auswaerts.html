@@ -416,7 +416,7 @@ function render(){
 
 document.getElementById('teamFilter').addEventListener('change', render);
 
-fetch('./auswaertsspiele.json', {cache: 'no-store'})
+fetch('./data/auswaertsspiele.json', {cache: 'no-store'})
   .then(r => r.json())
   .then(data => {
     GAMES = data;

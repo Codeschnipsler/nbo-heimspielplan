@@ -11,13 +11,12 @@ Let's go NBO
 ## Ordnerstruktur
 
 ```
-/                    Webseite + öffentliche Daten (Adressen bitte nicht ändern,
+/                    Webseite, Poster, Banner und Tools (Adressen bitte nicht ändern,
                      sie sind in Overlays/Tools und anderen NBO-Seiten fest verlinkt)
   index.html           Heimspiele
   auswaerts.html       Auswärtsspiele
   ergebnisse.html      Ergebnisse
   tabellen.html        Tabellen
-  *.json               Daten (siehe unten)
   poster.png           Poster Instagram-Format (automatisch erzeugt)
   poster_a3.png        Poster A3-Druck (automatisch erzeugt)
   D1_Spieltag_*.png,
@@ -26,8 +25,11 @@ Let's go NBO
   Simulation.html,
   nbo_spiel_intro_generator*.html   Tools (fest verlinkt, bleiben hier)
 
+data/                Daten als JSON (siehe unten), öffentlich unter
+                     https://codeschnipsler.github.io/nbo-heimspielplan/data/<datei>.json
+
 scripts/             Python-Skripte, laufen per GitHub Actions
-  update_heimspielplan.py   holt Spielplan, Ergebnisse, Tabellen -> *.json
+  update_heimspielplan.py   holt Spielplan, Ergebnisse, Tabellen -> data/*.json
   generate_poster.py        erzeugt poster.png
   generate_poster_a3.py     erzeugt poster_a3.png
 
@@ -38,7 +40,7 @@ poster/              Vorlagen und Bilder für die Poster
 img/                 Bilder der Webseite
 ```
 
-## Daten (JSON)
+## Daten (JSON, im Ordner `data/`)
 
 | Datei | Inhalt | Quelle |
 |---|---|---|

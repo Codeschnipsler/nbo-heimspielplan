@@ -95,7 +95,7 @@
 
 <script>
 const CFG = { ort: 'Hunsrückstraße', heimname: 'Oberhausen', heim: 'NBO', dauer: 120,
-  games: 'heimspiele.json', extra: 'zusatzspiele.json', kurz: 'kurznamen.json',
+  games: 'data/heimspiele.json', extra: 'data/zusatzspiele.json', kurz: 'data/kurznamen.json',
   sponsor: 'D1_Spieltag_Sponsor.png', sponsorohne: 'D1_Spieltag_ohne_Sponsor.png', jugend: 'Jugend_Spieltag.png' };
 const TZ = 'Europe/Berlin';
 
@@ -340,7 +340,7 @@ async function start() {
   $('zeit').value = msToInput(Date.now());
   try {
     const [a, b, k] = await Promise.all([holeJson(CFG.games, true), holeJson(CFG.extra, false),
-      holeJson(CFG.kurz, false).then(r => r || holeJson('Kurznamen.json', false))]);
+      holeJson(CFG.kurz, false).then(r => r || holeJson('data/Kurznamen.json', false))]);
     games = parseGames([].concat(Array.isArray(a) ? a : [], Array.isArray(b) ? b : []));
     setKurz(k || {});
     $('stand').textContent = games.length + ' Spiele geladen' + (b ? ' (inkl. Zusatzspiele)' : '') + (k ? '' : ' · Kurznamen: nur Reserve');
@@ -354,7 +354,7 @@ $('jetzt').onclick = () => { $('zeit').value = msToInput(Date.now()); render(); 
 /* ===== Zusatzspiele auf GitHub schreiben ===== */
 const LS = { get(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
 ['repo', 'branch', 'token'].forEach(k => { const v = LS.get('sim-g-' + k); if (v) $('g-' + k).value = v; $('g-' + k).addEventListener('change', () => LS.set('sim-g-' + k, $('g-' + k).value.trim())); });
-const EXTRA_DATEI = 'zusatzspiele.json';
+const EXTRA_DATEI = 'data/zusatzspiele.json';
 function msg(t, ok) { const m = $('a-msg'); m.textContent = t; m.className = 'msg ' + (ok ? 'ok' : 'err'); }
 const b64enc = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
 const b64dec = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g, '')), c => c.charCodeAt(0)));

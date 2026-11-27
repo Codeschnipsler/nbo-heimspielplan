@@ -1,5 +1,5 @@
 """
-Erzeugt das NBO-Heimspiel-Poster (PNG) aus heimspiele.json.
+Erzeugt das NBO-Heimspiel-Poster (PNG) aus data/heimspiele.json.
 
 Inhalt des Posters:
   - Oben: die naechsten ZWEI Heimspiele der 1. Damen, gross hervorgehoben.
@@ -7,7 +7,7 @@ Inhalt des Posters:
     Heimspiel (Mannschaft / Gegner / Uhrzeit).
 
 Ablauf:
-  1. heimspiele.json einlesen (von update_heimspielplan.py erzeugt).
+  1. data/heimspiele.json einlesen (von update_heimspielplan.py erzeugt).
   2. Passende Spiele auswaehlen und in poster/poster_template.html einsetzen.
   3. Die ausgefuellte HTML-Datei mit Playwright (Chromium) als PNG
      rendern (1080x1350 - Instagram-Hochformat, auch als Story/Feed
@@ -27,7 +27,7 @@ from zoneinfo import ZoneInfo
 # Repo-Hauptordner (Webseite + Daten) und Poster-Ordner (Templates + Bilder)
 ROOT_DIR = Path(__file__).resolve().parent.parent
 POSTER_DIR = ROOT_DIR / 'poster'
-HEIMSPIELE_PATH = ROOT_DIR / 'heimspiele.json'
+HEIMSPIELE_PATH = ROOT_DIR / 'data' / 'heimspiele.json'
 TEMPLATE_PATH = POSTER_DIR / 'poster_template.html'
 # Gerenderte HTML liegt im Poster-Ordner, damit die relativen Bildpfade passen
 RENDERED_HTML_PATH = POSTER_DIR / '_poster_rendered.html'
