@@ -11,7 +11,7 @@ Let's go NBO
 ## Ordnerstruktur
 
 ```
-/                    Webseite, Poster, Banner und Tools (Adressen bitte nicht ändern,
+/                    Webseite, Poster und Tools (Adressen bitte nicht ändern,
                      sie sind in Overlays/Tools und anderen NBO-Seiten fest verlinkt)
   index.html           Heimspiele
   auswaerts.html       Auswärtsspiele
@@ -19,8 +19,6 @@ Let's go NBO
   tabellen.html        Tabellen
   poster.png           Poster Instagram-Format (automatisch erzeugt)
   poster_a3.png        Poster A3-Druck (automatisch erzeugt)
-  D1_Spieltag_*.png,
-  Jugend_Spieltag.png  Spieltags-Banner für das Overlay
   overlay-roi.html,
   Simulation.html,
   nbo_spiel_intro_generator*.html   Tools (fest verlinkt, bleiben hier)
@@ -37,7 +35,11 @@ poster/              Vorlagen und Bilder für die Poster
   poster_template*.html, court-photo*.jpg, logo-nbo-3d.png, event-ball.png
   special_event.txt    Text für den „Special Event“-Kreis (leer = kein Kreis)
 
-img/                 Bilder der Webseite
+img/                 Bilder der Webseite und Spieltags-Banner fürs Overlay
+  D1_Spieltag_ohne_Sponsor.png   Banner 1. Damen ohne Sponsor
+  D1_Spieltag_Sponsor.png        Banner mit Sponsor – nur an Sponsor-Spieltagen hochladen
+  D1_Spieltag_Sponsor_dummy.png  Dummy-Version des Sponsor-Banners
+  Jugend_Spieltag.png            Banner für alle anderen Teams
 ```
 
 ## Daten (JSON, im Ordner `data/`)
